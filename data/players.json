@@ -1,0 +1,110 @@
+[
+    {
+      "name": "Shai Gilgeous-Alexander",
+      "team": "Thunder",
+      "descriptor": "MVP",
+      "archetype": "finesse"
+    },
+    {
+      "name": "Luka Doncic",
+      "team": "Lakers",
+      "descriptor": "Maestro",
+      "archetype": "finesse"
+    },
+    {
+      "name": "Nikola Jokic",
+      "team": "Nuggets",
+      "descriptor": "Genius",
+      "archetype": "finesse"
+    },
+    {
+      "name": "Giannis Antetokounmpo",
+      "team": "Bucks",
+      "descriptor": "Dominant",
+      "archetype": "power"
+    },
+    {
+      "name": "Jayson Tatum",
+      "team": "Celtics",
+      "descriptor": "Champion",
+      "archetype": "finesse"
+    },
+    {
+      "name": "Anthony Edwards",
+      "team": "Timberwolves",
+      "descriptor": "Electric",
+      "archetype": "flashy"
+    },
+    {
+      "name": "Victor Wembanyama",
+      "team": "Spurs",
+      "descriptor": "Alien",
+      "archetype": "power"
+    },
+    {
+      "name": "LeBron James",
+      "team": "Lakers",
+      "descriptor": "Icon",
+      "archetype": "power"
+    },
+    {
+      "name": "Donovan Mitchell",
+      "team": "Cavaliers",
+      "descriptor": "Spida",
+      "archetype": "flashy"
+    },
+    {
+      "name": "Tyrese Haliburton",
+      "team": "Pacers",
+      "descriptor": "Showtime",
+      "archetype": "flashy"
+    },
+    {
+      "name": "Damian Lillard",
+      "team": "Bucks",
+      "descriptor": "Clutch",
+      "archetype": "flashy"
+    },
+    {
+      "name": "Anthony Davis",
+      "team": "Mavericks",
+      "descriptor": "Versatile",
+      "archetype": "power"
+    },
+    {
+      "name": "Jalen Brunson",
+      "team": "Knicks",
+      "descriptor": "Gritty",
+      "archetype": "finesse"
+    },
+    {
+      "name": "Paolo Banchero",
+      "team": "Magic",
+      "descriptor": "Rising Star",
+      "archetype": "power"
+    },
+    {
+      "name": "Stephon Castle",
+      "team": "Spurs",
+      "descriptor": "Rookie of the Year",
+      "archetype": "finesse"
+    },
+    {
+      "name": "Cade Cunningham",
+      "team": "Pistons",
+      "descriptor": "Ascending",
+      "archetype": "finesse"
+    },
+    {
+      "name": "Dyson Daniels",
+      "team": "Hawks",
+      "descriptor": "Lockdown",
+      "archetype": "power"
+    },
+    {
+      "name": "Evan Mobley",
+      "team": "Cavaliers",
+      "descriptor": "Defensive Anchor",
+      "archetype": "power"
+    }
+  ]

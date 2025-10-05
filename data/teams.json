@@ -1,0 +1,2411 @@
+{
+    "Lakers": {
+        "conference": "West",
+        "division": "Pacific",
+        "timezone": "PT",
+        "status": "Luka–LeBron era deepens; next chapter under new ownership & Redick",
+        "market": "Massive global brand; majority stake being acquired by Dodgers owner Mark Walter",
+        "style": "Star-driven, pick-and-roll / isolation heavy, emphasis on complementary defense & transition",
+        "narrative": "Blockbuster Luka-for-AD trade reset the timeline; LeBron chases one more run while Luka becomes focal point",
+        "viewingTimes": "7:30 PM PT local (10:30 PM ET) typical; strong Europe / MENA appeal",
+        "headline": "Lakers lock in Luka with extension, ride the Luka + LeBron window",
+        "stars": "Luka Dončić, LeBron James",
+        "watchability": "Very high — generational playmaking + legendary longevity",
+        "bandwagonRisk": "Very high — superstar duo + LA market",
+        "dysfunction": "Moderate — elevated expectations + balancing dual stars",
+        "injuries": "LeBron age / load management; Luka conditioning & durability closely monitored",
+        "culture": "Championship expectations; Redick’s high-effort, accountability-first ethos",
+        "statusEnum": "contender",
+        "watchabilityScore": 95,
+        "playingStyles": [
+            "star_dominance",
+            "pick_and_roll",
+            "three_point_heavy",
+            "switchable_defense"
+        ],
+        "philosophy": [
+            "elite",
+            "win_now",
+            "legacy"
+        ],
+        "nationalities": [
+            "Slovenia",
+            "USA"
+        ],
+        "rosterPillars": {
+            "thirdOptions": [
+                "Austin Reaves",
+                "Rui Hachimura"
+            ],
+            "roleDepth": [
+                "Marcus Smart",
+                "Gabe Vincent",
+                "Jaxson Hayes",
+                "Maxi Kleber"
+            ],
+            "twoWaysAndDev": [
+                "Nick Smith Jr.",
+                "Anton Watson",
+                "Nate Williams"
+            ]
+        },
+        "frontOffice": {
+            "owner": "Mark Walter (majority incoming); Buss family retaining minority stake",
+            "president": "Rob Pelinka",
+            "coach": "JJ Redick (entering Year 2; high-pace / physical identity expected)"
+        },
+        "recentPerformance": {
+            "season": "2024-25",
+            "record": "50–32 (3rd in West), lost 1st round",
+            "offenseRank_ptsPerGame": 19,
+            "defenseRank_oppPtsPerGame": 10,
+            "trend": "Solid regular season; postseason limitations spurred adjustments"
+        },
+        "contractDynamics": {
+            "lukaExtension": "3 years, $165M extension signed Aug 2, 2025, with player option in 2028",
+            "lebron2025_26": "$52.6M player option exercised; entering 23rd season on expiring deal",
+            "capShape": "Top-heavy; reliant on efficient signings, two-ways, and smart trades",
+            "tradeWatch": "Shooting / two-way wing help; rim protection / interior length especially on the back end"
+        },
+        "risksAndChallenges": {
+            "injuryRisk": "High if either star misses time; depth gets tested especially inside / wing",
+            "chemistry": "Usage balance between two ball-dominant stars; optimizing off-ball roles",
+            "ceiling": "Title contender if depth + defense are solid",
+            "floor": "Early playoff exit if defensive consistency or rebounding lag"
+        },
+        "narrativeAnglesToWatch": [
+            "LeBron’s off-ball evolution next to Luka",
+            "Redick’s system tested in Year 2",
+            "Ownership transition impacts spending and team-building philosophy",
+            "Two-way / youth pipeline (Smith Jr., Watson, Williams) earning rotation minutes"
+        ]
+    },
+    "Celtics": {
+        "conference": "East",
+        "division": "Atlantic",
+        "timezone": "ET",
+        "status": "Rebuilding / retooling in Tatum’s absence; youth & depth must step up",
+        "market": "Historic, passionate fanbase",
+        "style": "Team-first pace-and-space with switchable defense",
+        "narrative": "61–21 season derailed by Tatum’s Achilles rupture; new identity while he rehabs",
+        "viewingTimes": "Primetime East Coast (7–8 PM ET typical start)",
+        "headline": "Celtics pivot without Tatum; Brown, White lead next phase",
+        "stars": "Jaylen Brown, Derrick White (Tatum rehabbing)",
+        "watchability": "High — system play, defensive intrigue; tempered by uncertainty",
+        "bandwagonRisk": "Medium — strong brand, but tempered expectations without Tatum",
+        "dysfunction": "Very low — organizational stability is a strength",
+        "injuries": "Tatum’s Achilles recovery is the central storyline; other injuries have lesser visibility",
+        "culture": "Winning standards; accountability, development, consistency under Mazzulla",
+        "statusEnum": "retooling",
+        "watchabilityScore": 80,
+        "playingStyles": [
+            "defensive",
+            "team_first",
+            "three_point"
+        ],
+        "philosophy": [
+            "historic",
+            "contender"
+        ],
+        "nationalities": [
+            "USA"
+        ],
+        "rosterPillars": {
+            "primaryCreators": [
+                "Jaylen Brown",
+                "Derrick White"
+            ],
+            "size_and_playmaking": [
+                "Xavier Tillman Sr.",
+                "Neemias Queta"
+            ],
+            "youthMovement": [
+                "Anfernee Simons",
+                "Luka Garza",
+                "Hugo González",
+                "Chris Boucher"
+            ]
+        },
+        "frontOffice": {
+            "owner": "Bill Chisholm (lead governor); Wyc Grousbeck CEO / alternate governor",
+            "president": "Brad Stevens",
+            "coach": "Joe Mazzulla"
+        },
+        "recentPerformance": {
+            "season": "2024-25",
+            "record": "61–21 (2nd in East), lost in East Semifinals post-Tatum injury",
+            "offenseRank_ptsPerGame": 5,
+            "defenseRank_oppPtsPerGame": 3,
+            "trend": "Elite regular season; injury forced reorientation"
+        },
+        "contractDynamics": {
+            "tatumTimeline": "Rehab expected through most (or all) of 2025–26, though he hasn’t ruled out some return this season",
+            "capShape": "Contender-level flexibility after moving off veteran contracts (Holiday, Porziņģis, Horford)",
+            "tradeWatch": "Front-court help, shooting depth, veteran boosts to stabilize rotation"
+        },
+        "risksAndChallenges": {
+            "injuryRisk": "High — Tatum’s recovery is risky; if he delays return, performance may lag",
+            "creationLoad": "Brown / White must carry much more creation load; efficiency strain",
+            "ceiling": "Top-4 East defense + surprise run if health / cohesion hold",
+            "floor": "First-round exit or play-in if offense stagnates"
+        },
+        "narrativeAnglesToWatch": [
+            "Tatum’s recovery progress, timeline, and return impact",
+            "Jaylen Brown’s role as primary creator under scrutiny",
+            "Emergence of young front-court pieces (Tillman, Queta, Garza)",
+            "How well depth / role players absorb load in his absence"
+        ]
+    },
+    "Warriors": {
+        "conference": "West",
+        "division": "Pacific",
+        "timezone": "PT",
+        "status": "Veteran core + Butler pushing for one more deep run under Kerr",
+        "market": "Bay Area, tech-fueled global brand",
+        "style": "Motion offense, heavy three-point volume, switchable defense with veteran instincts",
+        "narrative": "Butler’s midseason arrival sparked surge; injuries and fit remain test points",
+        "viewingTimes": "Late window (10:30 PM ET typical start)",
+        "headline": "Curry–Butler era under Kerr with veteran reinforcements",
+        "stars": "Stephen Curry, Jimmy Butler, Draymond Green",
+        "watchability": "High — Curry gravity + Butler’s two-way engine + spacing dynamics",
+        "bandwagonRisk": "Medium — legacy appeal with renewed urgency",
+        "dysfunction": "Low — stable core, clear leadership, few internal questions",
+        "injuries": "Curry’s hamstring injury in 2025 West Semis; De’Anthony Melton recovering from ACL; age and wear on aging core",
+        "culture": "Championship DNA; read-and-react offense + defensive accountability",
+        "statusEnum": "competing",
+        "watchabilityScore": 86,
+        "playingStyles": [
+            "three_point",
+            "team_first",
+            "switchable_defense",
+            "halfcourt_creation"
+        ],
+        "philosophy": [
+            "historic",
+            "contender"
+        ],
+        "nationalities": [
+            "USA"
+        ],
+        "rosterPillars": {
+            "core": [
+                "Stephen Curry",
+                "Jimmy Butler",
+                "Draymond Green"
+            ],
+            "wings_and_guards": [
+                "Brandin Podziemski",
+                "Moses Moody",
+                "Buddy Hield",
+                "Gary Payton II",
+                "De’Anthony Melton"
+            ],
+            "frontcourt": [
+                "Al Horford",
+                "Kevon Looney",
+                "Trayce Jackson-Davis"
+            ]
+        },
+        "frontOffice": {
+            "owner": "Joe Lacob (principal owner / CEO)",
+            "president": "Mike Dunleavy Jr. (GM / President of Basketball Ops)",
+            "coach": "Steve Kerr"
+        },
+        "recentPerformance": {
+            "season": "2024-25",
+            "record": "48–34 (7th in West), beat Rockets in Round 1, lost in West Semifinals to Timberwolves",
+            "offenseRank_ptsPerGame": 17,
+            "defenseRank_oppPtsPerGame": 8,
+            "trend": "Midseason Butler trade flipped trajectory; strong finish but injury exposure weighed in Semis"
+        },
+        "contractDynamics": {
+            "butlerExtension": "Declined 2025-26 player option; signed 2-year, ~$121M deal through 2026-27 (extension) :contentReference[oaicite:0]{index=0}",
+            "kumingaDeal": "Re-signed for 2 years, ~$48.5M without team option (recently finalized) :contentReference[oaicite:1]{index=1}",
+            "capShape": "Veteran core demands heavy usage and salary; flexibility limited but veteran depth helps",
+            "tradeWatch": "Backup rim protection / shooting; guard depth especially if Melton is delayed"
+        },
+        "risksAndChallenges": {
+            "injuryRisk": "High — aging core; Curry’s hamstring history; Melton’s knee timeline",
+            "ageCurve": "Several rotation players in their mid-to-late 30s",
+            "ceiling": "Western Conference Finals / title threat if health holds and defense clicks",
+            "floor": "Play-in or early exit if injuries or inconsistency emerge"
+        },
+        "narrativeAnglesToWatch": [
+            "Curry’s full-season bounceback after hamstring setback",
+            "Butler/Curry balance in late-game offense",
+            "Horford’s fit at center and spacing impact",
+            "Melton’s return timeline and guard rotation stability",
+            "Trade rumors (e.g. interest in frontcourt assets) :contentReference[oaicite:2]{index=2}"
+        ]
+    },
+    "Thunder": {
+        "conference": "West",
+        "division": "Northwest",
+        "timezone": "CT",
+        "status": "NBA champions — dynasty in formation",
+        "market": "Modest size but fervent and rising national profile",
+        "style": "Balanced offense, elite defense, unselfish movement, two-way versatility",
+        "narrative": "SGA won MVP + Finals MVP; Thunder captured first title in OKC era, core locked in",
+        "viewingTimes": "8 PM ET / 7 PM CT typical start — solid national slot",
+        "headline": "Young dynasty arrives — Gilgeous-Alexander leads Thunder’s championship ascent",
+        "stars": "Shai Gilgeous-Alexander (MVP / Finals MVP), Jalen Williams, Chet Holmgren",
+        "watchability": "Elite — reigning champs with emergent star trio",
+        "bandwagonRisk": "Very high — just won, and the roster is exciting",
+        "dysfunction": "Very low — disciplined FO, strong culture, clarity of mission",
+        "injuries": "Moderate — Holmgren’s durability, stress on role players in deep playoff runs",
+        "culture": "Development-first build realized; continuity, humility and competitive intensity",
+        "statusEnum": "champion",
+        "watchabilityScore": 98,
+        "playingStyles": [
+            "defensive",
+            "team_first",
+            "balanced",
+            "pace_control"
+        ],
+        "philosophy": [
+            "young_team",
+            "champion"
+        ],
+        "nationalities": [
+            "Canada",
+            "USA"
+        ],
+        "rosterPillars": {
+            "coStars": [
+                "Jalen Williams",
+                "Chet Holmgren"
+            ],
+            "roleDepth": [
+                "Isaiah Hartenstein",
+                "Alex Caruso",
+                "Jaylin Williams"
+            ],
+            "youthAssets": [
+                "Ousmane Dieng",
+                "Luguentz Dort",
+                "Thomas Sorber",
+                "Cason Wallace"
+            ]
+        },
+        "frontOffice": {
+            "owner": "Clay Bennett / majority ownership group",
+            "president": "Sam Presti (GM & President)",
+            "coach": "Mark Daigneault"
+        },
+        "recentPerformance": {
+            "season": "2024-25",
+            "record": "68–14 (best in league), won NBA title over Indiana Pacers 4–3 :contentReference[oaicite:3]{index=3}",
+            "offenseRank_ptsPerGame": 1,
+            "defenseRank_oppPtsPerGame": 2,
+            "trend": "Dominant regular season and balanced playoff composure; core locked and culture ascending"
+        },
+        "contractDynamics": {
+            "sgaExtension": "Core has long-term deals; reports suggest SGA locked into supermax-style extension (reports of e.g. 4-year, ~$285M) :contentReference[oaicite:4]{index=4}",
+            "coreCost": "Team controls manageable contracts around core; flexibility for targeted additions",
+            "tradeWatch": "Minor tweaks for shooting, bench rim protection; possible frontcourt depth moves",
+            "salaryStructure": "Star core anchors; bench / role deals fill around them"
+        },
+        "risksAndChallenges": {
+            "injuryRisk": "Moderate — Holmgren’s injury history, wear on backup rotation",
+            "sustainability": "Managing expectations, avoiding stagnation, team chemistry in repeating",
+            "ceiling": "Multi-year title contender if core stays healthy",
+            "floor": "Deep playoff run but short of repeat if cohesion or defense dips"
+        },
+        "narrativeAnglesToWatch": [
+            "SGA’s legacy trajectory after MVP + Finals MVP + scoring title",
+            "Holmgren’s growth as two-way interior anchor",
+            "How much shooting / spacing they can add around the core",
+            "Depth & bench productivity under playoff stress",
+            "Motivation and hunger maintenance after achieving the goal"
+        ]
+    },
+    "Nuggets": {
+        "conference": "West",
+        "division": "Northwest",
+        "timezone": "MT",
+        "status": "Contender under pressure amid front office / coaching shifts",
+        "market": "Growing, but often undervalued nationally",
+        "style": "Jokić-orchestrated offense, high IQ playmaking, positionless motion, spacing",
+        "narrative": "Jokić remains elite but front office instability and coaching change create uncertainty",
+        "viewingTimes": "9 PM ET / 7 PM MT typical start — later window for East viewers",
+        "headline": "Jokić still masterful, but internal change clouds path forward",
+        "stars": "Nikola Jokić",
+        "watchability": "Very high — artistry, court vision, unique game flow",
+        "bandwagonRisk": "Medium — respected, but instability dampens hype",
+        "dysfunction": "High — recent coaching turnover and doubts regarding direction",
+        "injuries": "Medium — bench depth occasionally taxed, veteran wear & injury risk",
+        "culture": "Professional / player-led, but needs stronger stability in upper management",
+        "statusEnum": "uncertain",
+        "watchabilityScore": 88,
+        "playingStyles": [
+            "team_first",
+            "positionless_motion",
+            "spacing",
+            "drive-and-kick"
+        ],
+        "philosophy": [
+            "contender",
+            "unstable"
+        ],
+        "nationalities": [
+            "Serbia",
+            "USA"
+        ],
+        "rosterPillars": {
+            "interiorPivot": [
+                "Nikola Jokić"
+            ],
+            "wingCreators": [
+                "Kentavious Caldwell-Pope",
+                "Bruce Brown"
+            ],
+            "bigDepth": [
+                "Christian Braun",
+                "Veteran stretch 5s",
+                "Emerging forwards"
+            ],
+            "benchGrowth": [
+                "Younger 3-and-D wings",
+                "Two-way prospects"
+            ]
+        },
+        "frontOffice": {
+            "owner": "Denise Taylor / Kroenke Sports & Entertainment group",
+            "president": "Transitioning (post-ward shifts from Booth era)",
+            "coach": "New head coach (post-Malone era)"
+        },
+        "recentPerformance": {
+            "season": "2024-25",
+            "record": "Strong regular season, eliminated by Thunder in second round :contentReference[oaicite:5]{index=5}",
+            "defenseRank_oppPtsPerGame": 7,
+            "trend": "Still elite execution, but diminishing returns amid organizational churn"
+        },
+        "contractDynamics": {
+            "jokicContract": "Maxed / star-level contract in place, limiting flexibility",
+            "rosterCost": "Bench and role depth expensive; margin for error small",
+            "tradeWatch": "Wings, stretch 5s, shedding expensive depth or adding shooters",
+            "salaryStructure": "Star-driven with constrained depth room"
+        },
+        "risksAndChallenges": {
+            "attritionRisk": "Losing supporting pieces during restructuring",
+            "coachingFit": "New system must align with Jokić’s playing style",
+            "ceiling": "Conference Finals / Finals if alignment is right",
+            "floor": "Early playoff exit if chemistry or defense falter"
+        },
+        "narrativeAnglesToWatch": [
+            "How new coach / system coalesce around Jokić",
+            "GM / front office strategy: win-now vs retooling",
+            "Bench productivity and three-point support upgrades",
+            "Jokić’s health, minutes management, and peak sustainment"
+        ]
+    },
+    "Bucks": {
+        "conference": "East",
+        "division": "Central",
+        "timezone": "CT",
+        "status": "Retooling around Giannis after Lillard’s playoff Achilles injury and subsequent waiver; frontcourt rebuilt with Myles Turner",
+        "market": "Smaller market with a strong recent legacy, under pressure to pivot fast",
+        "style": "Giannis-centered rim pressure with added rim protection and pick-and-pop spacing",
+        "narrative": "Three straight early exits and Lillard’s Achilles pushed a hard reset; Turner signing signals defense-first realignment",
+        "viewingTimes": "8 PM ET / 7 PM CT typical start",
+        "headline": "Post-Lillard reset: Giannis + Turner anchor a defense-led retool",
+        "stars": "Giannis Antetokounmpo, Myles Turner",
+        "watchability": "Medium — Giannis is must-see; system in transition",
+        "bandwagonRisk": "Low — uncertainty plus cap strain",
+        "dysfunction": "Medium-High — financial/roster strain and recent turbulence",
+        "injuries": "Lillard waived after Achilles injury; typical Giannis wear/tear managed",
+        "culture": "Urgency to stabilize around Giannis with defensive identity",
+        "statusEnum": "retooling",
+        "watchabilityScore": 72,
+        "playingStyles": [
+            "star_dominance",
+            "defensive",
+            "spacing_retool"
+        ],
+        "philosophy": [
+            "retool",
+            "win-now_when_possible"
+        ],
+        "nationalities": [
+            "Greece",
+            "USA"
+        ],
+        "rosterPillars": {
+            "anchor": [
+                "Giannis Antetokounmpo"
+            ],
+            "interiorRebuild": [
+                "Myles Turner"
+            ],
+            "wingUpside": [
+                "2025 rookie wings",
+                "Developing 3-and-Ds"
+            ],
+            "bench": [
+                "Low-cost shooters",
+                "Two-ways competing for rotation"
+            ]
+        },
+        "frontOffice": {
+            "owner": "Wes Edens & Haslam Sports Group",
+            "president": "Jon Horst (GM/POBO)",
+            "coach": "Doc Rivers"
+        },
+        "recentPerformance": {
+            "season": "2024-25",
+            "record": "48–34 (5th East), lost in 1st round",
+            "offenseRank_ptsPerGame": 10,
+            "defenseRank_oppPtsPerGame": 12,
+            "trend": "Good regular season, postseason stumble sparked a reset"
+        },
+        "contractDynamics": {
+            "lillardOutcome": "Waived after playoff Achilles injury (dead money absorbed)",
+            "coreCost": "High-end Giannis slot; careful cap navigation with mid-tier vets",
+            "tradeWatch": "Wings who shoot/defend; secondary creation",
+            "salaryStructure": "Tighter flexibility; emphasis on value deals"
+        },
+        "risksAndChallenges": {
+            "capDoom": "Limited flexibility while retooling",
+            "starRetention": "Maintaining Giannis’ confidence in direction",
+            "development": "Hitting on wing prospects is critical",
+            "ceiling": "Round-2 ceiling if defense coalesces",
+            "floor": "Miss playoffs if shooting/health falter"
+        },
+        "narrativeAnglesToWatch": [
+            "Turner’s rim protection + spacing impact",
+            "Wing development and shooting volume",
+            "Midseason moves to support Giannis’ window",
+            "Doc Rivers’ culture reset sticking"
+        ]
+    },
+    "Mavericks": {
+        "conference": "West",
+        "division": "Southwest",
+        "timezone": "CT",
+        "status": "Rebuilding post-Luka trade; Cooper Flagg becomes the new face while AD/Kyrie health drive short-term variance",
+        "market": "Texas stronghold; fanbase regrouping after blockbuster upheaval",
+        "style": "Defense-first with Anthony Davis at the rim; slower half-court with rookie-driven bursts",
+        "narrative": "Luka→LAL trade, Kyrie’s ACL, and AD’s availability swings forced a pivot; winning the lottery to draft Cooper Flagg reframed the timeline",
+        "viewingTimes": "8:30 PM ET / 7:30 PM CT typical start",
+        "headline": "Flagg Era begins: AD anchors defense while Kyrie rehabs",
+        "stars": "Anthony Davis, Kyrie Irving (ACL rehab), Cooper Flagg (No. 1 pick)",
+        "watchability": "Medium — high intrigue around Flagg offsets volatility",
+        "bandwagonRisk": "Low — transition year vibes",
+        "dysfunction": "Medium — controversial decisions but clearer youth path",
+        "injuries": "Severe — Kyrie torn ACL; AD managed; others in flux",
+        "culture": "Front office under scrutiny; youth + defense identity forming",
+        "statusEnum": "rebuilding",
+        "watchabilityScore": 70,
+        "playingStyles": [
+            "defensive",
+            "big_man_focused",
+            "half_court_grind"
+        ],
+        "philosophy": [
+            "rebuild",
+            "young_talent",
+            "identity_reset"
+        ],
+        "nationalities": [
+            "USA"
+        ],
+        "rosterPillars": {
+            "frontcourt": [
+                "Anthony Davis",
+                "Dereck Lively II"
+            ],
+            "backcourt": [
+                "Kyrie Irving (rehab)",
+                "Jaden Hardy"
+            ],
+            "youngCore": [
+                "Cooper Flagg",
+                "Olivier-Maxence Prosper",
+                "2025 rookie cohort"
+            ]
+        },
+        "frontOffice": {
+            "owner": "Patrick Dumont (Governor)",
+            "president": "Nico Harrison (GM)",
+            "coach": "Jason Kidd"
+        },
+        "recentPerformance": {
+            "season": "2024-25",
+            "record": "31–51 (13th West), missed playoffs",
+            "offenseRank_ptsPerGame": 23,
+            "defenseRank_oppPtsPerGame": 18,
+            "trend": "Post-trade slide; pivoted to youth and asset accumulation"
+        },
+        "contractDynamics": {
+            "davisContract": "Through 2027–28; health dictates value",
+            "kyrieContract": "3 years, $119M (player option 2027–28) while rehabbing ACL",
+            "rookieScale": "Flagg on #1 pick scale; centerpiece",
+            "tradeWatch": "Veteran shooters/forwards; optionality around AD if value spikes"
+        },
+        "risksAndChallenges": {
+            "injuryRisk": "High — AD/Kyrie history",
+            "fanPatience": "Trust rebuild post-Luka",
+            "ceiling": "Play-in sniff if AD healthy and Flagg pops",
+            "floor": "Another lottery year during reset"
+        },
+        "narrativeAnglesToWatch": [
+            "Flagg’s early usage/efficiency and two-way flashes",
+            "AD’s leadership + durability",
+            "Kidd/Harrison alignment on timeline",
+            "Strategic use of cap tools and picks"
+        ]
+    },
+    "76ers": {
+        "conference": "East",
+        "division": "Atlantic",
+        "timezone": "ET",
+        "status": "Injury-wrecked season forced hard conversations; seeking a coherent path with Maxey central",
+        "market": "Major market with impatient, passionate fanbase",
+        "style": "Maxey-led creation; scheme toggles depending on Embiid/George availability",
+        "narrative": "Star absences cratered 2024-25; organization weighing reset vs. retool around Maxey",
+        "viewingTimes": "7:30 PM ET primetime",
+        "headline": "After a lost year, Philly recalibrates around Maxey while monitoring Embiid/George health",
+        "stars": "Joel Embiid, Paul George, Tyrese Maxey",
+        "watchability": "Variable — high when healthy, low if absences mount",
+        "bandwagonRisk": "Low — trust erosion from injuries/results",
+        "dysfunction": "High — injuries plus pressure tested cohesion",
+        "injuries": "Severe — prolonged absences for Embiid/George in 2024-25",
+        "culture": "Process era decisively over; accountability/search for stability",
+        "statusEnum": "uncertain",
+        "watchabilityScore": 66,
+        "playingStyles": [
+            "star_dominance",
+            "iso_heavy",
+            "half_court_reliant"
+        ],
+        "philosophy": [
+            "reset_required",
+            "health_first"
+        ],
+        "nationalities": [
+            "Cameroon",
+            "USA"
+        ],
+        "rosterPillars": {
+            "core": [
+                "Joel Embiid",
+                "Tyrese Maxey"
+            ],
+            "veterans": [
+                "Paul George",
+                "Kelly Oubre Jr."
+            ],
+            "bench": [
+                "Ricky Council IV",
+                "Jaden Springer",
+                "Young guards/wings in development"
+            ]
+        },
+        "frontOffice": {
+            "owner": "Josh Harris",
+            "president": "Daryl Morey",
+            "coach": "Nick Nurse"
+        },
+        "recentPerformance": {
+            "season": "2024-25",
+            "record": "Missed playoffs (play-in range most of year)",
+            "offenseRank_ptsPerGame": 20,
+            "defenseRank_oppPtsPerGame": 22,
+            "trend": "Injuries to stars sank continuity and results"
+        },
+        "contractDynamics": {
+            "embiidContract": "Supermax through 2027-28",
+            "georgeDeal": "4 years, ~$212M (2024 FA)",
+            "maxeyExtension": "5 years, ~$205M (2024) — centerpiece",
+            "capStatus": "Heavily committed to stars; flexibility limited",
+            "tradeWatch": "Depth shooting, durable forwards; contingency paths if injuries persist"
+        },
+        "risksAndChallenges": {
+            "injuryRisk": "Top concern — availability of Embiid/George",
+            "fanMorale": "Recovery from a disjointed year",
+            "ceiling": "Top-4 East if healthy + coherent depth",
+            "floor": "Another middling year if injuries linger"
+        },
+        "narrativeAnglesToWatch": [
+            "Maxey’s evolution as true lead guard",
+            "Embiid/George availability and minute management",
+            "Morey’s midseason optionality (picks/salary slots)",
+            "Defensive identity with healthy wings"
+        ]
+    },
+    "Heat": {
+        "conference": "East",
+        "division": "Southeast",
+        "timezone": "ET",
+        "status": "Post-Butler era, culture reboot around Bam with wing development",
+        "market": "Major coastal market, global fanbase",
+        "style": "Defensive-first, motion-based offense built around Bam Adebayo",
+        "narrative": "Butler traded to Warriors; Miami leaning more on Wiggins, Jović, youth stepping up while Herro rehabs",
+        "viewingTimes": "7–8 PM ET primetime starts",
+        "headline": "Heat move on from Butler — Bam-led identity, wings and development",
+        "stars": "Bam Adebayo, Andrew Wiggins, Tyler Herro (injured)",
+        "watchability": "Medium — gritty defense, emerging wing scoring",
+        "bandwagonRisk": "Low — between eras, steady not flashy",
+        "dysfunction": "Medium — previous Butler turbulence; reset in progress",
+        "injuries": "Herro left foot surgery, timeline ~6–8 weeks :contentReference[oaicite:0]{index=0}",
+        "culture": "Pat Riley + Spoelstra standards intact; emphasis on conditioning and role clarity",
+        "statusEnum": "retooling",
+        "watchabilityScore": 74,
+        "playingStyles": [
+            "defensive",
+            "team_first",
+            "pace_control"
+        ],
+        "philosophy": [
+            "culture_first",
+            "underdog",
+            "development"
+        ],
+        "nationalities": [
+            "USA",
+            "Canada",
+            "Serbia"
+        ],
+        "rosterPillars": {
+            "core": [
+                "Bam Adebayo",
+                "Andrew Wiggins",
+                "Tyler Herro"
+            ],
+            "rotation": [
+                "Jaime Jaquez Jr.",
+                "Caleb Martin",
+                "Nikola Jović"
+            ],
+            "youth": [
+                "Kel’el Ware",
+                "Cole Swider"
+            ]
+        },
+        "frontOffice": {
+            "owner": "Micky Arison",
+            "president": "Pat Riley",
+            "coach": "Erik Spoelstra"
+        },
+        "recentPerformance": {
+            "season": "2024-25",
+            "record": "45–37 (7th East), lost in 1st round",
+            "offenseRank_ptsPerGame": 19,
+            "defenseRank_oppPtsPerGame": 6,
+            "trend": "Consistent defense; post-Butler offense emphasizing ball movement"
+        },
+        "contractDynamics": {
+            "bamContract": "Max through 2028; franchise cornerstone",
+            "wigginsDeal": "3 years, ~$93M remaining after trade",
+            "herroContract": "4 years, ~$120M through 2027; extension decisions looming",
+            "jovicExtension": "4 years, $62.4M signed Oct 2025 :contentReference[oaicite:1]{index=1}",
+            "capShape": "Manageable with optionality; focused on wings/shooting",
+            "tradeWatch": "Elite scoring guard/wing; shooting depth"
+        },
+        "risksAndChallenges": {
+            "scoring": "Late-game shot creation absent a true closer",
+            "cultureShift": "Leadership mantle shifting to Bam/Herro",
+            "ceiling": "Top-6 East if offense ticks up",
+            "floor": "Play-in if half-court scoring stalls"
+        },
+        "narrativeAnglesToWatch": [
+            "Spoelstra’s post-Butler scheme",
+            "Bam’s usage/assist rate as hub",
+            "Herro’s health and off-ball/on-ball blend",
+            "Wiggins’ two-way resurgence under Heat culture"
+        ]
+    },
+    "Knicks": {
+        "conference": "East",
+        "division": "Atlantic",
+        "timezone": "ET",
+        "status": "Conference Finals team — legit contender under new coach Mike Brown",
+        "market": "Largest media market; surging national/global interest",
+        "style": "Gritty defense, high-IQ halfcourt with added pace; Brunson late-game mastery",
+        "narrative": "Knicks beat Celtics en route to ECF, then lost to Pacers; Thibodeau out, Brown in to add pace & space",
+        "viewingTimes": "Prime time East Coast (7:30 PM ET typical start)",
+        "headline": "MSG buzz: Brunson era + Brown’s pace lift = contender",
+        "stars": "Jalen Brunson, Karl-Anthony Towns, Mikal Bridges",
+        "watchability": "Very high — playoff atmosphere + clutch theatrics",
+        "bandwagonRisk": "High — strong run + star guard heroics",
+        "dysfunction": "Low — stable FO, purposeful coaching change",
+        "injuries": "Medium — KAT maintenance; Robinson durability watch",
+        "culture": "Hard-nosed, accountable, Villanova-core chemistry",
+        "statusEnum": "contender",
+        "watchabilityScore": 90,
+        "playingStyles": [
+            "defensive",
+            "team_first",
+            "clutch",
+            "five_out_variants"
+        ],
+        "philosophy": [
+            "historic",
+            "contender",
+            "identity_driven"
+        ],
+        "nationalities": [
+            "USA",
+            "DR"
+        ],
+        "rosterPillars": {
+            "primaryCore": [
+                "Jalen Brunson",
+                "Karl-Anthony Towns",
+                "Mikal Bridges",
+                "Josh Hart",
+                "OG Anunoby"
+            ],
+            "rotationDepth": [
+                "Mitchell Robinson",
+                "Miles McBride",
+                "Jordan Clarkson",
+                "Malcolm Brogdon"
+            ],
+            "youthAssets": [
+                "Jacob Toppin",
+                "Two-way wings"
+            ]
+        },
+        "frontOffice": {
+            "owner": "James Dolan (MSG Sports)",
+            "president": "Leon Rose",
+            "coach": "Mike Brown"
+        },
+        "recentPerformance": {
+            "season": "2024-25",
+            "record": "51–31 (3rd East), reached ECF; lost to Pacers",
+            "offenseRank_ptsPerGame": "middle of pack",
+            "defenseRank_oppPtsPerGame": "Top-10 at times",
+            "trend": "Ascending; preseason shows faster pace under Brown"
+        },
+        "contractDynamics": {
+            "Brunson_extension": "4y/$156.5M (signed July 2024)",
+            "Bridges_extension": "4y/≈$150M (signed Aug 2025; trade-ineligible until window lifts)",
+            "KAT_contract": "≈$220M deal through mid-2028",
+            "capShape": "Star money committed but workable with veteran deals",
+            "tradeWatch": "Perimeter D/size, secondary rim pressure"
+        },
+        "risksAndChallenges": {
+            "injuryRisk": "Moderate — KAT/Robinson histories",
+            "offenseCeiling": "Non-Brunson creation vs elite defenses",
+            "coachingShift": "Blending Brown’s pace with defensive backbone",
+            "ceiling": "Finals contender with health + spacing",
+            "floor": "Second-round exit if spacing/health falters"
+        },
+        "narrativeAnglesToWatch": [
+            "Brunson off-ball usage in faster pace",
+            "KAT as playmaking hub vs switches",
+            "Bridges’ handle and self-creation growth",
+            "Closing-time lineups balance (Hart/OG/Bridges)"
+        ]
+    },
+    "Suns": {
+        "conference": "West",
+        "division": "Pacific",
+        "timezone": "MT",
+        "status": "Reset / rebuild after expensive miss and major roster turnover",
+        "market": "High-growth desert market; expectations reset",
+        "style": "Star shot creation lean, trying to graft a modern cohesion and defensive backbone",
+        "narrative": "After 36–46 miss, Phoenix traded Durant in 7-team deal; front office retool, youth infusion, identity search",
+        "viewingTimes": "9 PM ET / 7 PM MT typical start",
+        "headline": "Post-Durant chapter: Booker-led reset, youth and structure",
+        "stars": "Devin Booker",
+        "watchability": "Low-to-medium — former star fireworks less dominant; structural fit questions",
+        "bandwagonRisk": "Low — credibility hit, proving ground phase",
+        "dysfunction": "High — fit, cap pressure, scheme & identity in flux",
+        "injuries": "Moderate — Phoenix will lean on younger bodies; health consistency needed",
+        "culture": "Owner urgency, new voices in coaching/FO, youth-driven reset",
+        "statusEnum": "rebuild_under_pressure",
+        "watchabilityScore": 60,
+        "playingStyles": [
+            "star_dominance",
+            "three_point",
+            "pick_and_roll",
+            "movement_variants"
+        ],
+        "philosophy": [
+            "reset",
+            "value_build",
+            "identity_search"
+        ],
+        "nationalities": [
+            "USA"
+        ],
+        "rosterPillars": {
+            "core": [
+                "Devin Booker"
+            ],
+            "frontcourt": [
+                "Mark Williams",
+                "Young stretch/defense big targets"
+            ],
+            "depthSwing": [
+                "Jalen Green",
+                "Dillon Brooks",
+                "Rasheer Fleming"
+            ]
+        },
+        "frontOffice": {
+            "owner": "Mat Ishbia (governor)",
+            "president": "Brian Gregory",
+            "coach": "Jordan Ott"
+        },
+        "recentPerformance": {
+            "season": "2024-25",
+            "record": "36–46 (11th West), missed playoffs",
+            "offenseRank_ptsPerGame": "bottom-half volatility",
+            "defenseRank_oppPtsPerGame": "bottom-half",
+            "trend": "Underachieved; heavy overhaul now underway"
+        },
+        "contractDynamics": {
+            "payroll_tax": "Significant burden; constraints remain after Durant trade",
+            "starMoney": "Booker heavily tied to cap; future moves must navigate tight space",
+            "capShape": "Constrained but more flexible after shedding Durant’s salary",
+            "tradeWatch": "Big / defensive rim presence, spacing wings, cost-controlled assets"
+        },
+        "risksAndChallenges": {
+            "capDoom": "Even after trade, luxury tax & apron constraints limit flexibility",
+            "fit": "Creating shot distribution, ball-handling overlaps, defensive consistency",
+            "coaching": "Ott must instill structure, accountability, movement quickly",
+            "ceiling": "Playoff team if health + coherence click",
+            "floor": "Miss playoffs if cohesion and defense lag"
+        },
+        "narrativeAnglesToWatch": [
+            "Ott’s scheme (pace, structure, roles)",
+            "Booker’s usage & adaptation as clear alpha",
+            "How youth pieces (Green, Fleming, Williams) develop",
+            "Whether FO unloads more contracts or chases flexibility"
+        ]
+    },
+    "Clippers": {
+        "conference": "West",
+        "division": "Pacific",
+        "timezone": "PT",
+        "status": "Under league investigation but still competitive on-court",
+        "market": "Second LA team with a new arena (Intuit Dome); huge local corporate backing",
+        "style": "Harden-led orchestration with switchable, physical lineups when Kawhi is active",
+        "narrative": "Intuit Dome opened for 2024–25; strong regular season (50–32) ended in a Round 1 Game 7 loss to Denver; NBA investigating alleged cap circumvention tied to an Aspiration endorsement deal — team and Kawhi deny wrongdoing",
+        "viewingTimes": "Late night (10:30 PM ET typical start)",
+        "headline": "New home, heavy scrutiny — Clippers balance winning with ongoing probe",
+        "stars": "Kawhi Leonard, James Harden",
+        "watchability": "Medium-high — Harden’s table-setting + elite wing shotmaking when healthy",
+        "bandwagonRisk": "Low — scandal fatigue and past playoff stalls",
+        "dysfunction": "Very high (off-court) — active league probe; on-court group remains resilient",
+        "injuries": "High — Kawhi availability manages ceiling; periodic depth knocks",
+        "culture": "Ballmer resources + Lue schematics vs. surrounding noise",
+        "statusEnum": "crisis",
+        "watchabilityScore": 76,
+        "playingStyles": [
+            "playmaking",
+            "switch_defense",
+            "iso_creation",
+            "drive_and_kick"
+        ],
+        "philosophy": [
+            "transitioning",
+            "win_now_but_fragile"
+        ],
+        "nationalities": [
+            "USA"
+        ],
+        "rosterPillars": {
+            "core": [
+                "Kawhi Leonard",
+                "James Harden"
+            ],
+            "connective": [
+                "Ivica Zubac",
+                "Norman Powell",
+                "Terance Mann"
+            ],
+            "depth": [
+                "Amir Coffey",
+                "P.J. Tucker (if retained)",
+                "veteran guards on short deals"
+            ]
+        },
+        "frontOffice": {
+            "owner": "Steve Ballmer",
+            "president": "Lawrence Frank (POBO)",
+            "coach": "Tyronn Lue"
+        },
+        "recentPerformance": {
+            "2024_25_record": "50–32 (5th West) — lost 1st round to Nuggets in Game 7",
+            "offenseRank_ptsPerGame": "Top-10 stretches when Kawhi active",
+            "defenseRank_oppPtsPerGame": "Middle tier",
+            "trend": "Competitive year; couldn’t close out Denver in Game 7"
+        },
+        "contractDynamics": {
+            "kawhi_status": "Franchise cornerstone; endorsement deal under scrutiny (team denies cap wrongdoing)",
+            "harden_status": "New two-year deal signed 2025; primary creator",
+            "salaryStructure": "Veteran-heavy; limited flexibility under tax/apron",
+            "tradeWatch": "POA defense and big depth behind Zubac"
+        },
+        "risksAndChallenges": {
+            "investigation": "NBA findings could trigger penalties",
+            "availability": "Kawhi’s health governs ceiling",
+            "ceiling": "2nd-round+ if healthy/quiet; Intuit Dome boost",
+            "floor": "Play-in/1st-round exit amid distractions"
+        },
+        "narrativeAnglesToWatch": [
+            "Outcome of Aspiration-cap probe and any league action",
+            "Harden usage/efficiency plan from Lue",
+            "Intuit Dome home-court effect over full season",
+            "Midseason wing stopper / backup 5 moves"
+        ]
+    },
+    "Pacers": {
+        "conference": "East",
+        "division": "Central",
+        "timezone": "ET",
+        "status": "NBA Finals appearance — fell in Game 7",
+        "market": "Small but passionate basketball hotbed; euphoric fanbase",
+        "style": "Fast pace, dynamic ball movement, constant pressure",
+        "narrative": "Storybook run to the 2025 NBA Finals ended in a Game 7 loss to OKC; Tyrese Haliburton tore his right Achilles early in Game 7 and will miss 2025–26",
+        "viewingTimes": "Primetime East Coast (7–8 PM ET typical start)",
+        "headline": "Cinderella turned contender — now navigating a year without Haliburton",
+        "stars": "Tyrese Haliburton (torn Achilles, out 2025–26), Pascal Siakam (All-NBA forward)",
+        "watchability": "Elite — pace, chemistry, and emotional swings",
+        "bandwagonRisk": "Very high — beloved, overachieving identity",
+        "dysfunction": "Very low — cohesive, joyful culture",
+        "injuries": "Severe — Haliburton out all season (Achilles)",
+        "culture": "Basketball-state identity, unselfish ethos, player development",
+        "statusEnum": "Finals_runner_up",
+        "watchabilityScore": 95,
+        "playingStyles": [
+            "fast_paced",
+            "clutch",
+            "team_first",
+            "transition_attack"
+        ],
+        "philosophy": [
+            "underdog",
+            "historic_run",
+            "chemistry_driven"
+        ],
+        "nationalities": [
+            "USA",
+            "Cameroon"
+        ],
+        "rosterPillars": {
+            "core": [
+                "Tyrese Haliburton",
+                "Pascal Siakam",
+                "Andrew Nembhard"
+            ],
+            "supportingCast": [
+                "Aaron Nesmith",
+                "Bennedict Mathurin",
+                "Obi Toppin"
+            ],
+            "benchDepth": [
+                "Ben Sheppard",
+                "Isaiah Jackson",
+                "T.J. McConnell"
+            ]
+        },
+        "frontOffice": {
+            "owner": "Herb Simon",
+            "president": "Kevin Pritchard",
+            "coach": "Rick Carlisle"
+        },
+        "recentPerformance": {
+            "season": "2024–25",
+            "record": "Finals appearance (lost 3–4 to Thunder)",
+            "offenseRank_ptsPerGame": 1,
+            "defenseRank_oppPtsPerGame": 17,
+            "trend": "Historic resilience; Finals Game 7 marred by Haliburton injury"
+        },
+        "contractDynamics": {
+            "haliburtonExtension": "5y, designated max through 2029–30",
+            "siakamDeal": "4y, ~$189.5M (2024) locked in as co-star",
+            "turnerContract": "Departed in 2025 free agency (to Bucks)",
+            "capShape": "Clean; flexibility to add stopgap guard/playmaking",
+            "tradeWatch": "Short-term PG/creator; big rotation tweaks post-Turner exit"
+        },
+        "risksAndChallenges": {
+            "injuryRisk": "High — Haliburton rehab timeline",
+            "creation_burden": "Replacing engine of offense for a full season",
+            "ceiling": "Top-6 East with elite scheme/Siakam load",
+            "floor": "Play-in if offense regresses without Hali"
+        },
+        "narrativeAnglesToWatch": [
+            "Haliburton’s rehab milestones",
+            "Siakam as focal point/playmaking hub",
+            "Pritchard’s buy-now vs. patience calculus",
+            "Maintaining pace/spacing identity without Hali"
+        ]
+    },
+    "Magic": {
+        "conference": "East",
+        "division": "Southeast",
+        "timezone": "ET",
+        "status": "Injury-riddled but resilient playoff team",
+        "market": "Tourism-driven fanbase; steady regional growth",
+        "style": "Elite defense, physicality, inside-out via Banchero/Wagner",
+        "narrative": "Banchero and Franz Wagner both missed time with oblique tears; Jalen Suggs had season-ending left-knee surgery; still reached the 2025 playoffs (lost to Boston in 5)",
+        "viewingTimes": "Primetime East Coast (7–8 PM ET typical start)",
+        "headline": "Injury gauntlet but trending up — defense kept them afloat",
+        "stars": "Paolo Banchero, Franz Wagner, Jalen Suggs (knee rehab)",
+        "watchability": "Moderate-to-high — flashes of star shot creation + elite defense",
+        "bandwagonRisk": "Moderate — fun core if healthy",
+        "dysfunction": "Low — patient FO, strong culture",
+        "injuries": "Severe in 2024–25 — Banchero/Wagner obliques; Suggs knee; Moritz Wagner ACL (Dec. 2024)",
+        "culture": "Grounded, development-forward, defense-first unity",
+        "statusEnum": "rising_despite_injuries",
+        "watchabilityScore": 78,
+        "playingStyles": [
+            "defensive",
+            "team_first",
+            "physicality",
+            "half_court_creation"
+        ],
+        "philosophy": [
+            "young_team",
+            "resilient",
+            "growth_mindset"
+        ],
+        "nationalities": [
+            "Germany",
+            "USA",
+            "Italy"
+        ],
+        "rosterPillars": {
+            "core": [
+                "Paolo Banchero",
+                "Franz Wagner",
+                "Jalen Suggs"
+            ],
+            "frontcourt": [
+                "Wendell Carter Jr.",
+                "Jonathan Isaac",
+                "Moritz Wagner (ACL rehab)"
+            ],
+            "depth": [
+                "Cole Anthony",
+                "Anthony Black",
+                "Caleb Houstan"
+            ]
+        },
+        "frontOffice": {
+            "owner": "DeVos Family (RDV Sports)",
+            "president": "Jeff Weltman",
+            "coach": "Jamahl Mosley"
+        },
+        "recentPerformance": {
+            "season": "2024–25",
+            "record": "41–41 (7th East) — lost 1st round to Celtics (1–4)",
+            "offenseRank_ptsPerGame": 24,
+            "defenseRank_oppPtsPerGame": 4,
+            "trend": "Elite defense survived brutal injuries; offense dipped without full core"
+        },
+        "contractDynamics": {
+            "bancheroRookieDeal": "Team control; extension eligible summer 2026",
+            "wagnerExtension": "Max extension expected/negotiated timeline following 2024–25",
+            "suggsDeal": "5y extension signed Oct 2024; knee surgery Mar 2025",
+            "capShape": "Strong flexibility pre-Banchero extension; need shooting/PG depth",
+            "tradeWatch": "Veteran guard and floor-spacing"
+        },
+        "risksAndChallenges": {
+            "injuryRisk": "High — overlapping recovery timelines",
+            "offensiveCeiling": "Creation burden still heavy on Banchero",
+            "ceiling": "Top-6 East if core healthy",
+            "floor": "Play-in if rehab setbacks linger"
+        },
+        "narrativeAnglesToWatch": [
+            "Full-season reps for Paolo/Franz",
+            "Suggs’ knee recovery into 2025–26",
+            "Mosley’s offensive tweaks (shooting/spacing)",
+            "Front office pursuit of veteran guard help"
+        ]
+    },
+    "Cavaliers": {
+        "conference": "East",
+        "division": "Central",
+        "timezone": "ET",
+        "status": "Quietly excellent — deep playoff run and internal stability",
+        "market": "Smaller market thriving post-LeBron with strong local identity",
+        "style": "Big lineup, elite rim protection, balanced halfcourt execution",
+        "narrative": "Post-LeBron identity has flourished — Mitchell, Mobley and Allen formed a balanced core; Cleveland earned the East’s top seed and fell to Indiana in the 2025 East Semis (4–1).",
+        "viewingTimes": "Primetime East Coast (7–8 PM ET typical start)",
+        "headline": "The best team nobody talks about — Mitchell–Mobley chemistry anchors rising contender",
+        "stars": "Donovan Mitchell, Evan Mobley, Jarrett Allen",
+        "watchability": "High — disciplined defense, fluid offense, sustained growth",
+        "bandwagonRisk": "Moderate — quiet excellence attracts late believers",
+        "dysfunction": "Very low — organizational clarity, buy-in, and player development aligned",
+        "injuries": "Medium — banged up in the Pacers series despite strong regular-season durability",
+        "culture": "Post-LeBron identity established; smart, humble, hard-nosed",
+        "statusEnum": "contender",
+        "watchabilityScore": 84,
+        "playingStyles": [
+            "defensive",
+            "team_first",
+            "balanced",
+            "inside_out"
+        ],
+        "philosophy": [
+            "underdog",
+            "contender",
+            "organic_build"
+        ],
+        "nationalities": [
+            "USA"
+        ],
+        "rosterPillars": {
+            "core": [
+                "Donovan Mitchell",
+                "Evan Mobley",
+                "Jarrett Allen"
+            ],
+            "support": [
+                "Darius Garland",
+                "Max Strus",
+                "Caris LeVert"
+            ],
+            "bench": [
+                "Isaac Okoro",
+                "Dean Wade",
+                "Craig Porter Jr."
+            ]
+        },
+        "frontOffice": {
+            "owner": "Dan Gilbert",
+            "president": "Koby Altman (President of Basketball Operations)",
+            "coach": "Kenny Atkinson (hired June 2024, replacing Bickerstaff)"
+        },
+        "recentPerformance": {
+            "season": "2024–25",
+            "record": "64–18 (1st in East) — lost East Semifinals 1–4 to Pacers",
+            "offenseRank_ptsPerGame": "Top-10",
+            "defenseRank_oppPtsPerGame": "Top-10",
+            "trend": "Excellent balance and chemistry; top seed but out in 2nd round vs. Indiana"
+        },
+        "contractDynamics": {
+            "mitchellExtension": "3 years, $150.3M max extension (July 2024); cornerstone locked through 2027 with option",
+            "mobleyContract": "5-year max rookie extension agreed July 2024 (up to $269M)",
+            "allenContract": "On multi-year deal; under contract through 2025–26 (extension chatter ongoing)",
+            "capShape": "Sustainable; core locked in with moderate flexibility",
+            "tradeWatch": "Shooting depth and backup PG rotation tweaks"
+        },
+        "risksAndChallenges": {
+            "injuryRisk": "Medium — postseason dings mattered",
+            "offensiveVariance": "High leverage creation tilts to Mitchell",
+            "ceiling": "Top-3 East contender if Mobley’s offense leaps",
+            "floor": "2nd-round plateau if spacing stagnates"
+        },
+        "narrativeAnglesToWatch": [
+            "Mobley’s offensive expansion and perimeter skills",
+            "Atkinson’s pace/spacing tweaks vs prior system",
+            "Mitchell’s leadership as clear franchise face",
+            "Cleveland’s sustained success narrative post-LeBron"
+        ]
+    },
+    "Grizzlies": {
+        "conference": "West",
+        "division": "Southwest",
+        "timezone": "CT",
+        "status": "Playoff return — swept in first round amid identity reset",
+        "market": "Small but intensely loyal fanbase; proud ‘Grit and Grind’ legacy",
+        "style": "Physical, defensive foundation with transition flair when healthy",
+        "narrative": "Ja Morant returned to lead a healthier group, but Memphis couldn’t recapture peak form and was swept by No. 1 OKC in the 2025 first round.",
+        "viewingTimes": "8 PM ET / 7 PM CT typical start",
+        "headline": "Grit and Grind fading — promising health, disappointing results",
+        "stars": "Ja Morant, Jaren Jackson Jr., Desmond Bane",
+        "watchability": "Medium — flashes of vintage Ja brilliance amid uneven team play",
+        "bandwagonRisk": "Low — diminished hype after early exits",
+        "dysfunction": "Medium — locker-room recalibration after two rocky seasons",
+        "injuries": "Moderate — healthier than 2023–24 but depth tested late",
+        "culture": "Resilient and proud; seeking to evolve past chaos into maturity",
+        "statusEnum": "competing",
+        "watchabilityScore": 74,
+        "playingStyles": [
+            "defensive",
+            "physical",
+            "transition",
+            "rim_pressure"
+        ],
+        "philosophy": [
+            "underdog",
+            "rebuild_on_the_fly"
+        ],
+        "nationalities": [
+            "USA"
+        ],
+        "rosterPillars": {
+            "core": [
+                "Ja Morant",
+                "Jaren Jackson Jr.",
+                "Desmond Bane"
+            ],
+            "rotation": [
+                "Brandon Clarke",
+                "Santi Aldama"
+            ],
+            "youth": [
+                "GG Jackson",
+                "Ziaire Williams",
+                "Vince Williams Jr."
+            ]
+        },
+        "frontOffice": {
+            "owner": "Robert Pera",
+            "president": "Zach Kleiman (EVP Basketball Ops/GM)",
+            "coach": "Taylor Jenkins"
+        },
+        "recentPerformance": {
+            "season": "2024–25",
+            "record": "8th West — swept 0–4 by Thunder in Round 1",
+            "offenseRank_ptsPerGame": "Bottom-half",
+            "defenseRank_oppPtsPerGame": "Top-half",
+            "trend": "Defense stabilized, halfcourt offense lagged"
+        },
+        "contractDynamics": {
+            "morantExtension": "5-year, $197M through 2028–29",
+            "jacksonContract": "Through 2025–26; extension path ahead",
+            "baneDeal": "5-year, $207M (2023) — long-term shooting anchor",
+            "capShape": "Balanced core; mid-tier deals constrain flexibility",
+            "tradeWatch": "Frontcourt depth and bench shooting"
+        },
+        "risksAndChallenges": {
+            "injuryRisk": "Moderate — track Bane foot/Clarke Achilles recovery",
+            "chemistry": "Full Morant reintegration still maturing",
+            "ceiling": "Second-round potential if offense ticks up",
+            "floor": "Play-in/first-round exit with stagnation"
+        },
+        "narrativeAnglesToWatch": [
+            "Ja’s leadership maturity and off-court growth",
+            "System tweaks to juice halfcourt efficiency",
+            "Bane/JJJ as stabilizing co-stars",
+            "Can Memphis restore a Grit-and-Grind defensive aura?"
+        ]
+    },
+    "Kings": {
+        "conference": "West",
+        "division": "Pacific",
+        "timezone": "PT",
+        "status": "DeRozan + LaVine era under head coach Doug Christie",
+        "market": "Small, loyal, devoted",
+        "style": "Fast pace, dribble-handoff game through Sabonis; midrange/iso creation from DeRozan/LaVine",
+        "narrative": "After landing DeRozan in a 3-team S&T (July 2024), Sacramento fired Mike Brown in Dec. 2024, elevated Doug Christie, then flipped De’Aaron Fox in Feb. 2025 in a 3-team deal that brought Zach LaVine. They lost the Play-In and made Christie the full-time HC in May 2025.",
+        "viewingTimes": "Late (10:30 PM ET typical; ~3 AM UK)",
+        "headline": "Post-Fox reset: Sabonis–DeRozan–LaVine try to re-ignite the beam",
+        "stars": "Domantas Sabonis, DeMar DeRozan, Zach LaVine",
+        "watchability": "High — star shot-making + uptempo hubs",
+        "bandwagonRisk": "Low-Medium — talent is real, trust is shaky",
+        "dysfunction": "Low-Medium — churned coach/GM but stabilized under Christie",
+        "injuries": "Low — no major current concerns for top trio",
+        "culture": "Optimistic, conditioning-focused, searching for two-way identity",
+        "statusEnum": "competing",
+        "watchabilityScore": 87,
+        "playingStyles": [
+            "fast_paced",
+            "team_first",
+            "star_dominance",
+            "dribble_handoff"
+        ],
+        "philosophy": [
+            "underdog",
+            "retool"
+        ],
+        "nationalities": [
+            "USA",
+            "Lithuania"
+        ],
+        "rosterPillars": {
+            "core": [
+                "Domantas Sabonis",
+                "DeMar DeRozan",
+                "Zach LaVine"
+            ],
+            "guards_wings": [
+                "Malik Monk",
+                "Keon Ellis",
+                "Kevin Huerter"
+            ],
+            "frontcourt": [
+                "Trey Lyles",
+                "Sasha Vezenkov",
+                "JaVale McGee (or veteran 5)"
+            ]
+        },
+        "frontOffice": {
+            "owner": "Vivek Ranadivé",
+            "president": "Monte McNair (POBO/GM — parted ways April 2025; Scott Perry in)",
+            "coach": "Doug Christie (interim Dec. 2024; permanent May 2025)"
+        },
+        "recentPerformance": {
+            "season": "2024–25",
+            "record": "40–42 (9th West) — lost Play-In to Mavericks",
+            "offenseRank_ptsPerGame": "Top-10 at peak; inconsistent late",
+            "defenseRank_oppPtsPerGame": "Bottom-half",
+            "trend": "Midyear coaching change; core retooled around DeRozan and LaVine"
+        },
+        "contractDynamics": {
+            "derozanDeal": "3 years, ~$74M (July 2024, sign-and-trade)",
+            "lavineContract": "Large multi-year deal acquired Feb. 2025; big AAV limits flexibility",
+            "sabonisExtension": "Long-term deal in place; offensive hub",
+            "capShape": "Top-heavy with DeRozan/LaVine/Sabonis; need value depth",
+            "tradeWatch": "Wing defense and stretch-5; monitor Monk market dynamics"
+        },
+        "risksAndChallenges": {
+            "defense": "POA and rim protection remain swing factors",
+            "fit": "LaVine/DeRozan usage vs. Sabonis DHO rhythm",
+            "ceiling": "Top-6 West if defense stabilizes and late-game creation clicks",
+            "floor": "Play-in miss if spacing/defense stall"
+        },
+        "narrativeAnglesToWatch": [
+            "Christie’s conditioning/defense emphasis turning into wins",
+            "LaVine health/usage and closing groups with Monk/Ellis",
+            "Sabonis DHO volume vs. LaVine/DeRozan isolation balance",
+            "Midseason move for a true rim-protector"
+        ]
+    },
+    "Hawks": {
+        "conference": "East",
+        "division": "Southeast",
+        "timezone": "ET",
+        "status": "Rebuilt around Trae with Daniels/Risacher — aiming to climb from play-in",
+        "market": "Big city, lukewarm buzz",
+        "style": "Trae Young spread P&R, added length/defense on the wings",
+        "narrative": "Post-Murray era continued with an aggressive 2025 offseason: No. 1 pick Zaccharie Risacher entering Year 2, Dyson Daniels entrenched as POA defender, and major veteran adds — Kristaps Porziņģis via trade plus Nickeil Alexander-Walker (S&T) and Luke Kennard for shooting. Media-day optimism under Quin Snyder with a deeper, longer rotation.",
+        "viewingTimes": "Primetime East (7:30 PM ET typical); midnight–1 AM UK",
+        "headline": "All-in on Trae + length/defense: Porziņģis/NAW/Kennard reshape identity",
+        "stars": "Trae Young, Jalen Johnson (breakout track), Kristaps Porziņģis",
+        "watchability": "Medium — Trae highlights + intriguing youth/length",
+        "bandwagonRisk": "Low-Medium — prove-it phase, but upgrades pop",
+        "dysfunction": "Low-Medium — prior churn; cleaner depth chart now",
+        "injuries": "Medium — Porziņģis availability watch; Jalen Johnson recovery history",
+        "culture": "Youth movement, Trae’s team, Snyder’s structure",
+        "statusEnum": "mediocre",
+        "watchabilityScore": 78,
+        "playingStyles": [
+            "star_dominance",
+            "three_point",
+            "pace_and_space",
+            "switchable_wings"
+        ],
+        "philosophy": [
+            "underdog",
+            "retool_on_the_fly"
+        ],
+        "nationalities": [
+            "USA",
+            "Australia",
+            "France",
+            "Latvia",
+            "Canada"
+        ],
+        "rosterPillars": {
+            "core": [
+                "Trae Young",
+                "Jalen Johnson",
+                "Zaccharie Risacher"
+            ],
+            "guards_wings": [
+                "Dyson Daniels",
+                "Nickeil Alexander-Walker",
+                "Luke Kennard",
+                "De’Andre Hunter"
+            ],
+            "bigs": [
+                "Kristaps Porziņģis",
+                "Onyeka Okongwu",
+                "Mouhamed Gueye"
+            ]
+        },
+        "frontOffice": {
+            "owner": "Tony Ressler",
+            "president": "Onsi Saleh (GM, 2025– )",
+            "coach": "Quin Snyder"
+        },
+        "recentPerformance": {
+            "season": "2024–25",
+            "record": "40–42 (8th East) — lost in Play-In",
+            "offenseRank_ptsPerGame": "Top-10 scoring; assist rate franchise record",
+            "defenseRank_oppPtsPerGame": "Bottom-third; upgrades added for 2025–26",
+            "trend": "Added size/shooting/defense to stabilize around Trae"
+        },
+        "contractDynamics": {
+            "traeContract": "5y/$215M (signed 2021) — extension eligible; 2026–27 PO",
+            "porzingisDeal": "Acquired July 2025; veteran money with health risk",
+            "rookieScales": "Risacher on #1 pick deal; Daniels on rookie-scale",
+            "capShape": "Manageable post-Murray; TPE usage; mid-tier deals",
+            "tradeWatch": "Backup point size and rim protection; monitor Hunter market"
+        },
+        "risksAndChallenges": {
+            "defense": "Wing/POA defense must translate immediately",
+            "fit": "Porziņģis/Okongwu frontcourt balance; Trae off-ball buy-in",
+            "ceiling": "Round-1 win if defense climbs to league-average",
+            "floor": "Play-in miss if injuries or defense lag"
+        },
+        "narrativeAnglesToWatch": [
+            "Trae’s leadership + extension chatter",
+            "Risacher’s Year-2 spacing/usage",
+            "Daniels as connector/POA ace next to Trae",
+            "Porziņģis health/usage and two-big looks with Okongwu"
+        ]
+    },
+    "Timberwolves": {
+        "conference": "West",
+        "division": "Northwest",
+        "timezone": "CT",
+        "status": "Reconfigured core, aiming to break WCF ceiling",
+        "market": "Smaller, northern, passionate fanbase",
+        "style": "Elite defense, dynamic transition, Ant’s expanding all-around game",
+        "narrative": "Traded Karl-Anthony Towns to the Knicks; Julius Randle and Donte DiVincenzo bolstered depth. Minnesota beat the Lakers 4–1 in the first round and reached a second straight West finals, falling 4–1 to OKC. Ant’s stardom and Gobert’s rim protection keep the window open.",
+        "viewingTimes": "8 PM ET (1–2 AM UK) typical start",
+        "headline": "Anthony Edwards’ ascension in a retooled title pursuit",
+        "stars": "Anthony Edwards, Rudy Gobert, Julius Randle",
+        "watchability": "High — explosive Ant + top-10 defense, big-game feel",
+        "bandwagonRisk": "Medium — real contender vibes",
+        "dysfunction": "Low — Finch/Connelly stability",
+        "injuries": "Low — core held up through playoff run",
+        "culture": "Contender mindset, grit, belief, cohesive roster buy-in",
+        "statusEnum": "contender",
+        "watchabilityScore": 90,
+        "playingStyles": [
+            "defensive",
+            "star_dominance",
+            "pace_transition",
+            "rim_protection"
+        ],
+        "philosophy": [
+            "underdog",
+            "contender",
+            "defense_first"
+        ],
+        "nationalities": [
+            "USA",
+            "France"
+        ],
+        "rosterPillars": {
+            "core": [
+                "Anthony Edwards",
+                "Rudy Gobert",
+                "Julius Randle"
+            ],
+            "complement": [
+                "Jaden McDaniels",
+                "Naz Reid",
+                "Donte DiVincenzo",
+                "Mike Conley"
+            ],
+            "bench": [
+                "Kyle Anderson",
+                "Jordan McLaughlin",
+                "Kira Lewis Jr."
+            ]
+        },
+        "frontOffice": {
+            "owner": "Glen Taylor / investor group",
+            "president": "Tim Connelly",
+            "coach": "Chris Finch"
+        },
+        "recentPerformance": {
+            "season": "2024–25",
+            "record": "49–33 (6th West) — lost WCF to Thunder 4–1",
+            "offenseRank_ptsPerGame": "Offensive rating 8th",
+            "defenseRank_oppPtsPerGame": "Defensive rating ~6th–7th",
+            "trend": "Proved it vs. LAL (4–1); fell to eventual champs’ WCF foe"
+        },
+        "contractDynamics": {
+            "edwardsExtension": "4y/$212M max (signed 2025)",
+            "gobertContract": "Veteran deal; PO structure late",
+            "randleDeal": "Acquired in KAT trade; 3y/$95M tier",
+            "capShape": "Balanced around stars; room for shooter/creator depth",
+            "tradeWatch": "Backup playmaking; wing shooting; center depth behind Gobert"
+        },
+        "risksAndChallenges": {
+            "ageCurve": "Gobert into 30s; Randle 30+",
+            "injury": "Manage workloads after deep runs",
+            "offensiveFlow": "Blend Ant’s iso volume with Randle/Gobert actions",
+            "ceiling": "Title shot if defense holds and late-game offense scales",
+            "floor": "Semis/Finals exit if margins don’t swing"
+        },
+        "narrativeAnglesToWatch": [
+            "Ant as two-way engine (playmaking leap)",
+            "Randle’s crunch-time fit",
+            "Gobert’s aging curve vs. elite rim protection",
+            "Third-creator emergence (McDaniels/DiVincenzo/Conley)"
+        ]
+    },
+    "Pelicans": {
+        "conference": "West",
+        "division": "Southwest",
+        "timezone": "CT",
+        "status": "Injury-ravaged collapse, front-office reset",
+        "market": "Small market, high-variance engagement",
+        "style": "When healthy: downhill star ball; otherwise streaky",
+        "narrative": "2024–25 cratered with injuries and a 21–61 finish. Brandon Ingram was traded to Toronto at the deadline; after the season David Griffin was fired and Joe Dumars hired to run basketball ops. CJ McCollum was later dealt to Washington; the roster added Jordan Poole and Saddiq Bey. Willie Green enters 2025–26 under pressure, with Zion’s availability again the swing factor.",
+        "viewingTimes": "8 PM ET / 7 PM CT typical (1–2 AM UK window for national games)",
+        "headline": "From hope to hard reset — Dumars era begins after 21–61 slide",
+        "stars": "Zion Williamson (limited availability), Herb Jones, Trey Murphy III",
+        "watchability": "Low-Medium — volatility; intrigue if Zion returns",
+        "bandwagonRisk": "Low — credibility needs rebuilding",
+        "dysfunction": "Medium-High — health + turnover; new regime settling",
+        "injuries": "High — Zion shut down; multiple core injuries in 2024–25",
+        "culture": "Trying to reset resilience/standards under new leadership",
+        "statusEnum": "lottery",
+        "watchabilityScore": 58,
+        "playingStyles": [
+            "star_dominance",
+            "iso_dependent"
+        ],
+        "philosophy": [
+            "underdog",
+            "reset"
+        ],
+        "nationalities": [
+            "USA"
+        ],
+        "rosterPillars": {
+            "core": [
+                "Zion Williamson",
+                "Herbert Jones",
+                "Trey Murphy III"
+            ],
+            "newPieces": [
+                "Jordan Poole",
+                "Saddiq Bey",
+                "Recent draft adds/2-ways"
+            ],
+            "bench": [
+                "Jose Alvarado",
+                "Kevon Looney",
+                "Young wings"
+            ]
+        },
+        "frontOffice": {
+            "owner": "Gayle Benson",
+            "president": "Joe Dumars (EVP/Basketball Ops, 2025– )",
+            "coach": "Willie Green (entering 2025–26 on hot seat)"
+        },
+        "recentPerformance": {
+            "season": "2024–25",
+            "record": "21–61 (14th West)",
+            "offenseRank_ptsPerGame": "Bottom of league",
+            "defenseRank_oppPtsPerGame": "Bottom of league",
+            "trend": "Mass injuries; traded Ingram; Griffin out, Dumars in"
+        },
+        "contractDynamics": {
+            "zionContract": "Max deal; availability risk clouds value",
+            "mcCollumDeal": "Traded to Wizards June 2025",
+            "capShape": "Re-tooled with mid-tier money; flexibility depends on health/asset rehab",
+            "tradeWatch": "Wing shooting/creation; big rotation after JV exit"
+        },
+        "risksAndChallenges": {
+            "health": "Primary threat — Zion availability dictates ceiling",
+            "morale": "Fan fatigue after 21–61",
+            "development": "Re-center around Murphy/Jones with new guards",
+            "ceiling": "Play-in flirtation if healthy and Poole rebounds",
+            "floor": "Another lottery year"
+        },
+        "narrativeAnglesToWatch": [
+            "Zion’s health plan + minutes ramp",
+            "Dumars’ long-term core decisions",
+            "Poole/Bey fit alongside Zion/Murphy",
+            "Willie Green’s leash and scheme tweaks"
+        ]
+    },
+    "Nets": {
+        "conference": "East",
+        "division": "Atlantic",
+        "timezone": "ET",
+        "status": "Full rebuild after trading Mikal Bridges",
+        "market": "NYC market, but in Knicks’ shadow",
+        "style": "Development-first, heavy 3PA, more quick-decision reads under Jordi Fernández",
+        "narrative": "Post–Bridges deal, Brooklyn doubled down on picks and youth: Nic Claxton re-signed long-term, Cam Thomas returned on a one-year qualifying offer, and the 2025 draft delivered Egor Dëmin (No. 8) and Nolan Traoré (No. 19). Summer trades added Terance Mann and the rights to Drake Powell; Michael Porter Jr. arrived for added shooting/size. The mandate: let the kids run while keeping cap/pick flexibility.",
+        "viewingTimes": "Midnight–1 AM UK (7:30 PM ET typical)",
+        "headline": "Clean rebuild 2.0: picks, rookies, and defined roles for Thomas/Claxton",
+        "stars": "Cam Thomas, Nic Claxton",
+        "watchability": "Low-to-medium — prospect pop nights amid losses",
+        "bandwagonRisk": "None — rebuild timeline",
+        "dysfunction": "Low — clearer plan under Fernández/Marks",
+        "injuries": "Low–medium — Thomas’ prior hamstring issues monitored",
+        "culture": "Fresh start, development-first, data-driven shot profile",
+        "statusEnum": "rebuilding",
+        "watchabilityScore": 58,
+        "playingStyles": [
+            "three_point",
+            "five_out",
+            "development"
+        ],
+        "philosophy": [
+            "young_team",
+            "underdog",
+            "asset_accumulation"
+        ],
+        "nationalities": [
+            "USA",
+            "Australia",
+            "Russia",
+            "France",
+            "Canada"
+        ],
+        "rosterPillars": {
+            "core": [
+                "Nic Claxton",
+                "Cam Thomas"
+            ],
+            "wings_and_guards": [
+                "Terance Mann",
+                "Michael Porter Jr.",
+                "Nolan Traoré",
+                "Drake Powell"
+            ],
+            "youth_and_bigs": [
+                "Egor Dëmin",
+                "Day'Ron Sharpe"
+            ]
+        },
+        "frontOffice": {
+            "owner": "Joseph Tsai",
+            "president": "Sean Marks (GM/POBO)",
+            "coach": "Jordi Fernández"
+        },
+        "recentPerformance": {
+            "season": "2024–25",
+            "record": "26–56 (12th East), missed playoffs",
+            "offenseRank_ptsPerGame": "bottom tier",
+            "defenseRank_oppPtsPerGame": "low-20s",
+            "trend": "Results dipped; 2025 draft/low-cost adds reset the arc"
+        },
+        "contractDynamics": {
+            "claxtonDeal": "4 years, ~$100M (descending structure)",
+            "thomasStatus": "Signed 1-year qualifying offer (2025–26)",
+            "capShape": "Clean — picks + expiring deals give flexibility",
+            "tradeWatch": "Veteran shooters and table-setters as value buys"
+        },
+        "risksAndChallenges": {
+            "creationLoad": "Who organizes offense when Thomas sits?",
+            "shooting": "Rookies/young guards must hit league-average threes",
+            "ceiling": "Play-in flirtation if rookies pop early",
+            "floor": "Bottom-3 while developing"
+        },
+        "narrativeAnglesToWatch": [
+            "Fernández’s pace/5-out tweaks with a young core",
+            "Cam Thomas’ role year on QO",
+            "Claxton’s short-roll playmaking growth",
+            "Which rookie wing earns closing minutes?"
+        ]
+    },
+    "Spurs": {
+        "conference": "West",
+        "division": "Southwest",
+        "timezone": "CT",
+        "status": "Rising — Wemby cleared; Fox onboarding under new HC Mitch Johnson",
+        "market": "Small, loyal, storied program",
+        "style": "Wemby-centric defense with length; Fox pace/pressure in the halfcourt",
+        "narrative": "Popovich moved upstairs and Mitch Johnson is now full-time head coach. San Antonio traded for De’Aaron Fox in February’s three-team deal and drafted Dylan Harper No. 2 in 2025. Wembanyama, previously sidelined by a DVT/shoulder issue, has been fully cleared; Fox is expected to miss the opener with a hamstring. Staff bolstered with associate HC Sean Sweeney. Arrow up if health/cohesion arrive.",
+        "viewingTimes": "1–2 AM UK (8 PM ET / 7 PM CT typical)",
+        "headline": "Healthy Wemby + Fox backcourt aims to jolt the rebuild",
+        "stars": "Victor Wembanyama, De’Aaron Fox, Devin Vassell",
+        "watchability": "Very high when healthy — Wemby is must-see",
+        "bandwagonRisk": "High — Wemby halo effect",
+        "dysfunction": "Very low — stable structure post-Pop",
+        "injuries": "Moderate — Fox hamstring; Wemby post-DVT monitoring",
+        "culture": "Historic standards; defense non-negotiable; modernized staff",
+        "statusEnum": "rising",
+        "watchabilityScore": 90,
+        "playingStyles": [
+            "star_dominance",
+            "team_first",
+            "defensive",
+            "length_pressure"
+        ],
+        "philosophy": [
+            "young_team",
+            "historic",
+            "development"
+        ],
+        "nationalities": [
+            "France",
+            "USA"
+        ],
+        "rosterPillars": {
+            "core": [
+                "Victor Wembanyama",
+                "De’Aaron Fox",
+                "Devin Vassell"
+            ],
+            "rotation": [
+                "Jeremy Sochan",
+                "Dylan Harper (No. 2 pick)",
+                "Zach Collins"
+            ],
+            "depth": [
+                "Tre Jones",
+                "Jordan McLaughlin",
+                "Stephon Castle"
+            ]
+        },
+        "frontOffice": {
+            "owner": "Peter J. Holt",
+            "president": "Gregg Popovich (President of Basketball Operations)",
+            "coach": "Mitch Johnson"
+        },
+        "recentPerformance": {
+            "season": "2024–25",
+            "record": "34–48 (13th West), missed playoffs",
+            "offenseRank_ptsPerGame": "bottom-third",
+            "defenseRank_oppPtsPerGame": "bottom-third (targeting big jump in 2025–26)",
+            "trend": "Improved competitiveness; injuries cut Wemby’s year short; Fox added"
+        },
+        "contractDynamics": {
+            "foxExtension": "4 years, ~$229M after trade from Kings (2025)",
+            "wembyScale": "Rookie-scale with designated max path",
+            "capShape": "Healthy — picks/flexibility to add shooters/wings",
+            "tradeWatch": "Stretch big depth, high-volume shooting around Wemby/Fox"
+        },
+        "risksAndChallenges": {
+            "availability": "Fox hamstring ramp; Wemby monitoring",
+            "spacing": "Consistency of shooting in Sochan/Wemby units",
+            "ceiling": "Playoff team with top-10 defense",
+            "floor": "Play-in if offense stalls early"
+        },
+        "narrativeAnglesToWatch": [
+            "Wemby usage as two-way hub",
+            "Fox–Wemby P&R chemistry timeline",
+            "Mitch Johnson + Sean Sweeney defensive imprint",
+            "Rookie Dylan Harper’s early on-ball load vs. Tre Jones/Castle"
+        ]
+    },
+    "Bulls": {
+        "conference": "East",
+        "division": "Central",
+        "timezone": "CT",
+        "status": "Rebuild underway — traded LaVine midseason",
+        "market": "Massive legacy, Jordan nostalgia, high expectations",
+        "style": "Youth-centric, development-first with Giddey/White/Buzelis",
+        "narrative": "Chicago finally pivoted: Zach LaVine went to the Kings in a February three-team deal that sent De’Aaron Fox to San Antonio. The Bulls regained their 2025 1st and added rotation guards (Tre Jones) and a wing shooter (Kevin Huerter), leaning into a young core of Josh Giddey, Coby White, and Matas Buzelis under Billy Donovan.",
+        "viewingTimes": "8:30 PM ET (1–2 AM UK) typical start",
+        "headline": "Post-LaVine reset: youth, clarity, patience",
+        "stars": "Coby White, Josh Giddey, Nikola Vučević (veteran presence)",
+        "watchability": "Low-to-medium — young sparks, but volatility",
+        "bandwagonRisk": "Very low — patience required by fans",
+        "dysfunction": "Medium — late pivot drew criticism, but direction set",
+        "injuries": "Medium — monitor Buzelis/Giddey workloads",
+        "culture": "Legacy pressure but transparent rebuild messaging",
+        "statusEnum": "rebuilding",
+        "watchabilityScore": 60,
+        "playingStyles": [
+            "young_team",
+            "fast_development"
+        ],
+        "philosophy": [
+            "historic",
+            "rebuild"
+        ],
+        "nationalities": [
+            "USA",
+            "Australia",
+            "Montenegro"
+        ],
+        "rosterPillars": {
+            "youngCore": [
+                "Josh Giddey",
+                "Coby White",
+                "Matas Buzelis"
+            ],
+            "veteranAnchors": [
+                "Nikola Vučević",
+                "Kevin Huerter"
+            ],
+            "bench": [
+                "Ayo Dosunmu",
+                "Tre Jones"
+            ]
+        },
+        "frontOffice": {
+            "owner": "Jerry Reinsdorf",
+            "president": "Michael Reinsdorf (title), John Paxson (EVP), Marc Eversley (GM)",
+            "coach": "Billy Donovan"
+        },
+        "recentPerformance": {
+            "season": "2024–25",
+            "record": "39–43 (9th East), missed playoffs via Play-In",
+            "offenseRank_ptsPerGame": "bottom third",
+            "defenseRank_oppPtsPerGame": "bottom third",
+            "trend": "Post-deadline youth emphasis; modest improvement in pace/passing"
+        },
+        "contractDynamics": {
+            "giddeyDeal": "Restricted FA in 2025; extension talks ongoing/structured to preserve flexibility",
+            "vucevicContract": "Multi-year veteran deal; movable depending on direction",
+            "capShape": "Cleaner with regained 2025 1st and mid-tier deals",
+            "tradeWatch": "Veteran shooting/defense; backup rim protection"
+        },
+        "risksAndChallenges": {
+            "experienceGap": "Late-game execution swings",
+            "injury": "Youth health variability, load management",
+            "ceiling": "Play-in if growth beats mistakes",
+            "floor": "Bottom-6 while retooling"
+        },
+        "narrativeAnglesToWatch": [
+            "Giddey’s lead-guard maturation",
+            "White’s high-volume 3-point consistency",
+            "Buzelis’ two-way growth vs expectations",
+            "Donovan’s tenure in an overt rebuild"
+        ]
+    },
+    "Rockets": {
+        "conference": "West",
+        "division": "Southwest",
+        "timezone": "CT",
+        "status": "Legitimate contender blending youth and veteran star power",
+        "market": "Large, energetic market with football overlay — energized by Durant arrival",
+        "style": "Defense-first discipline, positionless wings, star isolation balance",
+        "narrative": "Houston stunned the league by trading for Kevin Durant in July 2025, signaling a shift from young rebuild to immediate contention. Under Ime Udoka, the Rockets now pair Durant’s elite scoring and playoff pedigree with the ascending core of Şengün, Amen Thompson, Jabari Smith Jr., and Cam Whitmore. The mix of veteran leadership and youthful defense makes Houston one of the West’s most intriguing teams entering 2025–26.",
+        "viewingTimes": "8:30 PM ET (1–2 AM UK) typical start",
+        "headline": "Durant in H-Town — Rockets go from rising to ready",
+        "stars": "Kevin Durant, Alperen Şengün, Amen Thompson, Jabari Smith Jr.",
+        "watchability": "Very high — star-power offense meets Udoka’s defensive toughness",
+        "bandwagonRisk": "High — Durant’s arrival and team leap draw national attention",
+        "dysfunction": "Low — front office and coaching aligned, clear win-now focus",
+        "injuries": "Medium — Durant load-managed; VanVleet rehabbing ACL",
+        "culture": "Gritty and professional; Udoka’s accountability culture meets veteran leadership",
+        "statusEnum": "contending",
+        "watchabilityScore": 90,
+        "playingStyles": [
+            "defensive",
+            "balanced_offense",
+            "half_court_execution",
+            "transition_attack"
+        ],
+        "philosophy": [
+            "win_now",
+            "veteran_leadership",
+            "young_depth"
+        ],
+        "nationalities": [
+            "USA",
+            "Turkey"
+        ],
+        "rosterPillars": {
+            "core": [
+                "Kevin Durant",
+                "Alperen Şengün",
+                "Amen Thompson",
+                "Jabari Smith Jr.",
+                "Cam Whitmore"
+            ],
+            "veteran": [
+                "Fred VanVleet (injured)",
+                "Steven Adams",
+                "Dillon Brooks (traded to PHX)"
+            ],
+            "support": [
+                "Tari Eason",
+                "Reed Sheppard",
+                "Jae'Sean Tate",
+                "Aaron Holiday"
+            ]
+        },
+        "frontOffice": {
+            "owner": "Tilman Fertitta",
+            "president": "Rafael Stone (President of Basketball Operations & GM)",
+            "coach": "Ime Udoka"
+        },
+        "recentPerformance": {
+            "season": "2024–25",
+            "record": "52–30 (Southwest Division champs) — 1st-round playoff exit",
+            "offenseRank_ptsPerGame": 14,
+            "defenseRank_oppPtsPerGame": 6,
+            "trend": "Elite defense established; offense ready for star infusion"
+        },
+        "contractDynamics": {
+            "durantDeal": "Under contract through 2025–26 ($51.2 M), extension eligible for 2 yrs / $122 M",
+            "sengunDeal": "5-year, $185 M rookie extension signed Oct 2024",
+            "greenTrade": "Jalen Green dealt to Phoenix in Durant trade",
+            "vanvleetDeal": "2 yrs remaining; ACL rehab ongoing",
+            "capShape": "Tight but flexible with veteran bird rights and mid-level exceptions",
+            "tradeWatch": "Backup point guard depth and spacing wings"
+        },
+        "risksAndChallenges": {
+            "durability": "Durant (37) and VanVleet recovery central to rotation stability",
+            "chemistry": "Integrating superstar hierarchy with young core",
+            "matchupExposure": "Interior size vs elite Western bigs",
+            "ceiling": "Conference Finals contender",
+            "floor": "Playoff team if health falters"
+        },
+        "narrativeAnglesToWatch": [
+            "Durant mentoring Şengün and Amen in late-game execution",
+            "Udoka’s leadership tested in balancing veterans and youth",
+            "Cam Whitmore’s leap as two-way X-factor",
+            "Şengün’s usage alongside Durant isolation sets"
+        ]
+    },
+    "Hornets": {
+        "conference": "East",
+        "division": "Southeast",
+        "timezone": "ET",
+        "status": "Rebuild deepened by injuries — bottom of East",
+        "market": "Small, limited exposure; new ownership era",
+        "style": "LaMelo creation when healthy; erratic otherwise",
+        "narrative": "New ownership & front office, new coach Charles Lee, but 2024–25 was derailed by LaMelo’s injuries; 19 wins and a long lottery stay. Goal for 2025–26: stabilize around Ball & Miller and rebuild habits.",
+        "viewingTimes": "7–7:30 PM ET (midnight–1 AM UK) typical start",
+        "headline": "Reset under new leadership — building around LaMelo & Miller",
+        "stars": "LaMelo Ball, Brandon Miller",
+        "watchability": "Low-to-medium — flashes from Miller and LaMelo spurts",
+        "bandwagonRisk": "Low — between eras; development season",
+        "dysfunction": "Medium — health/continuity issues",
+        "injuries": "High last season — Ball limited to 47 games; monitoring ankle/wrist recovery",
+        "culture": "New direction with Lee/Peterson; patience and player development",
+        "statusEnum": "lottery",
+        "watchabilityScore": 60,
+        "playingStyles": [
+            "star_dominance",
+            "creation_when_healthy"
+        ],
+        "philosophy": [
+            "young_team",
+            "rebuild"
+        ],
+        "nationalities": [
+            "USA"
+        ],
+        "rosterPillars": {
+            "core": [
+                "LaMelo Ball",
+                "Brandon Miller"
+            ],
+            "wings": [
+                "Miles Bridges",
+                "Nick Richards"
+            ],
+            "bench": [
+                "Assorted young guards/wings"
+            ]
+        },
+        "frontOffice": {
+            "owner": "Gabe Plotkin & Rick Schnall (majority)",
+            "president": "Business: Fred Whitfield / Basketball Ops: Jeff Peterson",
+            "coach": "Charles Lee"
+        },
+        "recentPerformance": {
+            "season": "2024–25",
+            "record": "19–63 (14th East) — missed playoffs",
+            "offenseRank_ptsPerGame": 29,
+            "defenseRank_oppPtsPerGame": 28,
+            "trend": "Rare healthy stretches; development prioritized"
+        },
+        "contractDynamics": {
+            "ballContract": "5-year designated rookie max (signed 2023)",
+            "millerDeal": "Rookie-scale through 2027",
+            "capShape": "Relatively clean; room for value veterans",
+            "tradeWatch": "Playmaking/shooting vets; asset accumulation"
+        },
+        "risksAndChallenges": {
+            "health": "Ball availability pivotal",
+            "morale": "Losing streaks test buy-in",
+            "development": "Miller + young core must progress",
+            "ceiling": "Play-in sniff if healthy",
+            "floor": "Bottom-3 again"
+        },
+        "narrativeAnglesToWatch": [
+            "LaMelo’s durability and decision-making",
+            "Miller’s sophomore leap",
+            "Lee’s system identity on both ends",
+            "Front office patience vs fan pressure"
+        ]
+    },
+    "Jazz": {
+        "conference": "West",
+        "division": "Northwest",
+        "timezone": "MT",
+        "status": "Strategic rebuild — prioritizing youth and draft position",
+        "market": "Small but loyal; strong Utah hoops culture",
+        "style": "Deliberate, youth-minutes heavy; development over wins",
+        "narrative": "2024–25 bottomed out (17–65) with a development-first approach. New PBO Austin Ainge leads basketball ops with GM Justin Zanik; Will Hardy remains to grow a very young core.",
+        "viewingTimes": "9 PM MT (11 PM–12 AM ET / 4–5 AM UK) typical start",
+        "headline": "Deep rebuild with patience — eyes on draft capital and internal growth",
+        "stars": "Lauri Markkanen, Keyonte George, Taylor Hendricks",
+        "watchability": "Low — intentional growing pains with flashes from prospects",
+        "bandwagonRisk": "None — long runway",
+        "dysfunction": "Low — losses by design, not chaos",
+        "injuries": "Managed workloads; development-centric rotations",
+        "culture": "Process-driven patience; alignment from ownership to bench",
+        "statusEnum": "tanking",
+        "watchabilityScore": 42,
+        "playingStyles": [
+            "team_first",
+            "slow_pace",
+            "developmental"
+        ],
+        "philosophy": [
+            "young_team",
+            "draft_accumulation"
+        ],
+        "nationalities": [
+            "Finland",
+            "USA"
+        ],
+        "rosterPillars": {
+            "core": [
+                "Lauri Markkanen",
+                "Keyonte George",
+                "Taylor Hendricks"
+            ],
+            "developmental": [
+                "Walker Kessler",
+                "Brice Sensabaugh"
+            ],
+            "veterans": [
+                "Jordan Clarkson (trade candidate)"
+            ]
+        },
+        "frontOffice": {
+            "owner": "Ryan Smith",
+            "president": "Austin Ainge (President of Basketball Operations)",
+            "coach": "Will Hardy"
+        },
+        "recentPerformance": {
+            "season": "2024–25",
+            "record": "17–65 (15th West) — league-worst",
+            "offenseRank_ptsPerGame": 21,
+            "defenseRank_oppPtsPerGame": "bottom-five",
+            "trend": "Intentional losses; youth evaluation"
+        },
+        "contractDynamics": {
+            "markkanenExtension": "Extension path monitored; major decision window ahead",
+            "capShape": "Significant future space + multiple firsts",
+            "tradeWatch": "Markkanen valuation; veteran salary clearing; asset plays"
+        },
+        "risksAndChallenges": {
+            "fanPatience": "Attendance/engagement risk during extended losing",
+            "youthInexperience": "Turnovers, defensive gaps",
+            "ceiling": "Incremental improvement if guards pop",
+            "floor": "Bottom tier again"
+        },
+        "narrativeAnglesToWatch": [
+            "Austin Ainge’s roster-building timeline",
+            "Markkanen decision: extend vs trade",
+            "Hardy’s guard/wing development track",
+            "Draft positioning with multiple assets"
+        ]
+    },
+    "Wizards": {
+        "conference": "East",
+        "division": "Southeast",
+        "timezone": "ET",
+        "status": "Deep rebuild under aligned front office and new coaching direction",
+        "market": "DC base; engagement improving with youth movement",
+        "style": "Development-first, length on the wings, up-tempo experiments",
+        "narrative": "Washington bottomed out in 2024–25 (18–64) while prioritizing minutes for youngsters. No. 2 pick Alex Sarr pairs with Bilal Coulibaly as the long-term frontcourt/wing axis. Brian Keefe shed the interim tag and enters Year 2 emphasizing defense, discipline, and player development.",
+        "viewingTimes": "7–7:30 PM ET (midnight–1 AM UK) typical start",
+        "headline": "Long runway in DC — Sarr & Coulibaly headline the rebuild",
+        "stars": "Alex Sarr, Bilal Coulibaly, Jordan Poole",
+        "watchability": "Low-to-medium — raw but intriguing flashes from Sarr/Coulibaly",
+        "bandwagonRisk": "None — multi-year project",
+        "dysfunction": "Low — losses by design; clear plan",
+        "injuries": "Medium — Sarr managed ankle issues as a rookie; general youth bumps",
+        "culture": "Process- and analytics-driven rebuild with patience from leadership",
+        "statusEnum": "rebuilding",
+        "watchabilityScore": 52,
+        "playingStyles": [
+            "young_team",
+            "transition",
+            "developmental"
+        ],
+        "philosophy": [
+            "underdog",
+            "long_horizon"
+        ],
+        "nationalities": [
+            "USA",
+            "France",
+            "Israel"
+        ],
+        "rosterPillars": {
+            "core": [
+                "Alex Sarr",
+                "Bilal Coulibaly",
+                "Deni Avdija"
+            ],
+            "guards": [
+                "Jordan Poole",
+                "Rookie/young PG depth"
+            ],
+            "bench": [
+                "Corey Kispert",
+                "Tristan Vukčević",
+                "Assorted two-ways"
+            ]
+        },
+        "frontOffice": {
+            "owner": "Ted Leonsis",
+            "president": "Michael Winger (POBO)",
+            "gm": "Will Dawkins",
+            "coach": "Brian Keefe"
+        },
+        "recentPerformance": {
+            "season": "2024–25",
+            "record": "18–64 (15th East)",
+            "offenseRank_ptsPerGame": "bottom-five",
+            "defenseRank_oppPtsPerGame": "bottom-five",
+            "trend": "Intentional reset; youth evaluation > wins"
+        },
+        "contractDynamics": {
+            "sarrRookieDeal": "4-year rookie scale (2025–2029) — cornerstone",
+            "pooleContract": "Through 2027 on large declining deal; market-check candidate",
+            "avdijaExtension": "4-year extension through 2028",
+            "capShape": "Light beyond Poole; ample room to absorb contracts for assets",
+            "tradeWatch": "Veteran shooters/handlers; Poole value at deadline"
+        },
+        "risksAndChallenges": {
+            "defensiveCohesion": "Young roster learning coverages and physicality",
+            "fanRetention": "Attendance/engagement risk amid losses",
+            "development": "On-ball reps vs. efficiency",
+            "ceiling": "Play-in by 2027 if Sarr pops early",
+            "floor": "Prolonged bottom-tier if creation stalls"
+        },
+        "narrativeAnglesToWatch": [
+            "Sarr’s rim protection & switch metrics across first full season",
+            "Coulibaly’s off-the-dribble growth vs. transition-only profile",
+            "Keefe’s defensive scheme with young big/wing core",
+            "Asset plays using cap space and extra roster spots"
+        ]
+    },
+    "Raptors": {
+        "conference": "East",
+        "division": "Atlantic",
+        "timezone": "ET",
+        "status": "Transition from rebuild to playoff push after Ingram trade",
+        "market": "National — Canada’s team",
+        "style": "Switchable defense, Barnes-led two-way identity, Ingram half-court shotmaking",
+        "narrative": "Toronto acquired Brandon Ingram in Feb. 2025 and extended him (3 yrs/$120M). With Scottie Barnes’ max kicking in and Immanuel Quickley secured long term, the Raptors aim to translate last season’s 30–52 lessons into a balanced, playoff-caliber attack under Darko Rajaković.",
+        "viewingTimes": "7–7:30 PM ET (midnight–1 AM UK) typical start",
+        "headline": "Ingram joins Barnes/Barrett/Quickley — Raptors target a return to the playoffs",
+        "stars": "Scottie Barnes, Brandon Ingram, RJ Barrett, Immanuel Quickley",
+        "watchability": "Medium-high — versatile lineups, improved late-game creation",
+        "bandwagonRisk": "Low-to-medium — expectations rising but measured",
+        "dysfunction": "Low — stable leadership and development culture",
+        "injuries": "Medium — Quickley missed chunks last year; Ingram finished 2024–25 with ankle issues but enters camp healthy",
+        "culture": "Proud, development-driven, analytics-aware; renewed ‘Win for All’ push",
+        "statusEnum": "rising",
+        "watchabilityScore": 74,
+        "playingStyles": [
+            "defensive",
+            "team_first",
+            "switchable",
+            "half_court_execution",
+            "transition_creation"
+        ],
+        "philosophy": [
+            "young_team",
+            "retool",
+            "culture_first"
+        ],
+        "nationalities": [
+            "Canada",
+            "USA"
+        ],
+        "rosterPillars": {
+            "core": [
+                "Scottie Barnes",
+                "Brandon Ingram",
+                "RJ Barrett",
+                "Immanuel Quickley"
+            ],
+            "rotation": [
+                "Gradey Dick",
+                "Jakob Poeltl",
+                "Kelly Olynyk (was traded out in Ingram deal; frontcourt depth via signings/prospects)"
+            ],
+            "bench": [
+                "Jonathan Mogbo",
+                "Rookie guards/wings",
+                "Two-way depth"
+            ]
+        },
+        "frontOffice": {
+            "owner": "Maple Leaf Sports & Entertainment",
+            "president": "Masai Ujiri",
+            "gm": "Bobby Webster",
+            "coach": "Darko Rajaković"
+        },
+        "recentPerformance": {
+            "season": "2024–25",
+            "record": "30–52 (11th East) — missed Play-In",
+            "offenseRank_ptsPerGame": 23,
+            "defenseRank_oppPtsPerGame": "bottom-third",
+            "trend": "Offense lagged; Ingram arrival to boost half-court"
+        },
+        "contractDynamics": {
+            "ingramDeal": "3-year, $120M extension (signed Feb. 2025)",
+            "barnesExtension": "Designated max begins 2025–26",
+            "quickleyDeal": "5-year, $175M (July 2024)",
+            "capShape": "Top-heavy but stable; flexibility via mid-tier deals and young scale contracts",
+            "tradeWatch": "Frontcourt shooting/secondary rim protection; wing spacing around Barnes/Ingram"
+        },
+        "risksAndChallenges": {
+            "spacing": "Ingram’s mid-range profile + Barnes usage require shooting around them",
+            "health": "Quickley availability; Ingram ankle management",
+            "ceiling": "Win a playoff series if spacing/health hold",
+            "floor": "Play-in bubble if offense stagnates"
+        },
+        "narrativeAnglesToWatch": [
+            "Barnes–Ingram creation hierarchy and late-game sets",
+            "Quickley’s off-ball fit and catch-and-shoot volume",
+            "Gradey Dick’s leap as a high-volume spacer",
+            "Rajaković’s defensive scheme with longer wings"
+        ]
+    },
+    "Pistons": {
+        "conference": "East",
+        "division": "Central",
+        "timezone": "ET",
+        "status": "Legit playoff contender — young core matured under Bickerstaff",
+        "market": "Proud blue-collar Detroit base; optimism fully revived",
+        "style": "Physical, defense-first, Cade-led control offense with better spacing and discipline",
+        "narrative": "After a stunning turnaround in 2024–25, Detroit solidified its rise. Cade Cunningham earned All-NBA honors, and with Ausar Thompson and Jalen Duren anchoring both ends, the Pistons look to take another step forward in 2025–26. J.B. Bickerstaff’s defensive identity has transformed the team into a rugged, structured playoff mainstay.",
+        "viewingTimes": "7–8 PM ET primetime starts",
+        "headline": "Detroit’s revival: Cade’s All-NBA rise powers Pistons back to relevance",
+        "stars": "Cade Cunningham, Jalen Duren, Ausar Thompson, Ron Holland II",
+        "watchability": "High — gritty defense, balanced scoring, young leadership",
+        "bandwagonRisk": "Medium-high — breakout story attracts wider attention",
+        "dysfunction": "Low — front office and staff in sync",
+        "injuries": "Low-to-medium — standard load management for key starters",
+        "culture": "Defensive grit, accountability, internal development, continuity",
+        "statusEnum": "contending",
+        "watchabilityScore": 85,
+        "playingStyles": [
+            "defensive",
+            "half_court_execution",
+            "downhill_creation",
+            "team_first"
+        ],
+        "philosophy": [
+            "young_team",
+            "sustainable_build"
+        ],
+        "nationalities": [
+            "USA"
+        ],
+        "rosterPillars": {
+            "core": [
+                "Cade Cunningham",
+                "Jalen Duren",
+                "Ausar Thompson"
+            ],
+            "rotation": [
+                "Marcus Sasser",
+                "Isaiah Stewart",
+                "Ron Holland II"
+            ],
+            "bench": [
+                "Simone Fontecchio",
+                "Quentin Grimes",
+                "James Wiseman"
+            ]
+        },
+        "frontOffice": {
+            "owner": "Tom Gores",
+            "president": "Trajan Langdon (POBO)",
+            "coach": "J.B. Bickerstaff"
+        },
+        "recentPerformance": {
+            "season": "2024–25",
+            "record": "44–38 (6th East) — lost 4–2 to Knicks in 1st round; first playoff wins since 2008",
+            "offenseRank_ptsPerGame": "15th",
+            "defenseRank_oppPtsPerGame": "7th",
+            "trend": "From bottom-feeder to disciplined playoff unit; foundation set"
+        },
+        "contractDynamics": {
+            "cadeStatus": "Eligible for supermax in 2026; centerpiece locked in",
+            "capShape": "Healthy — core on rookie or team-friendly deals",
+            "tradeWatch": "Seeking veteran shooter and stretch-4 depth",
+            "salaryStructure": "Balanced; below second apron, sustainable growth path"
+        },
+        "risksAndChallenges": {
+            "shotCreationDepth": "Heavy Cade reliance late in games",
+            "youth": "Need to sustain poise against veteran East contenders",
+            "ceiling": "Top-4 East seed if offense climbs",
+            "floor": "Play-in if shooting regresses"
+        },
+        "narrativeAnglesToWatch": [
+            "Cade’s MVP-level leap potential",
+            "Duren’s rim protection and conditioning",
+            "Ausar’s 3-point growth and defensive assignments",
+            "Langdon’s first big trade or FA addition to push contention"
+        ]
+    },
+    "Trail Blazers": {
+        "conference": "West",
+        "division": "Northwest",
+        "timezone": "PT",
+        "status": "Rebuild with clearer timeline — youth and defense prioritized",
+        "market": "Small but deeply loyal Rip City base",
+        "style": "Fast, wing-driven, developmental; defensive fundamentals improving",
+        "narrative": "Portland remains in youth mode but with better direction. Scoot Henderson returned healthy after last season’s hamstring tear, Shaedon Sharpe flashed 20+ ppg scoring, and rookie center Donovan Clingan adds a defensive anchor. Billups’ focus on defense and player growth continues as the Blazers push for internal progress over immediate wins.",
+        "viewingTimes": "10–10:30 PM ET (3–4 AM UK) late start",
+        "headline": "Scoot & Sharpe lead Blazers’ patient rebuild — Clingan anchors defense",
+        "stars": "Scoot Henderson, Shaedon Sharpe, Jerami Grant, Donovan Clingan",
+        "watchability": "Medium — flashes from young stars, defense trending up",
+        "bandwagonRisk": "Low — patience era continues",
+        "dysfunction": "Low — clear plan, stable leadership",
+        "injuries": "Low-to-medium — Scoot fully cleared; Clingan load-managed early",
+        "culture": "Hardworking, defense-focused, developmental consistency",
+        "statusEnum": "rebuilding",
+        "watchabilityScore": 68,
+        "playingStyles": [
+            "fast_paced",
+            "defensive",
+            "switchable_wings",
+            "developmental"
+        ],
+        "philosophy": [
+            "young_team",
+            "asset_accumulation",
+            "internal_growth"
+        ],
+        "nationalities": [
+            "USA"
+        ],
+        "rosterPillars": {
+            "backcourt": [
+                "Scoot Henderson",
+                "Shaedon Sharpe"
+            ],
+            "forwards": [
+                "Jerami Grant",
+                "Toumani Camara"
+            ],
+            "bigs": [
+                "Donovan Clingan",
+                "Deandre Ayton"
+            ]
+        },
+        "frontOffice": {
+            "owner": "Jody Allen",
+            "president": "Joe Cronin (GM/POBO)",
+            "coach": "Chauncey Billups"
+        },
+        "recentPerformance": {
+            "season": "2024–25",
+            "record": "29–53 (13th West)",
+            "offenseRank_ptsPerGame": "26th",
+            "defenseRank_oppPtsPerGame": "22nd",
+            "trend": "Still losing, but directionally improving with core continuity"
+        },
+        "contractDynamics": {
+            "scootScale": "Year 2 rookie-scale (through 2028)",
+            "sharpeExtension": "Eligible Oct 2025; high-priority negotiation",
+            "grantDeal": "4-year, $160M; tradable veteran contract",
+            "capShape": "Clean; flexibility after 2026; Ayton’s future key lever",
+            "tradeWatch": "Potential Jerami Grant contender interest; guard depth moves"
+        },
+        "risksAndChallenges": {
+            "health": "Young players’ durability through long season",
+            "spacing": "Below-average shooting still caps ceiling",
+            "ceiling": "Play-in chase if Sharpe explodes offensively",
+            "floor": "Bottom-5 finish if development stalls"
+        },
+        "narrativeAnglesToWatch": [
+            "Sharpe’s scoring leap and possible extension",
+            "Scoot’s efficiency and decision-making growth",
+            "Clingan’s defensive rookie impact vs NBA size",
+            "Front office patience amid multi-year rebuild"
+        ]
+    }
+}

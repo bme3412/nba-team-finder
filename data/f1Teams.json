@@ -1,0 +1,107 @@
+{
+  "F1": {
+    "schemaNote": "2025 Formula 1 constructors and driver grid snapshot. Uses a compact team-card style (similar to NBA/MLB templates). Teams, drivers, status reflect mid/late 2025. Based on official F1 driver listings & standings. :contentReference[oaicite:0]{index=0}",
+    "teams": {
+      "McLaren": {
+        "constructor": "McLaren",
+        "country": "UK",
+        "status": "Title favorite; leading the constructors’ battle",
+        "headline": "McLaren leads pack — Norris/Piastri executing across the season",
+        "drivers": ["Lando Norris","Oscar Piastri"],
+        "watchabilityScore": 95,
+        "statusEnum": "contending",
+        "viewingTimes": "European prime times / global broadcast prime"
+      },
+      "Mercedes": {
+        "constructor": "Mercedes",
+        "country": "Germany / UK operations",
+        "status": "Rebuilding toward glory; rising from midfield fight",
+        "headline": "Mercedes resurgence: Russell + Antonelli inject youth and balance",
+        "drivers": ["George Russell","Kimi Antonelli"],
+        "watchabilityScore": 88,
+        "statusEnum": "competing",
+        "viewingTimes": "European prime times / global broadcast prime"
+      },
+      "Ferrari": {
+        "constructor": "Ferrari",
+        "country": "Italy",
+        "status": "Tradition + star power; mid-championship push",
+        "headline": "Ferrari reloads — Hamilton joins Leclerc in red to reinvigorate title bid",
+        "drivers": ["Charles Leclerc","Lewis Hamilton"],
+        "watchabilityScore": 90,
+        "statusEnum": "contending",
+        "viewingTimes": "European prime times / global broadcast prime"
+      },
+      "Red Bull Racing": {
+        "constructor": "Red Bull Racing - RBPT",
+        "country": "Austria (UK operations base Milton Keynes)",
+        "status": "Transitioning after internal shakeups; still dangerous",
+        "headline": "Verstappen leads amid midseason driver shuffle and board changes",
+        "drivers": ["Max Verstappen","Yuki Tsunoda"],
+        "watchabilityScore": 92,
+        "statusEnum": "competing",
+        "viewingTimes": "European prime times / global broadcast prime"
+      },
+      "Racing Bulls": {
+        "constructor": "Racing Bulls (ex-AlphaTauri)",
+        "country": "Italy / Red Bull sister team",
+        "status": "Development feeder team; occasional upset potential",
+        "headline": "Racing Bulls reshuffled — Tsunoda/ Hadjar rotate with Red Bull moves",
+        "drivers": ["Isack Hadjar","Liam Lawson"],
+        "watchabilityScore": 75,
+        "statusEnum": "development",
+        "viewingTimes": "European prime times / global broadcast prime"
+      },
+      "Aston Martin": {
+        "constructor": "Aston Martin",
+        "country": "UK",
+        "status": "Midfield contender with star power presence",
+        "headline": "Alonso + Stroll keep Aston’s window open with technical upgrades",
+        "drivers": ["Fernando Alonso","Lance Stroll"],
+        "watchabilityScore": 85,
+        "statusEnum": "competing",
+        "viewingTimes": "European prime times / global broadcast prime"
+      },
+      "Alpine": {
+        "constructor": "Alpine",
+        "country": "France",
+        "status": "Struggling to find consistency; parts of promise",
+        "headline": "Alpine seeks bounceback seasons from Gasly & Colapinto amid regulation shifts",
+        "drivers": ["Pierre Gasly","Franco Colapinto"],
+        "watchabilityScore": 70,
+        "statusEnum": "midfield",
+        "viewingTimes": "European prime times / global broadcast prime"
+      },
+      "Williams": {
+        "constructor": "Williams",
+        "country": "UK",
+        "status": "Midfield underdog with resurgence hopes",
+        "headline": "Williams eyes return to form with Sainz/Albon combo",
+        "drivers": ["Alex Albon","Carlos Sainz"],
+        "watchabilityScore": 73,
+        "statusEnum": "midfield",
+        "viewingTimes": "European prime times / global broadcast prime"
+      },
+      "Haas": {
+        "constructor": "Haas",
+        "country": "USA",
+        "status": "Low-budget fighter; showing flashes via Bearman/Ocon",
+        "headline": "Haas punches above weight with Bearman’s rookie spark",
+        "drivers": ["Oliver Bearman","Esteban Ocon"],
+        "watchabilityScore": 68,
+        "statusEnum": "lower_mid",
+        "viewingTimes": "European prime times / global broadcast prime"
+      },
+      "Sauber / Audi": {
+        "constructor": "Sauber (Audi partnership)",
+        "country": "Switzerland / Germany technically",
+        "status": "In transition; looking to gain stability with Bortoleto/Hülkenberg",
+        "headline": "Sauber shapes future under Audi tie — Hulkenberg mentor to Bortoleto",
+        "drivers": ["Nico Hülkenberg","Gabriel Bortoleto"],
+        "watchabilityScore": 72,
+        "statusEnum": "midfield",
+        "viewingTimes": "European prime times / global broadcast prime"
+      }
+    }
+  }
+}

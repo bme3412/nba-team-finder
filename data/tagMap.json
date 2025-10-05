@@ -1,0 +1,30 @@
+{
+  "weights": {
+    "historic": 10,
+    "winning_tradition": 10,
+    "cosmopolitan": 8,
+    "star_power": 8,
+    "blue_collar": 7,
+    "underdog": 6,
+    "technical": 7,
+    "possession": 6,
+    "youth": 6,
+    "rising": 6,
+    "contender": 7
+  },
+  "nba": {
+    "historic": { "philosophy": ["historic"] },
+    "winning_tradition": { "statusEnum": ["champion","contender","Finals_runner_up" ] },
+    "cosmopolitan": { "brands": ["Lakers","Heat","Nets","Warriors"] },
+    "star_power": { "playingStyles": ["star_dominance"] },
+    "blue_collar": { "markets": ["Cavaliers","Pistons","Pacers","Grizzlies","Kings"] },
+    "underdog": { "philosophy": ["underdog"], "statusEnum": ["rising","rebuilding","tanking"] },
+    "technical": { "playingStyles": ["team_first","three_point","playmaking","balanced"] },
+    "possession": { "playingStyles": ["team_first","three_point"] },
+    "youth": { "statusEnum": ["rising","young_team"] },
+    "rising": { "statusEnum": ["rising","Finals_runner_up"] },
+    "contender": { "statusEnum": ["champion","contender","competing"] }
+  }
+}
+
+

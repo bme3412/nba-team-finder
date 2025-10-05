@@ -1,0 +1,636 @@
+{
+  "last_generated_utc": "2025-10-04T12:54:00+00:00",
+  "definition": "Non-US NBA players (born outside the United States) grouped by birth country with current NBA team.",
+  "source": "NBA official stats service via nba_api (static.get_active_players + CommonPlayerInfo)",
+  "total_countries": 45,
+  "total_players": 134,
+  "note": "Excluded 437 US-born players using country field from CommonPlayerInfo.",
+  "countries": {
+    "Angola": [
+      {
+        "player": "Bruno Fernando",
+        "team": "Free Agent"
+      }
+    ],
+    "Australia": [
+      {
+        "player": "Alex Ducas",
+        "team": "Oklahoma City Thunder"
+      },
+      {
+        "player": "Ben Simmons",
+        "team": "LA Clippers"
+      },
+      {
+        "player": "Danté Exum",
+        "team": "Dallas Mavericks"
+      },
+      {
+        "player": "Dyson Daniels",
+        "team": "Atlanta Hawks"
+      },
+      {
+        "player": "Jack McVeigh",
+        "team": "Houston Rockets"
+      },
+      {
+        "player": "Jock Landale",
+        "team": "Memphis Grizzlies"
+      },
+      {
+        "player": "Joe Ingles",
+        "team": "Minnesota Timberwolves"
+      },
+      {
+        "player": "Johnny Furphy",
+        "team": "Indiana Pacers"
+      },
+      {
+        "player": "Josh Giddey",
+        "team": "Chicago Bulls"
+      },
+      {
+        "player": "Josh Green",
+        "team": "Charlotte Hornets"
+      },
+      {
+        "player": "Kyrie Irving",
+        "team": "Dallas Mavericks"
+      },
+      {
+        "player": "Luke Travers",
+        "team": "Cleveland Cavaliers"
+      },
+      {
+        "player": "Patty Mills",
+        "team": "LA Clippers"
+      },
+      {
+        "player": "Taran Armstrong",
+        "team": "Golden State Warriors"
+      }
+    ],
+    "Austria": [
+      {
+        "player": "Jakob Poeltl",
+        "team": "Toronto Raptors"
+      }
+    ],
+    "Bahamas": [
+      {
+        "player": "Buddy Hield",
+        "team": "Golden State Warriors"
+      },
+      {
+        "player": "Deandre Ayton",
+        "team": "Los Angeles Lakers"
+      },
+      {
+        "player": "Kai Jones",
+        "team": "Dallas Mavericks"
+      }
+    ],
+    "Belgium": [
+      {
+        "player": "Ajay Mitchell",
+        "team": "Oklahoma City Thunder"
+      },
+      {
+        "player": "Toumani Camara",
+        "team": "Portland Trail Blazers"
+      }
+    ],
+    "Bosnia and Herzegovina": [
+      {
+        "player": "Jusuf Nurkić",
+        "team": "Utah Jazz"
+      },
+      {
+        "player": "Karlo Matković",
+        "team": "New Orleans Pelicans"
+      }
+    ],
+    "Brazil": [
+      {
+        "player": "Gui Santos",
+        "team": "Golden State Warriors"
+      }
+    ],
+    "Cameroon": [
+      {
+        "player": "Christian Koloko",
+        "team": "Los Angeles Lakers"
+      },
+      {
+        "player": "Joel Embiid",
+        "team": "Philadelphia 76ers"
+      },
+      {
+        "player": "Pascal Siakam",
+        "team": "Indiana Pacers"
+      },
+      {
+        "player": "Ulrich Chomche",
+        "team": "Toronto Raptors"
+      },
+      {
+        "player": "Yves Missi",
+        "team": "New Orleans Pelicans"
+      }
+    ],
+    "Canada": [
+      {
+        "player": "A.J. Lawson",
+        "team": "Toronto Raptors"
+      },
+      {
+        "player": "Andrew Nembhard",
+        "team": "Indiana Pacers"
+      },
+      {
+        "player": "Andrew Wiggins",
+        "team": "Miami Heat"
+      },
+      {
+        "player": "Bennedict Mathurin",
+        "team": "Indiana Pacers"
+      },
+      {
+        "player": "Brandon Clarke",
+        "team": "Memphis Grizzlies"
+      },
+      {
+        "player": "Caleb Houstan",
+        "team": "Atlanta Hawks"
+      },
+      {
+        "player": "Cory Joseph",
+        "team": "Orlando Magic"
+      },
+      {
+        "player": "Dalano Banton",
+        "team": "Portland Trail Blazers"
+      },
+      {
+        "player": "Dillon Brooks",
+        "team": "Phoenix Suns"
+      },
+      {
+        "player": "Dwight Powell",
+        "team": "Dallas Mavericks"
+      },
+      {
+        "player": "Emanuel Miller",
+        "team": "Chicago Bulls"
+      },
+      {
+        "player": "Jackson Rowe",
+        "team": "Golden State Warriors"
+      },
+      {
+        "player": "Jamal Murray",
+        "team": "Denver Nuggets"
+      },
+      {
+        "player": "Kelly Olynyk",
+        "team": "San Antonio Spurs"
+      },
+      {
+        "player": "Leonard Miller",
+        "team": "Minnesota Timberwolves"
+      },
+      {
+        "player": "Luguentz Dort",
+        "team": "Oklahoma City Thunder"
+      },
+      {
+        "player": "Nickeil Alexander-Walker",
+        "team": "Atlanta Hawks"
+      },
+      {
+        "player": "Olivier-Maxence Prosper",
+        "team": "Memphis Grizzlies"
+      },
+      {
+        "player": "Oshae Brissett",
+        "team": "Free Agent"
+      },
+      {
+        "player": "RJ Barrett",
+        "team": "Toronto Raptors"
+      },
+      {
+        "player": "Shaedon Sharpe",
+        "team": "Portland Trail Blazers"
+      },
+      {
+        "player": "Shai Gilgeous-Alexander",
+        "team": "Oklahoma City Thunder"
+      },
+      {
+        "player": "Trey Lyles",
+        "team": "Sacramento Kings"
+      },
+      {
+        "player": "Tristan Thompson",
+        "team": "Cleveland Cavaliers"
+      },
+      {
+        "player": "Zach Edey",
+        "team": "Memphis Grizzlies"
+      }
+    ],
+    "China": [
+      {
+        "player": "Cui Cui",
+        "team": "Free Agent"
+      }
+    ],
+    "Croatia": [
+      {
+        "player": "Dario Šarić",
+        "team": "Sacramento Kings"
+      },
+      {
+        "player": "Ivica Zubac",
+        "team": "LA Clippers"
+      }
+    ],
+    "Czech Republic": [
+      {
+        "player": "Vít Krejčí",
+        "team": "Atlanta Hawks"
+      }
+    ],
+    "Dominican Republic": [
+      {
+        "player": "Al Horford",
+        "team": "Golden State Warriors"
+      },
+      {
+        "player": "Chris Duarte",
+        "team": "Free Agent"
+      }
+    ],
+    "DRC": [
+      {
+        "player": "Bismack Biyombo",
+        "team": "San Antonio Spurs"
+      },
+      {
+        "player": "Jonathan Kuminga",
+        "team": "Golden State Warriors"
+      },
+      {
+        "player": "Oscar Tshiebwe",
+        "team": "Utah Jazz"
+      }
+    ],
+    "Finland": [
+      {
+        "player": "Lauri Markkanen",
+        "team": "Utah Jazz"
+      }
+    ],
+    "France": [
+      {
+        "player": "Alex Sarr",
+        "team": "Washington Wizards"
+      },
+      {
+        "player": "Armel Traore",
+        "team": "Free Agent"
+      },
+      {
+        "player": "Bilal Coulibaly",
+        "team": "Washington Wizards"
+      },
+      {
+        "player": "Guerschon Yabusele",
+        "team": "New York Knicks"
+      },
+      {
+        "player": "Killian Hayes",
+        "team": "Cleveland Cavaliers"
+      },
+      {
+        "player": "Moussa Diabaté",
+        "team": "Charlotte Hornets"
+      },
+      {
+        "player": "Nicolas Batum",
+        "team": "LA Clippers"
+      },
+      {
+        "player": "Ousmane Dieng",
+        "team": "Oklahoma City Thunder"
+      },
+      {
+        "player": "Pacôme Dadiet",
+        "team": "New York Knicks"
+      },
+      {
+        "player": "Rayan Rupert",
+        "team": "Portland Trail Blazers"
+      },
+      {
+        "player": "Rudy Gobert",
+        "team": "Minnesota Timberwolves"
+      },
+      {
+        "player": "Sidy Cissoko",
+        "team": "Portland Trail Blazers"
+      },
+      {
+        "player": "Tidjane Salaün",
+        "team": "Charlotte Hornets"
+      },
+      {
+        "player": "Victor Wembanyama",
+        "team": "San Antonio Spurs"
+      },
+      {
+        "player": "Zaccharie Risacher",
+        "team": "Atlanta Hawks"
+      }
+    ],
+    "Georgia": [
+      {
+        "player": "Goga Bitadze",
+        "team": "Orlando Magic"
+      },
+      {
+        "player": "Sandro Mamukelashvili",
+        "team": "Toronto Raptors"
+      }
+    ],
+    "Germany": [
+      {
+        "player": "Ariel Hukporti",
+        "team": "New York Knicks"
+      },
+      {
+        "player": "Daniel Theis",
+        "team": "Free Agent"
+      },
+      {
+        "player": "Dennis Schröder",
+        "team": "Sacramento Kings"
+      },
+      {
+        "player": "Franz Wagner",
+        "team": "Orlando Magic"
+      },
+      {
+        "player": "Isaiah Hartenstein",
+        "team": "Oklahoma City Thunder"
+      },
+      {
+        "player": "Maxi Kleber",
+        "team": "Los Angeles Lakers"
+      },
+      {
+        "player": "Moritz Wagner",
+        "team": "Orlando Magic"
+      },
+      {
+        "player": "Tristan da Silva",
+        "team": "Orlando Magic"
+      }
+    ],
+    "Greece": [
+      {
+        "player": "Giannis Antetokounmpo",
+        "team": "Milwaukee Bucks"
+      }
+    ],
+    "Haiti": [
+      {
+        "player": "Skal Labissiere",
+        "team": "Free Agent"
+      }
+    ],
+    "Israel": [
+      {
+        "player": "Deni Avdija",
+        "team": "Portland Trail Blazers"
+      }
+    ],
+    "Italy": [
+      {
+        "player": "Simone Fontecchio",
+        "team": "Miami Heat"
+      },
+      {
+        "player": "Tristan Vukcevic",
+        "team": "Washington Wizards"
+      }
+    ],
+    "Jamaica": [
+      {
+        "player": "Nick Richards",
+        "team": "Phoenix Suns"
+      }
+    ],
+    "Japan": [
+      {
+        "player": "Cam Thomas",
+        "team": "Brooklyn Nets"
+      },
+      {
+        "player": "Rui Hachimura",
+        "team": "Los Angeles Lakers"
+      },
+      {
+        "player": "Yuki Kawamura",
+        "team": "Chicago Bulls"
+      }
+    ],
+    "Latvia": [
+      {
+        "player": "Kristaps Porziņģis",
+        "team": "Atlanta Hawks"
+      }
+    ],
+    "Lithuania": [
+      {
+        "player": "Domantas Sabonis",
+        "team": "Sacramento Kings"
+      },
+      {
+        "player": "Jonas Valančiūnas",
+        "team": "Denver Nuggets"
+      }
+    ],
+    "Mali": [
+      {
+        "player": "Adama Sanogo",
+        "team": "Free Agent"
+      },
+      {
+        "player": "N'Faly Dante",
+        "team": "Atlanta Hawks"
+      }
+    ],
+    "Montenegro": [
+      {
+        "player": "Nikola Vučević",
+        "team": "Chicago Bulls"
+      }
+    ],
+    "Netherlands": [
+      {
+        "player": "Jesse Edwards",
+        "team": "Minnesota Timberwolves"
+      },
+      {
+        "player": "Malevy Leons",
+        "team": "Oklahoma City Thunder"
+      },
+      {
+        "player": "Quinten Post",
+        "team": "Golden State Warriors"
+      }
+    ],
+    "New Zealand": [
+      {
+        "player": "Steven Adams",
+        "team": "Houston Rockets"
+      }
+    ],
+    "Nigeria": [
+      {
+        "player": "Adem Bona",
+        "team": "Philadelphia 76ers"
+      },
+      {
+        "player": "Charles Bassey",
+        "team": "Atlanta Hawks"
+      },
+      {
+        "player": "Josh Okogie",
+        "team": "Houston Rockets"
+      },
+      {
+        "player": "Precious Achiuwa",
+        "team": "Miami Heat"
+      }
+    ],
+    "Poland": [
+      {
+        "player": "Jeremy Sochan",
+        "team": "San Antonio Spurs"
+      }
+    ],
+    "Portugal": [
+      {
+        "player": "Neemias Queta",
+        "team": "Boston Celtics"
+      }
+    ],
+    "Saint Lucia": [
+      {
+        "player": "Chris Boucher",
+        "team": "Boston Celtics"
+      }
+    ],
+    "Senegal": [
+      {
+        "player": "Mouhamed Gueye",
+        "team": "Atlanta Hawks"
+      }
+    ],
+    "Serbia": [
+      {
+        "player": "Bogdan Bogdanović",
+        "team": "LA Clippers"
+      },
+      {
+        "player": "Nikola Jokić",
+        "team": "Denver Nuggets"
+      },
+      {
+        "player": "Nikola Jović",
+        "team": "Miami Heat"
+      },
+      {
+        "player": "Vasilije Micic",
+        "team": "Phoenix Suns"
+      }
+    ],
+    "Slovenia": [
+      {
+        "player": "Luka Dončić",
+        "team": "Los Angeles Lakers"
+      },
+      {
+        "player": "Vlatko Čančar",
+        "team": "Denver Nuggets"
+      }
+    ],
+    "South Sudan": [
+      {
+        "player": "Duop Reath",
+        "team": "Portland Trail Blazers"
+      }
+    ],
+    "Spain": [
+      {
+        "player": "Santi Aldama",
+        "team": "Memphis Grizzlies"
+      }
+    ],
+    "Sudan": [
+      {
+        "player": "Bol Bol",
+        "team": "Phoenix Suns"
+      }
+    ],
+    "Sweden": [
+      {
+        "player": "Bobi Klintman",
+        "team": "Detroit Pistons"
+      },
+      {
+        "player": "Pelle Larsson",
+        "team": "Miami Heat"
+      }
+    ],
+    "Switzerland": [
+      {
+        "player": "Clint Capela",
+        "team": "Houston Rockets"
+      },
+      {
+        "player": "Kyshawn George",
+        "team": "Washington Wizards"
+      }
+    ],
+    "Turkey": [
+      {
+        "player": "Alperen Sengun",
+        "team": "Houston Rockets"
+      }
+    ],
+    "Ukraine": [
+      {
+        "player": "Alex Len",
+        "team": "New York Knicks"
+      },
+      {
+        "player": "Svi Mykhailiuk",
+        "team": "Utah Jazz"
+      }
+    ],
+    "United Kingdom": [
+      {
+        "player": "OG Anunoby",
+        "team": "New York Knicks"
+      },
+      {
+        "player": "Tosan Evbuomwan",
+        "team": "New York Knicks"
+      }
+    ]
+  }
+}

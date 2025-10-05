@@ -1,0 +1,359 @@
+{
+  "NHL": {
+    "schemaNote": "Lightweight team cards modeled after your NBA/MLB templates. Snapshot as of Oct 4, 2025; divisions per NHL (Atlantic/Metropolitan/Central/Pacific).",
+    "teams": {
+      "Boston Bruins": {
+        "conference": "East",
+        "division": "Atlantic",
+        "timezone": "ET",
+        "status": "Perennial contender built on structure and depth",
+        "headline": "Bruins hockey: heavy forecheck, elite PK, relentless depth",
+        "stars": "David Pastrnak, Charlie McAvoy, Linus Ullmark/Jeremy Swayman",
+        "statusEnum": "contender",
+        "watchabilityScore": 90,
+        "viewingTimes": "7:00 PM ET typical"
+      },
+      "Buffalo Sabres": {
+        "conference": "East",
+        "division": "Atlantic",
+        "timezone": "ET",
+        "status": "Youthful core pushing to end playoff drought",
+        "headline": "New wave in Buffalo aims to breakthrough",
+        "stars": "Rasmus Dahlin, Tage Thompson, Owen Power",
+        "statusEnum": "rising",
+        "watchabilityScore": 78,
+        "viewingTimes": "7:00 PM ET typical"
+      },
+      "Detroit Red Wings": {
+        "conference": "East",
+        "division": "Atlantic",
+        "timezone": "ET",
+        "status": "On the cusp \u2014 core maturing around Larkin/Seider",
+        "headline": "Yzerplan enters results phase",
+        "stars": "Dylan Larkin, Moritz Seider, Lucas Raymond",
+        "statusEnum": "competing",
+        "watchabilityScore": 80,
+        "viewingTimes": "7:00 PM ET typical"
+      },
+      "Florida Panthers": {
+        "conference": "East",
+        "division": "Atlantic",
+        "timezone": "ET",
+        "status": "Cup-caliber forecheck-and-finish juggernaut",
+        "headline": "Relentless Cats chase more banners",
+        "stars": "Matthew Tkachuk, Aleksander Barkov, Sergei Bobrovsky",
+        "statusEnum": "contender",
+        "watchabilityScore": 92,
+        "viewingTimes": "7:00 PM ET typical"
+      },
+      "Montreal Canadiens": {
+        "conference": "East",
+        "division": "Atlantic",
+        "timezone": "ET",
+        "status": "Rebuild progressing with promising youth",
+        "headline": "Habs kids grow under big spotlight",
+        "stars": "Nick Suzuki, Cole Caufield, Juraj Slafkovsk\u00fd",
+        "statusEnum": "rebuilding",
+        "watchabilityScore": 72,
+        "viewingTimes": "7:00 PM ET typical"
+      },
+      "Ottawa Senators": {
+        "conference": "East",
+        "division": "Atlantic",
+        "timezone": "ET",
+        "status": "Talented but inconsistent \u2014 aiming for stability",
+        "headline": "Sens seek structure to unlock talent",
+        "stars": "Brady Tkachuk, Tim St\u00fctzle, Thomas Chabot/Jake Sanderson",
+        "statusEnum": "competing",
+        "watchabilityScore": 76,
+        "viewingTimes": "7:00 PM ET typical"
+      },
+      "Tampa Bay Lightning": {
+        "conference": "East",
+        "division": "Atlantic",
+        "timezone": "ET",
+        "status": "Battle-tested core; special teams excellence",
+        "headline": "Bolts\u2019 star power keeps window open",
+        "stars": "Nikita Kucherov, Andrei Vasilevskiy, Brayden Point",
+        "statusEnum": "contender",
+        "watchabilityScore": 89,
+        "viewingTimes": "7:00 PM ET typical"
+      },
+      "Toronto Maple Leafs": {
+        "conference": "East",
+        "division": "Atlantic",
+        "timezone": "ET",
+        "status": "Elite offense; October proof still pending",
+        "headline": "Toronto turns talent into playoff push",
+        "stars": "Auston Matthews, Mitch Marner, William Nylander",
+        "statusEnum": "contender",
+        "watchabilityScore": 90,
+        "viewingTimes": "7:00 PM ET typical"
+      },
+      "Carolina Hurricanes": {
+        "conference": "East",
+        "division": "Metropolitan",
+        "timezone": "ET",
+        "status": "Possession monster with smothering D",
+        "headline": "Canes\u2019 process remains elite",
+        "stars": "Sebastian Aho, Andrei Svechnikov, Frederik Andersen",
+        "statusEnum": "contender",
+        "watchabilityScore": 91,
+        "viewingTimes": "7:00 PM ET typical"
+      },
+      "Columbus Blue Jackets": {
+        "conference": "East",
+        "division": "Metropolitan",
+        "timezone": "ET",
+        "status": "Reset under new leadership; kids to the front",
+        "headline": "Jackets focus on development + identity",
+        "stars": "Zach Werenski, Adam Fantilli, Patrik Laine",
+        "statusEnum": "rebuilding",
+        "watchabilityScore": 70,
+        "viewingTimes": "7:00 PM ET typical"
+      },
+      "New Jersey Devils": {
+        "conference": "East",
+        "division": "Metropolitan",
+        "timezone": "ET",
+        "status": "High-skill, high-tempo core; defending details matter",
+        "headline": "Devils look to pair speed with structure",
+        "stars": "Jack Hughes, Nico Hischier, Dougie Hamilton",
+        "statusEnum": "competing",
+        "watchabilityScore": 85,
+        "viewingTimes": "7:00 PM ET typical"
+      },
+      "New York Islanders": {
+        "conference": "East",
+        "division": "Metropolitan",
+        "timezone": "ET",
+        "status": "Defensive structure + elite goaltending",
+        "headline": "Isles grind games to a halt",
+        "stars": "Ilya Sorokin, Mathew Barzal, Brock Nelson",
+        "statusEnum": "competing",
+        "watchabilityScore": 80,
+        "viewingTimes": "7:00 PM ET typical"
+      },
+      "New York Rangers": {
+        "conference": "East",
+        "division": "Metropolitan",
+        "timezone": "ET",
+        "status": "Star-driven, contender with elite goaltending",
+        "headline": "Broadway aims for Cup return",
+        "stars": "Artemi Panarin, Adam Fox, Igor Shesterkin",
+        "statusEnum": "contender",
+        "watchabilityScore": 91,
+        "viewingTimes": "7:00 PM ET typical"
+      },
+      "Philadelphia Flyers": {
+        "conference": "East",
+        "division": "Metropolitan",
+        "timezone": "ET",
+        "status": "Hard-nosed identity under rebuild",
+        "headline": "Flyers\u2019 standard reset continues",
+        "stars": "Travis Konecny, Cutter Gauthier, Jamie Drysdale",
+        "statusEnum": "rebuilding",
+        "watchabilityScore": 73,
+        "viewingTimes": "7:00 PM ET typical"
+      },
+      "Pittsburgh Penguins": {
+        "conference": "East",
+        "division": "Metropolitan",
+        "timezone": "ET",
+        "status": "Aging stars chase one more run",
+        "headline": "Sid & Geno era pushes for playoffs",
+        "stars": "Sidney Crosby, Evgeni Malkin, Kris Letang",
+        "statusEnum": "competing",
+        "watchabilityScore": 79,
+        "viewingTimes": "7:00 PM ET typical"
+      },
+      "Washington Capitals": {
+        "conference": "East",
+        "division": "Metropolitan",
+        "timezone": "ET",
+        "status": "Veteran group; power-play dependent",
+        "headline": "Ovi watch + playoff push",
+        "stars": "Alex Ovechkin, John Carlson, Dylan Strome",
+        "statusEnum": "competing",
+        "watchabilityScore": 78,
+        "viewingTimes": "7:00 PM ET typical"
+      },
+      "Arizona Coyotes": {
+        "conference": "West",
+        "division": "Central",
+        "timezone": "MT",
+        "status": "Young skill core; off-ice stability improving",
+        "headline": "Desert Dogs eye step forward",
+        "stars": "Clayton Keller, Logan Cooley, Lawson Crouse",
+        "statusEnum": "rising",
+        "watchabilityScore": 74,
+        "viewingTimes": "9:00 PM ET typical"
+      },
+      "Chicago Blackhawks": {
+        "conference": "West",
+        "division": "Central",
+        "timezone": "CT",
+        "status": "Rebuild around generational centerpiece",
+        "headline": "Bedard era foundation taking shape",
+        "stars": "Connor Bedard, Seth Jones, Kevin Korchinski",
+        "statusEnum": "rebuilding",
+        "watchabilityScore": 75,
+        "viewingTimes": "8:30 PM ET typical"
+      },
+      "Colorado Avalanche": {
+        "conference": "West",
+        "division": "Central",
+        "timezone": "MT",
+        "status": "Top-tier contender with elite pace",
+        "headline": "Avs push the tempo \u2014 again",
+        "stars": "Nathan MacKinnon, Cale Makar, Mikko Rantanen",
+        "statusEnum": "contender",
+        "watchabilityScore": 94,
+        "viewingTimes": "9:00 PM ET typical"
+      },
+      "Dallas Stars": {
+        "conference": "West",
+        "division": "Central",
+        "timezone": "CT",
+        "status": "Deep, balanced roster; Cup window wide open",
+        "headline": "Stars\u2019 depth drives October hopes",
+        "stars": "Jason Robertson, Miro Heiskanen, Jake Oettinger",
+        "statusEnum": "contender",
+        "watchabilityScore": 92,
+        "viewingTimes": "8:00 PM ET typical"
+      },
+      "Minnesota Wild": {
+        "conference": "West",
+        "division": "Central",
+        "timezone": "CT",
+        "status": "Structure + goaltending; offense consistency key",
+        "headline": "Wild grind with discipline",
+        "stars": "Kirill Kaprizov, Filip Gustavsson, Mats Zuccarello",
+        "statusEnum": "competing",
+        "watchabilityScore": 80,
+        "viewingTimes": "8:00 PM ET typical"
+      },
+      "Nashville Predators": {
+        "conference": "West",
+        "division": "Central",
+        "timezone": "CT",
+        "status": "Defense-first heritage with evolving attack",
+        "headline": "Preds lean on Saros and structure",
+        "stars": "Juuse Saros, Filip Forsberg, Roman Josi",
+        "statusEnum": "competing",
+        "watchabilityScore": 82,
+        "viewingTimes": "8:00 PM ET typical"
+      },
+      "St. Louis Blues": {
+        "conference": "West",
+        "division": "Central",
+        "timezone": "CT",
+        "status": "Re-tooling with focus on identity and youth",
+        "headline": "Blues seek two-way consistency",
+        "stars": "Robert Thomas, Jordan Kyrou, Colton Parayko",
+        "statusEnum": "competing",
+        "watchabilityScore": 78,
+        "viewingTimes": "8:00 PM ET typical"
+      },
+      "Winnipeg Jets": {
+        "conference": "West",
+        "division": "Central",
+        "timezone": "CT",
+        "status": "Defense/goaltending backbone; tough barn",
+        "headline": "Jets\u2019 heavy game plays in spring",
+        "stars": "Connor Hellebuyck, Kyle Connor, Josh Morrissey",
+        "statusEnum": "contender",
+        "watchabilityScore": 87,
+        "viewingTimes": "8:00 PM ET typical"
+      },
+      "Anaheim Ducks": {
+        "conference": "West",
+        "division": "Pacific",
+        "timezone": "PT",
+        "status": "Long-run rebuild with exciting skill",
+        "headline": "Kids take flight in OC",
+        "stars": "Trevor Zegras, Leo Carlsson, Mason McTavish",
+        "statusEnum": "rebuilding",
+        "watchabilityScore": 74,
+        "viewingTimes": "10:00 PM ET typical"
+      },
+      "Calgary Flames": {
+        "conference": "West",
+        "division": "Pacific",
+        "timezone": "MT",
+        "status": "Transitioning core; identity under construction",
+        "headline": "Flames retool for speed and youth",
+        "stars": "Nazem Kadri, Jonathan Huberdeau, MacKenzie Weegar",
+        "statusEnum": "retooling",
+        "watchabilityScore": 76,
+        "viewingTimes": "9:00 PM ET typical"
+      },
+      "Edmonton Oilers": {
+        "conference": "West",
+        "division": "Pacific",
+        "timezone": "MT",
+        "status": "Generational offense; Cup-or-bust window",
+        "headline": "McDavid & Draisaitl chase the summit",
+        "stars": "Connor McDavid, Leon Draisaitl, Evan Bouchard",
+        "statusEnum": "contender",
+        "watchabilityScore": 95,
+        "viewingTimes": "9:00 PM ET typical"
+      },
+      "Los Angeles Kings": {
+        "conference": "West",
+        "division": "Pacific",
+        "timezone": "PT",
+        "status": "Possession/defense identity; scoring variance",
+        "headline": "Kings\u2019 structure vs. finish debate",
+        "stars": "Anze Kopitar, Kevin Fiala, Drew Doughty",
+        "statusEnum": "competing",
+        "watchabilityScore": 82,
+        "viewingTimes": "10:30 PM ET typical"
+      },
+      "San Jose Sharks": {
+        "conference": "West",
+        "division": "Pacific",
+        "timezone": "PT",
+        "status": "Deep rebuild; prospects to the fore",
+        "headline": "Sharks swim through long rebuild",
+        "stars": "William Eklund, Macklin Celebrini, Fabian Zetterlund",
+        "statusEnum": "rebuilding",
+        "watchabilityScore": 65,
+        "viewingTimes": "10:30 PM ET typical"
+      },
+      "Seattle Kraken": {
+        "conference": "West",
+        "division": "Pacific",
+        "timezone": "PT",
+        "status": "Depth-and-forecheck model; offense needs pop",
+        "headline": "Kraken hunt for scoring jump",
+        "stars": "Matty Beniers, Jared McCann, Vince Dunn",
+        "statusEnum": "competing",
+        "watchabilityScore": 78,
+        "viewingTimes": "10:00 PM ET typical"
+      },
+      "Vancouver Canucks": {
+        "conference": "West",
+        "division": "Pacific",
+        "timezone": "PT",
+        "status": "Two-way surge under demanding structure",
+        "headline": "Canucks\u2019 star core powers expectations",
+        "stars": "Quinn Hughes, Elias Pettersson, Thatcher Demko",
+        "statusEnum": "contender",
+        "watchabilityScore": 90,
+        "viewingTimes": "10:00 PM ET typical"
+      },
+      "Vegas Golden Knights": {
+        "conference": "West",
+        "division": "Pacific",
+        "timezone": "PT",
+        "status": "Heavy, deep, playoff-built machine",
+        "headline": "Vegas standard: depth and mismatch hunting",
+        "stars": "Jack Eichel, Mark Stone, Adin Hill",
+        "statusEnum": "contender",
+        "watchabilityScore": 92,
+        "viewingTimes": "10:00 PM ET typical"
+      }
+    }
+  }
+}

@@ -1,0 +1,38 @@
+{
+  "titles": {
+    "top": "Top recommendation",
+    "second": "Second choice",
+    "third": "Dark horse"
+  },
+  "templates": {
+    "city_link": "Completes your {city} set alongside the {sourceTeam}",
+    "identity_match": "Similar identity to {sourceTeam}: {identitySnippet}",
+    "eu_star": "European star power: {playerName} ({nationality})",
+    "winning_now": "Competitive now ({statusSnippet})",
+    "timezone_fit": "Easier game times in your timezone",
+    "watchability": "High watchability — consistently entertaining games"
+  },
+  "catches": {
+    "rebuilding": "The catch: currently rebuilding — patience required",
+    "injuries": "The catch: elevated injury risk right now",
+    "dysfunction": "The catch: organizational volatility",
+    "late_times": "The catch: late tip-offs from your timezone"
+  },
+  "identitySnippets": {
+    "cosmopolitan": "cosmopolitan brand and global appeal",
+    "star_power": "star-driven, marquee names",
+    "historic": "historic legacy and winning tradition",
+    "technical": "technical, flowing style of play",
+    "possession": "possession-based, patient buildup",
+    "blue_collar": "blue-collar, hardworking identity",
+    "underdog": "underdog resilience and grit"
+  },
+  "statusSnippets": {
+    "champion": "reigning champions",
+    "contender": "title contenders",
+    "competing": "playoff-level team",
+    "rising": "exciting young risers"
+  }
+}
+
+

@@ -1,0 +1,2166 @@
+{
+  "MLB": {
+    "schemaNote": "Modeled after your NBA template (fields adapted to baseball). Entries reflect 2025 regular-season context as of Oct 4, 2025. League/division and core identity are stable; some clubs have in-flux manager/FO notes due to active offseason changes.",
+    "teams": {
+      "Arizona Diamondbacks": {
+        "league": "NL",
+        "division": "West",
+        "timezone": "MT",
+        "status": "Pitching-forward club with athletic defense; Wild Card range",
+        "market": "Phoenix metro; surging post-2023 title run halo",
+        "style": "Contact + speed, run prevention, modern bullpen usage",
+        "narrative": "Post-’23 pennant, Arizona leaned into run prevention and athleticism while cycling young arms.",
+        "viewingTimes": "9–9:40 PM ET typical first pitch",
+        "headline": "Desert run prevention — athletic D-backs try to out-execute the West",
+        "stars": "Corbin Carroll, Zac Gallen, Gabriel Moreno",
+        "watchability": "Medium-high — pace, speed, elite D",
+        "bandwagonRisk": "Medium",
+        "dysfunction": "Low",
+        "injuries": "Medium — rotation depth watched",
+        "culture": "Player development + defensive buy-in",
+        "statusEnum": "competing",
+        "watchabilityScore": 78,
+        "playingStyles": [
+          "speed",
+          "defense",
+          "contact",
+          "bullpen_matchups"
+        ],
+        "philosophy": [
+          "development",
+          "run_prevention"
+        ],
+        "nationalities": [
+          "USA",
+          "Venezuela",
+          "Dominican Republic"
+        ],
+        "rosterPillars": {
+          "core_hitters": [
+            "Corbin Carroll",
+            "Ketel Marte",
+            "Gabriel Moreno"
+          ],
+          "rotation": [
+            "Zac Gallen",
+            "Merrill Kelly"
+          ],
+          "bullpen": [
+            "Paul Sewald"
+          ]
+        },
+        "frontOffice": {
+          "owner": "Ken Kendrick",
+          "pbo_gm": "Mike Hazen",
+          "manager": "Torey Lovullo"
+        },
+        "recentPerformance": {
+          "season": "2025",
+          "trend": "Above-average run prevention; offense streaky."
+        },
+        "contractDynamics": {
+          "extensions": "Carroll long-term; Marte extended previously",
+          "capShape": "Balanced mid-market spend",
+          "tradeWatch": "RH power bat; swingman SP"
+        },
+        "risksAndChallenges": {
+          "offenseVar": "Slugging lulls vs. elite pitching",
+          "depth": "Back-end rotation volatility",
+          "ceiling": "Division push with healthy arms",
+          "floor": "Wild Card bubble"
+        },
+        "narrativeAnglesToWatch": [
+          "Carroll’s OBP/SLG bounce",
+          "Gallen’s Cy Young contention",
+          "Prospect arms impact timeline"
+        ]
+      },
+      "Atlanta Braves": {
+        "league": "NL",
+        "division": "East",
+        "timezone": "ET",
+        "status": "Perennial contender retooling staff; still elite offense core",
+        "market": "Large Southeast footprint",
+        "style": "Power + patience, deep lineup, efficient run prevention",
+        "narrative": "Postseason letdowns haven’t dimmed a top-5 offense; staff tweaks and health headline 2025.",
+        "viewingTimes": "7:20 PM ET typical first pitch",
+        "headline": "Reloading on the fly — bats still thunderous in ATL",
+        "stars": "Ronald Acuña Jr., Matt Olson, Austin Riley",
+        "watchability": "High — power offense, packed park",
+        "bandwagonRisk": "High",
+        "dysfunction": "Low",
+        "injuries": "Medium",
+        "culture": "Continuity, analytics + development",
+        "statusEnum": "contender",
+        "watchabilityScore": 88,
+        "playingStyles": [
+          "power",
+          "patience",
+          "contact_quality"
+        ],
+        "philosophy": [
+          "homegrown_core",
+          "extensions"
+        ],
+        "nationalities": [
+          "USA",
+          "Venezuela",
+          "Dominican Republic"
+        ],
+        "rosterPillars": {
+          "core_hitters": [
+            "Acuña Jr.",
+            "Olson",
+            "Riley",
+            "Ozzie Albies"
+          ],
+          "rotation": [
+            "Spencer Strider (injury recovery watch)",
+            "Max Fried"
+          ],
+          "bullpen": [
+            "Raisel Iglesias"
+          ]
+        },
+        "frontOffice": {
+          "owner": "Liberty Media",
+          "pbo_gm": "Alex Anthopoulos",
+          "manager": "TBD (offseason chatter ongoing)"
+        },
+        "recentPerformance": {
+          "season": "2025",
+          "trend": "Top-tier offense; October focus remains."
+        },
+        "contractDynamics": {
+          "extensions": "Multiple core hitters locked long term",
+          "capShape": "Comfortable within CBT tiers",
+          "tradeWatch": "Mid-rotation arm; bench OF"
+        },
+        "risksAndChallenges": {
+          "rotationHealth": "Top-end K-rate arm recovery",
+          "postseason": "Translating RS dominance to October",
+          "ceiling": "WS favorite when healthy",
+          "floor": "Division/Wild Card with staff attrition"
+        },
+        "narrativeAnglesToWatch": [
+          "Strider’s return to form",
+          "Acuña basepath aggression post-injury",
+          "Bullpen leverage hierarchy"
+        ]
+      },
+      "Baltimore Orioles": {
+        "league": "AL",
+        "division": "East",
+        "timezone": "ET",
+        "status": "Youth-driven AL power; sustainable core",
+        "market": "Mid-Atlantic; energized by kids",
+        "style": "Athletic defense, contact quality, deep pen",
+        "narrative": "Homegrown wave keeps surging; window firmly open.",
+        "viewingTimes": "6:35–7:05 PM ET typical",
+        "headline": "Birdland boom — sustainable winner built from within",
+        "stars": "Adley Rutschman, Gunnar Henderson, Corbin Burnes",
+        "watchability": "High",
+        "bandwagonRisk": "High",
+        "dysfunction": "Low",
+        "injuries": "Low-to-medium",
+        "culture": "Development + details + depth",
+        "statusEnum": "contender",
+        "watchabilityScore": 90,
+        "playingStyles": [
+          "balanced",
+          "defense",
+          "pen_strength"
+        ],
+        "philosophy": [
+          "homegrown",
+          "value_additions"
+        ],
+        "nationalities": [
+          "USA",
+          "Dominican Republic",
+          "Venezuela"
+        ],
+        "rosterPillars": {
+          "core_hitters": [
+            "Rutschman",
+            "Henderson",
+            "Jordan Westburg"
+          ],
+          "rotation": [
+            "Corbin Burnes",
+            "Grayson Rodriguez"
+          ],
+          "bullpen": [
+            "Closer-by-committee depth"
+          ]
+        },
+        "frontOffice": {
+          "owner": "David Rubenstein group",
+          "pbo_gm": "Mike Elias",
+          "manager": "Brandon Hyde"
+        },
+        "recentPerformance": {
+          "season": "2025",
+          "trend": "Top of AL East mix per official standings."
+        },
+        "contractDynamics": {
+          "extensions": "Young core decisions loom",
+          "capShape": "Plenty of flexibility",
+          "tradeWatch": "Veteran starter; RH bench power"
+        },
+        "risksAndChallenges": {
+          "youthVariance": "Sophomore/regression risk pockets",
+          "innings": "Young SP workload",
+          "ceiling": "AL pennant threat",
+          "floor": "Playoff club even with dips"
+        },
+        "narrativeAnglesToWatch": [
+          "Henderson MVP-level arc",
+          "Burnes long-term outlook",
+          "Prospect pipeline fueling in-season moves"
+        ]
+      },
+      "Boston Red Sox": {
+        "league": "AL",
+        "division": "East",
+        "timezone": "ET",
+        "status": "On the rise; revamped player dev bearing fruit",
+        "market": "Historic New England power",
+        "style": "Contact quality, Green Monster exploitation, improving pen",
+        "narrative": "Turned a corner with youth + value adds; East dogfight factor again.",
+        "viewingTimes": "7:10 PM ET typical",
+        "headline": "From reset to relevance — Fenway’s youth movement sticks",
+        "stars": "Rafael Devers, Triston Casas, Brayan Bello",
+        "watchability": "Medium-high",
+        "bandwagonRisk": "Medium",
+        "dysfunction": "Low",
+        "injuries": "Medium",
+        "culture": "Analytical + player-facing development",
+        "statusEnum": "competing",
+        "watchabilityScore": 80,
+        "playingStyles": [
+          "contact_quality",
+          "gap_power",
+          "bullpen_mix"
+        ],
+        "philosophy": [
+          "retool",
+          "player_dev"
+        ],
+        "nationalities": [
+          "USA",
+          "Dominican Republic",
+          "Japan"
+        ],
+        "rosterPillars": {
+          "core_hitters": [
+            "Devers",
+            "Casas",
+            "Ceddanne Rafaela"
+          ],
+          "rotation": [
+            "Brayan Bello"
+          ],
+          "bullpen": [
+            "Late-inning mix"
+          ]
+        },
+        "frontOffice": {
+          "owner": "Fenway Sports Group",
+          "pbo_gm": "Craig Breslow (Chief Baseball Officer)",
+          "manager": "Alex Cora"
+        },
+        "recentPerformance": {
+          "season": "2025",
+          "trend": "Wild Card/Division viable."
+        },
+        "contractDynamics": {
+          "extensions": "Devers secured; others pending",
+          "capShape": "Big-market flexibility",
+          "tradeWatch": "Back-end SP; RH platoon bat"
+        },
+        "risksAndChallenges": {
+          "rotationDepth": "SP innings & health",
+          "divisionArms": "AL East gauntlet",
+          "ceiling": "ALDS/ALCS run",
+          "floor": "Bubble if SP falters"
+        },
+        "narrativeAnglesToWatch": [
+          "Casas power/health",
+          "Cora’s bullpen leverage tree",
+          "Top prospects’ ETA"
+        ]
+      },
+      "Chicago Cubs": {
+        "league": "NL",
+        "division": "Central",
+        "timezone": "CT",
+        "status": "Balanced club pushing to top of Central",
+        "market": "National brand; Wrigley aura",
+        "style": "Pitching/defense baseline with timely power",
+        "narrative": "Core consolidation + targeted adds keep them in October mix.",
+        "viewingTimes": "8:05 PM ET (night) typical",
+        "headline": "North Side sustainability — pitching/defense sets floor",
+        "stars": "Cody Bellinger, Seiya Suzuki, Justin Steele",
+        "watchability": "Medium-high",
+        "bandwagonRisk": "Medium",
+        "dysfunction": "Low",
+        "injuries": "Medium",
+        "culture": "Process + depth + smart platoons",
+        "statusEnum": "competing",
+        "watchabilityScore": 79,
+        "playingStyles": [
+          "defense",
+          "contact",
+          "situational_power"
+        ],
+        "philosophy": [
+          "value_adds",
+          "player_dev"
+        ],
+        "nationalities": [
+          "USA",
+          "Japan",
+          "Dominican Republic"
+        ],
+        "rosterPillars": {
+          "core_hitters": [
+            "Bellinger",
+            "Suzuki",
+            "Ian Happ"
+          ],
+          "rotation": [
+            "Justin Steele",
+            "Shota Imanaga"
+          ],
+          "bullpen": [
+            "Late-inning combo"
+          ]
+        },
+        "frontOffice": {
+          "owner": "Ricketts family",
+          "pbo_gm": "Jed Hoyer/Carter Hawkins",
+          "manager": "Craig Counsell"
+        },
+        "recentPerformance": {
+          "season": "2025",
+          "trend": "Division race factor; WC viable."
+        },
+        "contractDynamics": {
+          "extensions": "Selective; Imanaga value contract",
+          "capShape": "Healthy mid/large-market spend",
+          "tradeWatch": "High-leverage RP"
+        },
+        "risksAndChallenges": {
+          "runCreation": "Slug consistency",
+          "NLPlayoffArms": "Top-end SP matchups",
+          "ceiling": "Division title",
+          "floor": "WC chase"
+        },
+        "narrativeAnglesToWatch": [
+          "Steele strikeout profile vs. innings",
+          "Bellinger power consistency",
+          "Prospect bats forcing time"
+        ]
+      },
+      "Chicago White Sox": {
+        "league": "AL",
+        "division": "Central",
+        "timezone": "CT",
+        "status": "Deep rebuild; prospect pipeline focus",
+        "market": "South Side; reset expectations",
+        "style": "Developmental innings, patience at plate",
+        "narrative": "Organizational reset with youth and asset accumulation.",
+        "viewingTimes": "8:10 PM ET typical",
+        "headline": "South Side reset — prospects drive the plan",
+        "stars": "Colson Montgomery, Luis Robert Jr. (health watch)",
+        "watchability": "Low-to-medium — prospects intrigue",
+        "bandwagonRisk": "Low",
+        "dysfunction": "Medium (retool pains)",
+        "injuries": "Medium-high",
+        "culture": "Player dev emphasis; accountability reset",
+        "statusEnum": "rebuilding",
+        "watchabilityScore": 60,
+        "playingStyles": [
+          "developmental",
+          "contact",
+          "innings_eating"
+        ],
+        "philosophy": [
+          "long_horizon",
+          "asset_accumulation"
+        ],
+        "nationalities": [
+          "USA",
+          "Cuba",
+          "Dominican Republic"
+        ],
+        "rosterPillars": {
+          "core_hitters": [
+            "Montgomery",
+            "Robert Jr."
+          ],
+          "rotation": [
+            "Young SP carousel"
+          ],
+          "bullpen": [
+            "Audition roles"
+          ]
+        },
+        "frontOffice": {
+          "owner": "Jerry Reinsdorf",
+          "pbo_gm": "Chris Getz",
+          "manager": "Pedro Grifol"
+        },
+        "recentPerformance": {
+          "season": "2025",
+          "trend": "Lottery-level; focus on growth."
+        },
+        "contractDynamics": {
+          "tradeWatch": "Veterans with control",
+          "capShape": "Light commitments",
+          "extensions": "Selective around kids"
+        },
+        "risksAndChallenges": {
+          "offense": "Run creation floor",
+          "attendance": "Patience amid losses",
+          "ceiling": "Step forward if kids hit",
+          "floor": "Bottom tier"
+        },
+        "narrativeAnglesToWatch": [
+          "Montgomery MLB adjustment",
+          "Robert Jr. availability",
+          "Arms emerging from system"
+        ]
+      },
+      "Cincinnati Reds": {
+        "league": "NL",
+        "division": "Central",
+        "timezone": "ET",
+        "status": "Explosive, volatile youth core; playoff chase",
+        "market": "Tradition-rich Ohio Valley",
+        "style": "Power/speed blend; high strikeout variance",
+        "narrative": "Electric athletic group maturing; bullpen leverage key.",
+        "viewingTimes": "6:40–7:10 PM ET",
+        "headline": "Cincy’s fun chaos — talent surge aims for October",
+        "stars": "Elly De La Cruz, Hunter Greene, Matt McLain",
+        "watchability": "High — speed + power",
+        "bandwagonRisk": "High",
+        "dysfunction": "Low",
+        "injuries": "Medium",
+        "culture": "Let the athletes play; development-first",
+        "statusEnum": "competing",
+        "watchabilityScore": 84,
+        "playingStyles": [
+          "speed",
+          "power",
+          "swing_and_miss"
+        ],
+        "philosophy": [
+          "youth_wave",
+          "internal_growth"
+        ],
+        "nationalities": [
+          "USA",
+          "Dominican Republic"
+        ],
+        "rosterPillars": {
+          "core_hitters": [
+            "Elly De La Cruz",
+            "McLain",
+            "Spencer Steer"
+          ],
+          "rotation": [
+            "Hunter Greene",
+            "Nick Lodolo"
+          ],
+          "bullpen": [
+            "Alexis Díaz"
+          ]
+        },
+        "frontOffice": {
+          "owner": "Castellini family",
+          "pbo_gm": "Nick Krall",
+          "manager": "David Bell"
+        },
+        "recentPerformance": {
+          "season": "2025",
+          "trend": "Bubble to WC contender per standings."
+        },
+        "contractDynamics": {
+          "extensions": "Greene secured",
+          "tradeWatch": "High-leverage RP, veteran SP",
+          "capShape": "Flexible; young core"
+        },
+        "risksAndChallenges": {
+          "K%": "Offensive swing/miss spikes",
+          "SP_innings": "Young arms workloads",
+          "ceiling": "Division title with leaps",
+          "floor": "Out-of-WC if whiffs spike"
+        },
+        "narrativeAnglesToWatch": [
+          "Elly’s plate discipline trend",
+          "Greene/Lodolo health and command",
+          "Bullpen leverage plan"
+        ]
+      },
+      "Cleveland Guardians": {
+        "league": "AL",
+        "division": "Central",
+        "timezone": "ET",
+        "status": "Pitching factory + elite defense; division staple",
+        "market": "Great Lakes; strong local identity",
+        "style": "Contact, speed, run prevention",
+        "narrative": "System keeps churning arms; offense adds just enough punch.",
+        "viewingTimes": "7:10 PM ET",
+        "headline": "Contact & gloves — Guardians keep the AL Central honest",
+        "stars": "José Ramírez, Emmanuel Clase, Shane Bieber (FA/health watch)",
+        "watchability": "Medium-high",
+        "bandwagonRisk": "Medium",
+        "dysfunction": "Low",
+        "injuries": "Medium",
+        "culture": "Pitching dev excellence",
+        "statusEnum": "competing",
+        "watchabilityScore": 80,
+        "playingStyles": [
+          "contact",
+          "speed",
+          "run_prevention",
+          "bullpen_elite"
+        ],
+        "philosophy": [
+          "development",
+          "value"
+        ],
+        "nationalities": [
+          "USA",
+          "Dominican Republic"
+        ],
+        "rosterPillars": {
+          "core_hitters": [
+            "Ramírez",
+            "Steven Kwan",
+            "Josh Naylor"
+          ],
+          "rotation": [
+            "Young SP pipeline"
+          ],
+          "bullpen": [
+            "Clase"
+          ]
+        },
+        "frontOffice": {
+          "owner": "Paul Dolan",
+          "pbo_gm": "Mike Chernoff/Chris Antonetti",
+          "manager": "Stephen Vogt"
+        },
+        "recentPerformance": {
+          "season": "2025",
+          "trend": "Top-2 in Central/WC mix."
+        },
+        "contractDynamics": {
+          "extensions": "Team-friendly JRam; others evaluated",
+          "tradeWatch": "Corner power bat",
+          "capShape": "Lean payroll, targeted adds"
+        },
+        "risksAndChallenges": {
+          "Slug": "Below-average HR/ISO caps ceiling",
+          "SPHealth": "Young arms variance",
+          "ceiling": "ALDS/ALCS path with pitching",
+          "floor": "WC miss if bats fade"
+        },
+        "narrativeAnglesToWatch": [
+          "Kwan’s OBP engine",
+          "Naylor’s power consistency",
+          "Arms graduating from Columbus"
+        ]
+      },
+      "Colorado Rockies": {
+        "league": "NL",
+        "division": "West",
+        "timezone": "MT",
+        "status": "Rebuild; altitude-adjusted player dev challenges",
+        "market": "Front Range; loyal core",
+        "style": "Contact at Coors; pitching development hurdles",
+        "narrative": "Longer runway with amateur pipeline; aim to stabilize run prevention.",
+        "viewingTimes": "8:40–9:10 PM ET",
+        "headline": "Climbing slowly — Rockies rebuild around hit/field foundation",
+        "stars": "Kris Bryant (health), Ezequiel Tovar, Nolan Jones",
+        "watchability": "Low-to-medium — Coors chaos nights",
+        "bandwagonRisk": "Low",
+        "dysfunction": "Medium",
+        "injuries": "High (recent years)",
+        "culture": "Patience + altitude science",
+        "statusEnum": "rebuilding",
+        "watchabilityScore": 58,
+        "playingStyles": [
+          "contact",
+          "gap_power",
+          "young_arms_trials"
+        ],
+        "philosophy": [
+          "long_horizon"
+        ],
+        "nationalities": [
+          "USA",
+          "Venezuela",
+          "Dominican Republic"
+        ],
+        "rosterPillars": {
+          "core_hitters": [
+            "Tovar",
+            "Nolan Jones"
+          ],
+          "rotation": [
+            "Prospect SPs"
+          ],
+          "bullpen": [
+            "Audition roles"
+          ]
+        },
+        "frontOffice": {
+          "owner": "Monfort family",
+          "pbo_gm": "Bill Schmidt",
+          "manager": "Bud Black"
+        },
+        "recentPerformance": {
+          "season": "2025",
+          "trend": "Bottom of West; prospect reps."
+        },
+        "contractDynamics": {
+          "tradeWatch": "Veteran bats",
+          "capShape": "Light",
+          "extensions": "Young core candidates"
+        },
+        "risksAndChallenges": {
+          "SP_dev": "Altitude effect on breaking stuff",
+          "defense": "Outfield range critical",
+          "ceiling": "Step forward if arms click",
+          "floor": "NL bottom tier"
+        },
+        "narrativeAnglesToWatch": [
+          "Jones/Tovar growth",
+          "Humidor-era run environment",
+          "Rotation stabilization"
+        ]
+      },
+      "Detroit Tigers": {
+        "league": "AL",
+        "division": "Central",
+        "timezone": "ET",
+        "status": "Arms-first rise; offense catching up",
+        "market": "Proud Midwest baseball city",
+        "style": "Young SPs + improving plate discipline",
+        "narrative": "Pitching depth keeps door open; run scoring uptick decides ceiling.",
+        "viewingTimes": "6:40–7:10 PM ET",
+        "headline": "Motor City mound surge — bats seek league-average",
+        "stars": "Tarik Skubal, Riley Greene, Kerry Carpenter",
+        "watchability": "Medium",
+        "bandwagonRisk": "Medium",
+        "dysfunction": "Low",
+        "injuries": "Medium",
+        "culture": "Arms pipeline + defense",
+        "statusEnum": "competing",
+        "watchabilityScore": 75,
+        "playingStyles": [
+          "pitching",
+          "defense",
+          "gap_power"
+        ],
+        "philosophy": [
+          "development",
+          "value"
+        ],
+        "nationalities": [
+          "USA",
+          "Dominican Republic",
+          "Venezuela"
+        ],
+        "rosterPillars": {
+          "core_hitters": [
+            "Greene",
+            "Carpenter",
+            "Colt Keith"
+          ],
+          "rotation": [
+            "Skubal",
+            "Reese Olson"
+          ],
+          "bullpen": [
+            "Closer committee"
+          ]
+        },
+        "frontOffice": {
+          "owner": "Ilitch family",
+          "pbo_gm": "Scott Harris",
+          "manager": "A.J. Hinch"
+        },
+        "recentPerformance": {
+          "season": "2025",
+          "trend": "Central/WC fight."
+        },
+        "contractDynamics": {
+          "extensions": "Homegrown bats possible",
+          "tradeWatch": "RH power; back-end RP",
+          "capShape": "Flexible"
+        },
+        "risksAndChallenges": {
+          "offense": "League-average OBP/SLG needed",
+          "youth": "Consistency vs. elite SP",
+          "ceiling": "ALDS caliber",
+          "floor": "Bubble"
+        },
+        "narrativeAnglesToWatch": [
+          "Skubal awards push",
+          "Keith plate discipline trend",
+          "Prospect bats arrivals"
+        ]
+      },
+      "Houston Astros": {
+        "league": "AL",
+        "division": "West",
+        "timezone": "CT",
+        "status": "Aging core still dangerous; arms health monitored",
+        "market": "Large Texas market; October pedigree",
+        "style": "Power/contact balance; disciplined ABs",
+        "narrative": "Window still cracked open with Bregman/Altuve/Yordan; rotation churn a focus.",
+        "viewingTimes": "8:10 PM ET",
+        "headline": "Still October-savvy — core vets try to extend run",
+        "stars": "Yordan Alvarez, Jose Altuve, Alex Bregman",
+        "watchability": "High",
+        "bandwagonRisk": "High",
+        "dysfunction": "Low-to-medium",
+        "injuries": "Medium-high (staff)",
+        "culture": "Expectations + execution",
+        "statusEnum": "competing",
+        "watchabilityScore": 82,
+        "playingStyles": [
+          "power",
+          "discipline",
+          "situational_hitting"
+        ],
+        "philosophy": [
+          "win_now",
+          "player_dev"
+        ],
+        "nationalities": [
+          "USA",
+          "Cuba",
+          "Dominican Republic",
+          "Venezuela"
+        ],
+        "rosterPillars": {
+          "core_hitters": [
+            "Alvarez",
+            "Altuve",
+            "Bregman"
+          ],
+          "rotation": [
+            "Framber Valdez",
+            "Hunter Brown"
+          ],
+          "bullpen": [
+            "Bryan Abreu"
+          ]
+        },
+        "frontOffice": {
+          "owner": "Jim Crane",
+          "pbo_gm": "Dana Brown",
+          "manager": "Joe Espada"
+        },
+        "recentPerformance": {
+          "season": "2025",
+          "trend": "AL West/WC mix."
+        },
+        "contractDynamics": {
+          "extensions": "Key bats monitored",
+          "tradeWatch": "Starter; late-inning RP",
+          "capShape": "Upper-tier spend"
+        },
+        "risksAndChallenges": {
+          "rotation": "Injury/variance",
+          "ageCurve": "Vets workload",
+          "ceiling": "ALCS range",
+          "floor": "WC miss if staff thin"
+        },
+        "narrativeAnglesToWatch": [
+          "Yordan MVP push",
+          "Framber consistency",
+          "Bullpen leverage"
+        ]
+      },
+      "Kansas City Royals": {
+        "league": "AL",
+        "division": "Central",
+        "timezone": "CT",
+        "status": "Contact/speed club on real upswing",
+        "market": "Heartland loyal base",
+        "style": "Speed, contact, improved pitching",
+        "narrative": "Witt Jr. ascended; Royals’ next step hinges on rotation depth.",
+        "viewingTimes": "8:10 PM ET",
+        "headline": "Witt-powered rise — K.C. back in the mix",
+        "stars": "Bobby Witt Jr., Cole Ragans, Vinnie Pasquantino",
+        "watchability": "High",
+        "bandwagonRisk": "Medium-high",
+        "dysfunction": "Low",
+        "injuries": "Medium",
+        "culture": "Athleticism + base running pressure",
+        "statusEnum": "competing",
+        "watchabilityScore": 83,
+        "playingStyles": [
+          "speed",
+          "contact",
+          "aggression"
+        ],
+        "philosophy": [
+          "internal_growth",
+          "value_signings"
+        ],
+        "nationalities": [
+          "USA",
+          "Venezuela",
+          "Dominican Republic"
+        ],
+        "rosterPillars": {
+          "core_hitters": [
+            "Witt Jr.",
+            "Pasquantino",
+            "MJ Melendez"
+          ],
+          "rotation": [
+            "Cole Ragans",
+            "Brady Singer"
+          ],
+          "bullpen": [
+            "James McArthur"
+          ]
+        },
+        "frontOffice": {
+          "owner": "John Sherman",
+          "pbo_gm": "JJ Picollo",
+          "manager": "Matt Quatraro"
+        },
+        "recentPerformance": {
+          "season": "2025",
+          "trend": "Central/WC race."
+        },
+        "contractDynamics": {
+          "extensions": "Witt long-term secured",
+          "tradeWatch": "SP depth; setup RP",
+          "capShape": "Lean, targeted spend"
+        },
+        "risksAndChallenges": {
+          "rotationDepth": "Behind Ragans/Singer",
+          "power": "Sustained slug",
+          "ceiling": "ALDS-level",
+          "floor": "Bubble"
+        },
+        "narrativeAnglesToWatch": [
+          "Ragans strikeout rate",
+          "Witt’s 30/50 pace",
+          "Pen consistency"
+        ]
+      },
+      "Los Angeles Angels": {
+        "league": "AL",
+        "division": "West",
+        "timezone": "PT",
+        "status": "Transition era; new leadership search",
+        "market": "Orange County, big media market",
+        "style": "Attempting pitching/defense baseline; offense inconsistent",
+        "narrative": "Post-Ohtani identity still forming; manager opening among offseason storylines.",
+        "viewingTimes": "9:38–10:07 PM ET",
+        "headline": "OC reset — stabilizing the staff is job one",
+        "stars": "Mike Trout (availability managed), Logan O’Hoppe, Zach Neto",
+        "watchability": "Medium",
+        "bandwagonRisk": "Low",
+        "dysfunction": "Medium",
+        "injuries": "High (Trout history; staff attrition)",
+        "culture": "In search of sustainable pitching dev",
+        "statusEnum": "retooling",
+        "watchabilityScore": 70,
+        "playingStyles": [
+          "contact",
+          "defense",
+          "youth_pitching"
+        ],
+        "philosophy": [
+          "reset",
+          "player_dev"
+        ],
+        "nationalities": [
+          "USA",
+          "Dominican Republic",
+          "Japan"
+        ],
+        "rosterPillars": {
+          "core_hitters": [
+            "Trout",
+            "O’Hoppe",
+            "Neto"
+          ],
+          "rotation": [
+            "Reid Detmers (consistency watch)"
+          ],
+          "bullpen": [
+            "Audition roles"
+          ]
+        },
+        "frontOffice": {
+          "owner": "Arte Moreno",
+          "pbo_gm": "Perry Minasian",
+          "manager": "Open (2025 offseason changes in motion)"
+        },
+        "recentPerformance": {
+          "season": "2025",
+          "trend": "AL West lower tier."
+        },
+        "contractDynamics": {
+          "tradeWatch": "Arms with control",
+          "capShape": "High AAV legacy deals + room",
+          "extensions": "Young core timing"
+        },
+        "risksAndChallenges": {
+          "TroutHealth": "Availability = draw",
+          "SP_dev": "Stabilizing rotation",
+          "ceiling": "WC if arms click",
+          "floor": "West cellar"
+        },
+        "narrativeAnglesToWatch": [
+          "Managerial hire",
+          "Trout role/health",
+          "Young arms growth"
+        ]
+      },
+      "Los Angeles Dodgers": {
+        "league": "NL",
+        "division": "West",
+        "timezone": "PT",
+        "status": "Super-team era with elite depth",
+        "market": "Global brand; packed stadium",
+        "style": "Power + plate discipline + waves of pitching",
+        "narrative": "Title-or-bust expectation with star nucleus and unmatched depth.",
+        "viewingTimes": "10:10 PM ET typical",
+        "headline": "Machine keeps humming — title standard in L.A.",
+        "stars": "Mookie Betts, Freddie Freeman, (plus star SP adds)",
+        "watchability": "Elite",
+        "bandwagonRisk": "Very high",
+        "dysfunction": "Low",
+        "injuries": "Medium",
+        "culture": "Process perfection & scouting/dev synergy",
+        "statusEnum": "contender",
+        "watchabilityScore": 95,
+        "playingStyles": [
+          "power",
+          "discipline",
+          "deep_staff"
+        ],
+        "philosophy": [
+          "win_now",
+          "pipeline"
+        ],
+        "nationalities": [
+          "USA",
+          "Dominican Republic",
+          "Japan"
+        ],
+        "rosterPillars": {
+          "core_hitters": [
+            "Betts",
+            "Freeman",
+            "Will Smith"
+          ],
+          "rotation": [
+            "Top-end FA/SP pipeline"
+          ],
+          "bullpen": [
+            "Evan Phillips + depth"
+          ]
+        },
+        "frontOffice": {
+          "owner": "Guggenheim Baseball",
+          "pbo_gm": "Andrew Friedman/Brandon Gomes",
+          "manager": "Dave Roberts"
+        },
+        "recentPerformance": {
+          "season": "2025",
+          "trend": "Division leader/WS favorite tier."
+        },
+        "contractDynamics": {
+          "extensions": "Core secured",
+          "capShape": "CBT apex; enduring flexibility",
+          "tradeWatch": "Luxury depth moves"
+        },
+        "risksAndChallenges": {
+          "OctoberVariance": "Short-series randomness",
+          "injuries": "Manage workloads",
+          "ceiling": "World Series",
+          "floor": "NLDS stumble"
+        },
+        "narrativeAnglesToWatch": [
+          "Roberts’ bullpen chess",
+          "Star SP management",
+          "Prospect debuts"
+        ]
+      },
+      "Miami Marlins": {
+        "league": "NL",
+        "division": "East",
+        "timezone": "ET",
+        "status": "Reset/retool; pitching dev remains core",
+        "market": "South Florida; variable engagement",
+        "style": "Arms pipeline, contact-first O",
+        "narrative": "Post-2023 WC, Miami retools around young pitching.",
+        "viewingTimes": "6:40 PM ET",
+        "headline": "Arms again — can offense keep up?",
+        "stars": "Jazz Chisholm Jr., Jesús Luzardo (health), Eury Pérez (rehab/innings)",
+        "watchability": "Medium",
+        "bandwagonRisk": "Low",
+        "dysfunction": "Medium",
+        "injuries": "High (rotation)",
+        "culture": "Pitching lab + development",
+        "statusEnum": "retooling",
+        "watchabilityScore": 69,
+        "playingStyles": [
+          "pitching",
+          "speed",
+          "contact"
+        ],
+        "philosophy": [
+          "value_build",
+          "youth"
+        ],
+        "nationalities": [
+          "USA",
+          "Dominican Republic",
+          "Venezuela",
+          "Cuba"
+        ],
+        "rosterPillars": {
+          "core_hitters": [
+            "Jazz",
+            "Jake Burger"
+          ],
+          "rotation": [
+            "Luzardo",
+            "Pérez (timeline mgmt)"
+          ],
+          "bullpen": [
+            "Matchup committee"
+          ]
+        },
+        "frontOffice": {
+          "owner": "Bruce Sherman",
+          "pbo_gm": "Peter Bendix",
+          "manager": "TBD (post-Schumaker era)"
+        },
+        "recentPerformance": {
+          "season": "2025",
+          "trend": "NL East lower tier; arms health decisive."
+        },
+        "contractDynamics": {
+          "tradeWatch": "Sell-high SP? RH power bat",
+          "capShape": "Lean payroll",
+          "extensions": "Pre-arb arms"
+        },
+        "risksAndChallenges": {
+          "offense": "OBP/SLG deficits",
+          "arm_health": "Young SP management",
+          "ceiling": "WC fringe",
+          "floor": "NL bottom-5"
+        },
+        "narrativeAnglesToWatch": [
+          "Pérez workload ramp",
+          "Jazz stability/role",
+          "Bendix’s asset plays"
+        ]
+      },
+      "Milwaukee Brewers": {
+        "league": "NL",
+        "division": "Central",
+        "timezone": "CT",
+        "status": "Model franchise for pitching/defense; repeated contenders",
+        "market": "Small market; elite outcomes",
+        "style": "Elite run prevention; opportunistic power",
+        "narrative": "Front office keeps turning over staff and competing; 2025 top MLB record tier.",
+        "viewingTimes": "8:10 PM ET",
+        "headline": "Perpetual contenders — pitching factory keeps humming",
+        "stars": "William Contreras, Christian Yelich, Freddy Peralta",
+        "watchability": "High",
+        "bandwagonRisk": "Medium",
+        "dysfunction": "Low",
+        "injuries": "Medium",
+        "culture": "Pitching lab + defense + fit",
+        "statusEnum": "contender",
+        "watchabilityScore": 88,
+        "playingStyles": [
+          "pitching",
+          "defense",
+          "smart_power"
+        ],
+        "philosophy": [
+          "value",
+          "development",
+          "trades"
+        ],
+        "nationalities": [
+          "USA",
+          "Dominican Republic",
+          "Venezuela"
+        ],
+        "rosterPillars": {
+          "core_hitters": [
+            "Contreras",
+            "Yelich",
+            "Rhys Hoskins"
+          ],
+          "rotation": [
+            "Peralta",
+            "DL Hall/young arms"
+          ],
+          "bullpen": [
+            "Devin Williams (role health watch)"
+          ]
+        },
+        "frontOffice": {
+          "owner": "Mark Attanasio",
+          "pbo_gm": "Matt Arnold",
+          "manager": "Pat Murphy"
+        },
+        "recentPerformance": {
+          "season": "2025",
+          "trend": "Top MLB record range per official tables."
+        },
+        "contractDynamics": {
+          "tradeWatch": "RH bat vs LHP",
+          "capShape": "Disciplined",
+          "extensions": "Select core bats/arms"
+        },
+        "risksAndChallenges": {
+          "offenseVar": "Slug variance in October",
+          "SPhealth": "Innings after staff turnover",
+          "ceiling": "NLCS/WS",
+          "floor": "Early exit if bats go cold"
+        },
+        "narrativeAnglesToWatch": [
+          "Contreras all-around value",
+          "Peralta ace workload",
+          "Murphy matchup chess"
+        ]
+      },
+      "Minnesota Twins": {
+        "league": "AL",
+        "division": "Central",
+        "timezone": "CT",
+        "status": "Division favorite profile; October breakthrough target",
+        "market": "Upper Midwest; strong TV/radio",
+        "style": "Power + K-rate arms + strong defense",
+        "narrative": "Sustained depth has stabilized the AL Central outlook.",
+        "viewingTimes": "8:10 PM ET",
+        "headline": "North Star power — Twins aim to lock Central",
+        "stars": "Royce Lewis, Carlos Correa, Pablo López",
+        "watchability": "High",
+        "bandwagonRisk": "Medium",
+        "dysfunction": "Low",
+        "injuries": "Medium-high (Lewis/Byron Buxton histories)",
+        "culture": "Depth + flexibility + platoons",
+        "statusEnum": "competing",
+        "watchabilityScore": 82,
+        "playingStyles": [
+          "power",
+          "strikeouts_on_mound",
+          "defense"
+        ],
+        "philosophy": [
+          "player_dev",
+          "value_swaps"
+        ],
+        "nationalities": [
+          "USA",
+          "Puerto Rico",
+          "Dominican Republic"
+        ],
+        "rosterPillars": {
+          "core_hitters": [
+            "Lewis",
+            "Correa",
+            "Max Kepler"
+          ],
+          "rotation": [
+            "Pablo López",
+            "Joe Ryan"
+          ],
+          "bullpen": [
+            "Jhoan Duran"
+          ]
+        },
+        "frontOffice": {
+          "owner": "Pohlad family",
+          "pbo_gm": "Derek Falvey/Thad Levine",
+          "manager": "Rocco Baldelli"
+        },
+        "recentPerformance": {
+          "season": "2025",
+          "trend": "Top of AL Central mix."
+        },
+        "contractDynamics": {
+          "extensions": "Lewis/arms long-term paths",
+          "tradeWatch": "RH bat vs LHP",
+          "capShape": "Mid-market discipline"
+        },
+        "risksAndChallenges": {
+          "health": "Key bats’ availability",
+          "October": "Contact vs elite pitching",
+          "ceiling": "ALCS",
+          "floor": "WC miss with injuries"
+        },
+        "narrativeAnglesToWatch": [
+          "Lewis plate discipline + health",
+          "Duran leverage role",
+          "Prospect arms next wave"
+        ]
+      },
+      "New York Mets": {
+        "league": "NL",
+        "division": "East",
+        "timezone": "ET",
+        "status": "High-spend retool; rotation identity in progress",
+        "market": "Massive NYC stage",
+        "style": "OBP + star sluggers; arms TBD year to year",
+        "narrative": "Aggressive FO keeps toggling between buy/hold; aim to stabilize pitching pyramid.",
+        "viewingTimes": "7:10 PM ET",
+        "headline": "Big-market recalibration — Queens eyeing steadier staff",
+        "stars": "Francisco Lindor, Pete Alonso, Kodai Senga",
+        "watchability": "Medium-high",
+        "bandwagonRisk": "Medium",
+        "dysfunction": "Medium",
+        "injuries": "Medium-high (staff)",
+        "culture": "Resource-rich; pressure-cooker standards",
+        "statusEnum": "competing",
+        "watchabilityScore": 78,
+        "playingStyles": [
+          "discipline",
+          "power",
+          "FA_pitching"
+        ],
+        "philosophy": [
+          "win_now",
+          "buy_and_build"
+        ],
+        "nationalities": [
+          "USA",
+          "Puerto Rico",
+          "Japan",
+          "Dominican Republic"
+        ],
+        "rosterPillars": {
+          "core_hitters": [
+            "Lindor",
+            "Alonso",
+            "Brandon Nimmo"
+          ],
+          "rotation": [
+            "Senga",
+            "FA/Trade adds"
+          ],
+          "bullpen": [
+            "Edwin Díaz"
+          ]
+        },
+        "frontOffice": {
+          "owner": "Steve Cohen",
+          "pbo_gm": "David Stearns",
+          "manager": "Carlos Mendoza"
+        },
+        "recentPerformance": {
+          "season": "2025",
+          "trend": "WC-range volatility."
+        },
+        "contractDynamics": {
+          "extensions": "Alonso decision spotlight",
+          "tradeWatch": "SP depth; corner OF",
+          "capShape": "CBT+ willingness"
+        },
+        "risksAndChallenges": {
+          "rotation": "Depth/health",
+          "NY_pressure": "Volatility magnified",
+          "ceiling": "NLCS if arms click",
+          "floor": "Underperform vs spend"
+        },
+        "narrativeAnglesToWatch": [
+          "Alonso future",
+          "Senga durability",
+          "Top-prospect timelines"
+        ]
+      },
+      "New York Yankees": {
+        "league": "AL",
+        "division": "East",
+        "timezone": "ET",
+        "status": "Star-led juggernaut; October expectations",
+        "market": "Global brand",
+        "style": "Power, patience, premium defense up the middle",
+        "narrative": "Top-2 AL record tier; Bronx expectations reset to rings-or-bust.",
+        "viewingTimes": "7:05 PM ET",
+        "headline": "Bronx power — title standard renewed",
+        "stars": "Aaron Judge, Juan Soto, Gerrit Cole",
+        "watchability": "Elite",
+        "bandwagonRisk": "Very high",
+        "dysfunction": "Low",
+        "injuries": "Medium (Cole’/Judge workload mgmt)",
+        "culture": "Accountability, resources, analytics",
+        "statusEnum": "contender",
+        "watchabilityScore": 95,
+        "playingStyles": [
+          "power",
+          "patience",
+          "ace_fronted"
+        ],
+        "philosophy": [
+          "win_now",
+          "star_power"
+        ],
+        "nationalities": [
+          "USA",
+          "Dominican Republic",
+          "Venezuela"
+        ],
+        "rosterPillars": {
+          "core_hitters": [
+            "Judge",
+            "Soto",
+            "Gleyber Torres"
+          ],
+          "rotation": [
+            "Cole",
+            "Nestor Cortes"
+          ],
+          "bullpen": [
+            "Clay Holmes"
+          ]
+        },
+        "frontOffice": {
+          "owner": "Steinbrenner family",
+          "pbo_gm": "Brian Cashman",
+          "manager": "Aaron Boone"
+        },
+        "recentPerformance": {
+          "season": "2025",
+          "trend": "AL East co-lead tier per official tables."
+        },
+        "contractDynamics": {
+          "extensions": "Soto megadeal watch",
+          "tradeWatch": "Lefty pen; bench OF",
+          "capShape": "CBT apex"
+        },
+        "risksAndChallenges": {
+          "OctoberContact": "HR-or-bust risk",
+          "health": "Star workloads",
+          "ceiling": "WS champs",
+          "floor": "ALDS stumble if bats cold"
+        },
+        "narrativeAnglesToWatch": [
+          "Judge/Soto duo production",
+          "Cole Cy push",
+          "Boone’s October bullpen map"
+        ]
+      },
+      "Oakland Athletics": {
+        "league": "AL",
+        "division": "West",
+        "timezone": "PT",
+        "status": "Transitional period; relocation saga backdrop",
+        "market": "Bay-to-Vegas transition noise",
+        "style": "Audition/development heavy",
+        "narrative": "Young roster cycles with relocation context; long-runway plan.",
+        "viewingTimes": "9:40–10:10 PM ET",
+        "headline": "In flux — development under relocation cloud",
+        "stars": "Zack Gelof, Tyler Soderstrom",
+        "watchability": "Low-to-medium — prospect nights pop",
+        "bandwagonRisk": "Low",
+        "dysfunction": "Medium-high (off-field uncertainty)",
+        "injuries": "Medium",
+        "culture": "Find-and-develop amid uncertainty",
+        "statusEnum": "rebuilding",
+        "watchabilityScore": 57,
+        "playingStyles": [
+          "developmental",
+          "contact",
+          "innings_trials"
+        ],
+        "philosophy": [
+          "long_horizon",
+          "asset_accumulation"
+        ],
+        "nationalities": [
+          "USA",
+          "Dominican Republic"
+        ],
+        "rosterPillars": {
+          "core_hitters": [
+            "Gelof",
+            "Soderstrom"
+          ],
+          "rotation": [
+            "Young SP trials"
+          ],
+          "bullpen": [
+            "Opener/committee"
+          ]
+        },
+        "frontOffice": {
+          "owner": "John Fisher",
+          "pbo_gm": "David Forst",
+          "manager": "Mark Kotsay"
+        },
+        "recentPerformance": {
+          "season": "2025",
+          "trend": "AL bottom tier."
+        },
+        "contractDynamics": {
+          "tradeWatch": "Veteran rentals",
+          "capShape": "Minimal long-term outlay",
+          "extensions": "Selective pre-arb"
+        },
+        "risksAndChallenges": {
+          "stability": "Venue/timeline",
+          "talentDepth": "Thin margins",
+          "ceiling": "Step forward if kids pop",
+          "floor": "AL cellar"
+        },
+        "narrativeAnglesToWatch": [
+          "Relocation milestones",
+          "Prospect debuts",
+          "Pitching lab progress"
+        ]
+      },
+      "Philadelphia Phillies": {
+        "league": "NL",
+        "division": "East",
+        "timezone": "ET",
+        "status": "Veteran NL powerhouse; October-tested",
+        "market": "Huge, intense Northeast base",
+        "style": "HRs, high-octane crowd, frontline pitching",
+        "narrative": "Deep playoff résumé; 2025 top MLB record tier.",
+        "viewingTimes": "6:40–7:05 PM ET",
+        "headline": "Red October perennial — power + aces",
+        "stars": "Bryce Harper, Trea Turner, Zack Wheeler",
+        "watchability": "Elite",
+        "bandwagonRisk": "High",
+        "dysfunction": "Low",
+        "injuries": "Medium",
+        "culture": "Veteran edge + analytics",
+        "statusEnum": "contender",
+        "watchabilityScore": 94,
+        "playingStyles": [
+          "power",
+          "aces",
+          "crowd_energy"
+        ],
+        "philosophy": [
+          "win_now",
+          "retain_core"
+        ],
+        "nationalities": [
+          "USA",
+          "Venezuela",
+          "Dominican Republic"
+        ],
+        "rosterPillars": {
+          "core_hitters": [
+            "Harper",
+            "Turner",
+            "Kyle Schwarber"
+          ],
+          "rotation": [
+            "Wheeler",
+            "Aaron Nola"
+          ],
+          "bullpen": [
+            "José Alvarado"
+          ]
+        },
+        "frontOffice": {
+          "owner": "John Middleton",
+          "pbo_gm": "Dave Dombrowski/Sam Fuld",
+          "manager": "Rob Thomson"
+        },
+        "recentPerformance": {
+          "season": "2025",
+          "trend": "Top MLB record range."
+        },
+        "contractDynamics": {
+          "extensions": "Harper longevity; ace money",
+          "tradeWatch": "Bench RH bat",
+          "capShape": "Upper CBT, willing to spend"
+        },
+        "risksAndChallenges": {
+          "K-rate": "High vs. elite arms",
+          "pen": "Leverage volatility",
+          "ceiling": "WS win",
+          "floor": "NLDS stumble"
+        },
+        "narrativeAnglesToWatch": [
+          "Harper HR/BB trend",
+          "Wheeler innings",
+          "Thomson matchup agility"
+        ]
+      },
+      "Pittsburgh Pirates": {
+        "league": "NL",
+        "division": "Central",
+        "timezone": "ET",
+        "status": "Promising core; aiming to exit rebuild for good",
+        "market": "Steel City; picturesque park",
+        "style": "Contact/speed uptick; arms pipeline",
+        "narrative": "Sustainable climb with Reynolds/Cruz cornerstone and young arms.",
+        "viewingTimes": "6:40 PM ET",
+        "headline": "Bridge to contention — kids and Reynolds lead",
+        "stars": "Bryan Reynolds, Oneil Cruz, Paul Skenes",
+        "watchability": "Medium-high",
+        "bandwagonRisk": "Medium",
+        "dysfunction": "Low",
+        "injuries": "Medium (pitching)",
+        "culture": "Development patience turning to wins",
+        "statusEnum": "rising",
+        "watchabilityScore": 77,
+        "playingStyles": [
+          "pitching",
+          "speed",
+          "contact"
+        ],
+        "philosophy": [
+          "youth",
+          "value"
+        ],
+        "nationalities": [
+          "USA",
+          "Dominican Republic"
+        ],
+        "rosterPillars": {
+          "core_hitters": [
+            "Reynolds",
+            "Cruz",
+            "Henry Davis"
+          ],
+          "rotation": [
+            "Skenes",
+            "Jared Jones"
+          ],
+          "bullpen": [
+            "David Bednar"
+          ]
+        },
+        "frontOffice": {
+          "owner": "Bob Nutting",
+          "pbo_gm": "Ben Cherington",
+          "manager": "Don Kelly"
+        },
+        "recentPerformance": {
+          "season": "2025",
+          "trend": "Central fringe/WC chase."
+        },
+        "contractDynamics": {
+          "extensions": "Reynolds secured; arms paths open",
+          "tradeWatch": "1B power; pen bridge",
+          "capShape": "Lean spend"
+        },
+        "risksAndChallenges": {
+          "offense": "Consistency vs. RHP",
+          "youth": "SP innings management",
+          "ceiling": "WC with arm leaps",
+          "floor": "Sub-.500 if bats lag"
+        },
+        "narrativeAnglesToWatch": [
+          "Skenes K/BB trend",
+          "Cruz contact quality",
+          "Bednar leverage usage"
+        ]
+      },
+      "San Diego Padres": {
+        "league": "NL",
+        "division": "West",
+        "timezone": "PT",
+        "status": "Star power still present; resourceful retool",
+        "market": "SoCal beach vibe + packed Petco",
+        "style": "Athletic defense; middle-order thunder",
+        "narrative": "Post big-payroll swings, SD remains dangerous with star bats.",
+        "viewingTimes": "9:40–10:10 PM ET",
+        "headline": "Petco punch — Padres still swing big",
+        "stars": "Fernando Tatis Jr., Manny Machado, Xander Bogaerts",
+        "watchability": "High",
+        "bandwagonRisk": "High",
+        "dysfunction": "Medium",
+        "injuries": "Medium",
+        "culture": "Aggressive FO; fan energy",
+        "statusEnum": "competing",
+        "watchabilityScore": 86,
+        "playingStyles": [
+          "power",
+          "athleticism",
+          "pen_matchups"
+        ],
+        "philosophy": [
+          "win_now",
+          "star_core"
+        ],
+        "nationalities": [
+          "USA",
+          "Dominican Republic",
+          "Venezuela"
+        ],
+        "rosterPillars": {
+          "core_hitters": [
+            "Tatis Jr.",
+            "Machado",
+            "Bogaerts"
+          ],
+          "rotation": [
+            "Yu Darvish (age mgmt)",
+            "Joe Musgrove"
+          ],
+          "bullpen": [
+            "Robert Suarez"
+          ]
+        },
+        "frontOffice": {
+          "owner": "Seidler Trust",
+          "pbo_gm": "A.J. Preller",
+          "manager": "Mike Shildt"
+        },
+        "recentPerformance": {
+          "season": "2025",
+          "trend": "WC/Division push."
+        },
+        "contractDynamics": {
+          "tradeWatch": "SP innings; OF depth",
+          "capShape": "High AAV stars + value finds",
+          "extensions": "Tatis/Machado secured"
+        },
+        "risksAndChallenges": {
+          "health": "Aging SP core",
+          "depth": "Bench bats",
+          "ceiling": "NLCS",
+          "floor": "WC miss if staff thin"
+        },
+        "narrativeAnglesToWatch": [
+          "Tatis HR/SB blend",
+          "Machado health",
+          "Preller deadline moves"
+        ]
+      },
+      "San Francisco Giants": {
+        "league": "NL",
+        "division": "West",
+        "timezone": "PT",
+        "status": "Identity search; manager hire pending",
+        "market": "Bay Area; high standards",
+        "style": "Pitching friendly park; matchup-heavy approach",
+        "narrative": "Post-Kapler/Melvin churn, SF seeks a steady skipper and clearer lineup identity.",
+        "viewingTimes": "9:45–10:15 PM ET",
+        "headline": "By the Bay, a reset — Giants hunt for cohesion",
+        "stars": "Logan Webb, Jung Hoo Lee",
+        "watchability": "Medium",
+        "bandwagonRisk": "Low",
+        "dysfunction": "Medium",
+        "injuries": "Medium",
+        "culture": "Analytically inclined; needs lineup anchors",
+        "statusEnum": "retooling",
+        "watchabilityScore": 72,
+        "playingStyles": [
+          "pitching",
+          "defense",
+          "matchups"
+        ],
+        "philosophy": [
+          "value_build",
+          "FA_selective"
+        ],
+        "nationalities": [
+          "USA",
+          "South Korea",
+          "Dominican Republic"
+        ],
+        "rosterPillars": {
+          "core_hitters": [
+            "Jung Hoo Lee",
+            "Michael Conforto"
+          ],
+          "rotation": [
+            "Logan Webb",
+            "Kyle Harrison"
+          ],
+          "bullpen": [
+            "Camilo Doval"
+          ]
+        },
+        "frontOffice": {
+          "owner": "Greg Johnson family group",
+          "pbo_gm": "Farhan Zaidi/Pete Putila",
+          "manager": "Vacant (search ongoing)"
+        },
+        "recentPerformance": {
+          "season": "2025",
+          "trend": "NL West mid/lower tier."
+        },
+        "contractDynamics": {
+          "tradeWatch": "Middle-order thump",
+          "capShape": "Ample room",
+          "extensions": "Webb secured"
+        },
+        "risksAndChallenges": {
+          "offense": "Run creation floor",
+          "manager": "Hire fit",
+          "ceiling": "WC if bats land",
+          "floor": "West bottom half"
+        },
+        "narrativeAnglesToWatch": [
+          "Managerial hire",
+          "Lee OBP/defense stateside",
+          "Harrison K/BB trend"
+        ]
+      },
+      "Seattle Mariners": {
+        "league": "AL",
+        "division": "West",
+        "timezone": "PT",
+        "status": "Pitching-and-D club; October ambitions",
+        "market": "Pacific Northwest; diehard base",
+        "style": "Elite rotation, fly-ball suppression, 3-true-outcome bats",
+        "narrative": "Arms keep floor high; offense consistency decides top end.",
+        "viewingTimes": "9:40–10:10 PM ET",
+        "headline": "Sea of arms — M’s chase sustained October",
+        "stars": "Julio Rodríguez, George Kirby, Luis Castillo",
+        "watchability": "High",
+        "bandwagonRisk": "Medium-high",
+        "dysfunction": "Low",
+        "injuries": "Medium",
+        "culture": "Pitching dev excellence; defense standards",
+        "statusEnum": "competing",
+        "watchabilityScore": 85,
+        "playingStyles": [
+          "pitching",
+          "defense",
+          "three_true_outcomes"
+        ],
+        "philosophy": [
+          "development",
+          "targeted_trades"
+        ],
+        "nationalities": [
+          "USA",
+          "Dominican Republic",
+          "Venezuela"
+        ],
+        "rosterPillars": {
+          "core_hitters": [
+            "Julio Rodríguez",
+            "Cal Raleigh"
+          ],
+          "rotation": [
+            "Kirby",
+            "Castillo",
+            "Logan Gilbert"
+          ],
+          "bullpen": [
+            "Closer committee depth"
+          ]
+        },
+        "frontOffice": {
+          "owner": "John Stanton group",
+          "pbo_gm": "Justin Hollander/Jerry Dipoto",
+          "manager": "Dan Wilson"
+        },
+        "recentPerformance": {
+          "season": "2025",
+          "trend": "AL West/WC threat."
+        },
+        "contractDynamics": {
+          "extensions": "Julio megadeal in place",
+          "tradeWatch": "RH bat contact",
+          "capShape": "Moderate"
+        },
+        "risksAndChallenges": {
+          "offenseVar": "High K%, RISP",
+          "health": "Rotation workloads",
+          "ceiling": "ALCS",
+          "floor": "WC miss if bats cold"
+        },
+        "narrativeAnglesToWatch": [
+          "Julio MVP push",
+          "Kirby strike-throwing clinic",
+          "Deadline bat addition"
+        ]
+      },
+      "St. Louis Cardinals": {
+        "league": "NL",
+        "division": "Central",
+        "timezone": "CT",
+        "status": "Stability returning; pitching modernization",
+        "market": "Model Midwestern baseball town",
+        "style": "Contact/defense, evolving pitching dev",
+        "narrative": "Reset underway with modernized mound approach.",
+        "viewingTimes": "7:45–8:15 PM ET",
+        "headline": "The Cardinal Way 2.0 — modern mound focus",
+        "stars": "Nolan Arenado, Paul Goldschmidt (role), Sonny Gray",
+        "watchability": "Medium",
+        "bandwagonRisk": "Low-medium",
+        "dysfunction": "Low",
+        "injuries": "Medium",
+        "culture": "Tradition + modern tweaks",
+        "statusEnum": "competing",
+        "watchabilityScore": 74,
+        "playingStyles": [
+          "defense",
+          "contact",
+          "pitchability"
+        ],
+        "philosophy": [
+          "value",
+          "dev"
+        ],
+        "nationalities": [
+          "USA",
+          "Dominican Republic"
+        ],
+        "rosterPillars": {
+          "core_hitters": [
+            "Arenado",
+            "Goldschmidt",
+            "Masyn Winn"
+          ],
+          "rotation": [
+            "Sonny Gray",
+            "Miles Mikolas"
+          ],
+          "bullpen": [
+            "Ryan Helsley"
+          ]
+        },
+        "frontOffice": {
+          "owner": "DeWitt family",
+          "pbo_gm": "John Mozeliak/Michael Girsch",
+          "manager": "Oliver Marmol"
+        },
+        "recentPerformance": {
+          "season": "2025",
+          "trend": "Central pack."
+        },
+        "contractDynamics": {
+          "extensions": "Winn future",
+          "tradeWatch": "SP swingman; OF bat",
+          "capShape": "Flexible mid-market"
+        },
+        "risksAndChallenges": {
+          "power": "Slugging deficits",
+          "SP": "Top-end stuff scarcity",
+          "ceiling": "WC",
+          "floor": "Below .500"
+        },
+        "narrativeAnglesToWatch": [
+          "Helsley leverage",
+          "Winn growth",
+          "Arenado HR/EV trend"
+        ]
+      },
+      "Tampa Bay Rays": {
+        "league": "AL",
+        "division": "East",
+        "timezone": "ET",
+        "status": "Injury-tested innovation engine; still competitive",
+        "market": "Small market, big efficiency",
+        "style": "Matchups, run prevention, development edge",
+        "narrative": "Churn and injuries never fully derail; Rays keep finding edges.",
+        "viewingTimes": "6:50 PM ET",
+        "headline": "Forever optimized — Rays Math keeps them in it",
+        "stars": "Yandy Díaz, Randy Arozarena, Zach Eflin",
+        "watchability": "Medium-high",
+        "bandwagonRisk": "Medium",
+        "dysfunction": "Low",
+        "injuries": "Medium-high (staff churn)",
+        "culture": "Ingenuity, platoons, pen games",
+        "statusEnum": "competing",
+        "watchabilityScore": 80,
+        "playingStyles": [
+          "matchups",
+          "defense",
+          "penning"
+        ],
+        "philosophy": [
+          "value_build",
+          "dev_edges"
+        ],
+        "nationalities": [
+          "Cuba",
+          "Mexico",
+          "USA",
+          "Dominican Republic"
+        ],
+        "rosterPillars": {
+          "core_hitters": [
+            "Yandy Díaz",
+            "Arozarena",
+            "Isaac Paredes"
+          ],
+          "rotation": [
+            "Eflin + mix"
+          ],
+          "bullpen": [
+            "Committee"
+          ]
+        },
+        "frontOffice": {
+          "owner": "Stuart Sternberg",
+          "pbo_gm": "Erik Neander/Peter Bendix (prior)",
+          "manager": "Kevin Cash"
+        },
+        "recentPerformance": {
+          "season": "2025",
+          "trend": "WC chase."
+        },
+        "contractDynamics": {
+          "tradeWatch": "Impact bat",
+          "capShape": "Lean; prospect-rich",
+          "extensions": "Selective"
+        },
+        "risksAndChallenges": {
+          "injuries": "Staff attrition",
+          "power": "HR rates vs. AL powers",
+          "ceiling": "ALDS/ALCS",
+          "floor": "Bubble"
+        },
+        "narrativeAnglesToWatch": [
+          "Paredes HR pull-side",
+          "Cash bullpen wizardry",
+          "Youth pipeline"
+        ]
+      },
+      "Texas Rangers": {
+        "league": "AL",
+        "division": "West",
+        "timezone": "CT",
+        "status": "Recent champs recalibrating; depth tested",
+        "market": "DFW mega-market",
+        "style": "Star bats + power arms; injuries dictated 2025",
+        "narrative": "Post-’23 title, Texas battled 2025 inconsistency; new manager hired Oct 2025.",
+        "viewingTimes": "8:05 PM ET",
+        "headline": "Back to boots-on-ground — Rangers aim for healthy reset",
+        "stars": "Corey Seager, Adolis García, Nathan Eovaldi",
+        "watchability": "High",
+        "bandwagonRisk": "High",
+        "dysfunction": "Low-to-medium",
+        "injuries": "High (’25 attrition)",
+        "culture": "Aggressive FO + veteran core",
+        "statusEnum": "competing",
+        "watchabilityScore": 82,
+        "playingStyles": [
+          "power",
+          "innings_eating",
+          "middle_order_thump"
+        ],
+        "philosophy": [
+          "win_now",
+          "FA_build"
+        ],
+        "nationalities": [
+          "USA",
+          "Cuba",
+          "Dominican Republic"
+        ],
+        "rosterPillars": {
+          "core_hitters": [
+            "Seager",
+            "García",
+            "Josh Jung"
+          ],
+          "rotation": [
+            "Eovaldi",
+            "Jon Gray (+ returns)"
+          ],
+          "bullpen": [
+            "Kirby Yates/committee"
+          ]
+        },
+        "frontOffice": {
+          "owner": "Ray Davis",
+          "pbo_gm": "Chris Young",
+          "manager": "Skip Schumaker (hired Oct 2025)"
+        },
+        "recentPerformance": {
+          "season": "2025",
+          "trend": "81–81 per reports; missed playoffs."
+        },
+        "contractDynamics": {
+          "tradeWatch": "Back-end pen; OF depth",
+          "capShape": "Top-tier payroll",
+          "extensions": "Targeted"
+        },
+        "risksAndChallenges": {
+          "health": "Core availability",
+          "staff": "Rotation innings",
+          "ceiling": "ALCS with health",
+          "floor": "WC miss with attrition"
+        },
+        "narrativeAnglesToWatch": [
+          "Schumaker cultural reset",
+          "Seager MVP-level metrics",
+          "Rotation reinforcement"
+        ]
+      },
+      "Toronto Blue Jays": {
+        "league": "AL",
+        "division": "East",
+        "timezone": "ET",
+        "status": "AL East champs with frontline rotation and star bats",
+        "market": "National — all of Canada’s team; massive media footprint",
+        "style": "Power + patience lineups, Gausman-fronted rotation, creative pen usage",
+        "narrative": "Toronto broke through in 2025, winning the AL East under John Schneider and returning to October with a deep staff and middle-of-the-order thunder. Health for Bo Bichette is the key subplot entering the postseason.",
+        "viewingTimes": "7:07 PM ET typical first pitch",
+        "headline": "North rises — Jays reclaim the East and a first-round bye",
+        "stars": "Vladimir Guerrero Jr., Bo Bichette, Kevin Gausman",
+        "watchability": "High — packed Rogers Centre, star power, big-game feel",
+        "bandwagonRisk": "High — national pull + October stage",
+        "dysfunction": "Low — stable FO and staff",
+        "injuries": "Medium — Bichette PCL sprain watch",
+        "culture": "Process-driven and data-forward with clubhouse continuity",
+        "statusEnum": "contender",
+        "watchabilityScore": 88,
+        "playingStyles": [
+          "power",
+          "patience",
+          "ace_fronted",
+          "pen_matchups"
+        ],
+        "philosophy": [
+          "win_now",
+          "retain_core",
+          "player_dev"
+        ],
+        "nationalities": [
+          "Canada",
+          "USA",
+          "Dominican Republic",
+          "Venezuela"
+        ],
+        "rosterPillars": {
+          "core_hitters": [
+            "Vladimir Guerrero Jr.",
+            "Bo Bichette",
+            "George Springer"
+          ],
+          "rotation": [
+            "Kevin Gausman",
+            "José Berríos",
+            "Chris Bassitt"
+          ],
+          "bullpen": [
+            "Jordan Romano",
+            "Erik Swanson"
+          ]
+        },
+        "frontOffice": {
+          "owner": "Rogers Communications",
+          "president": "Mark Shapiro (President & CEO)",
+          "pbo_gm": "Ross Atkins (EVP/GM)",
+          "manager": "John Schneider"
+        },
+        "recentPerformance": {
+          "season": "2025",
+          "trend": "Won AL East at 94–68; clinched postseason and first-round bye"
+        },
+        "contractDynamics": {
+          "extensions": "Long-term paths for core bats monitored",
+          "capShape": "Big-market flexibility within CBT tiers",
+          "tradeWatch": "Bench RH bat and leverage reliever depth"
+        },
+        "risksAndChallenges": {
+          "health": "Bichette knee timeline",
+          "OctoberVariance": "Swing-and-miss vs elite arms",
+          "ceiling": "AL pennant threat",
+          "floor": "Early exit if bats cool"
+        },
+        "narrativeAnglesToWatch": [
+          "Schneider’s bullpen leverage map in October",
+          "Gausman’s ace workload",
+          "Guerrero Jr. HR/BB surge in playoff environment"
+        ]
+      },
+      "Washington Nationals": {
+        "league": "NL",
+        "division": "East",
+        "timezone": "ET",
+        "status": "Organizational reset — new PBO in, youth wave leading",
+        "market": "Capital region; engagement building with prospects",
+        "style": "Speed/athleticism with improving contact skills; young arms headline",
+        "narrative": "After dismissing Dave Martinez and Mike Rizzo in July 2025, Washington elevated Miguel Cairo to interim manager and Mike DeBartolo to interim GM, then hired 35-year-old Paul Toboni as President of Baseball Operations on Oct. 1. The on-field results lagged, but a clear scout-and-dev mandate is set for 2026 and beyond around Abrams, Wood, Crews and Gore.",
+        "viewingTimes": "6:45–7:05 PM ET typical first pitch",
+        "headline": "Fresh blueprint on South Capitol — Toboni era begins",
+        "stars": "CJ Abrams, MacKenzie Gore, James Wood",
+        "watchability": "Medium — prospect flashes and elite tools",
+        "bandwagonRisk": "Low — rebuild runway",
+        "dysfunction": "Medium — midseason upheaval stabilizing under new leadership",
+        "injuries": "Medium — young-staff workload management",
+        "culture": "Reoriented toward scouting + player development, accountability, and modern processes",
+        "statusEnum": "rebuilding",
+        "watchabilityScore": 68,
+        "playingStyles": [
+          "speed",
+          "contact",
+          "youth_pitching",
+          "defense"
+        ],
+        "philosophy": [
+          "long_horizon",
+          "development",
+          "asset_accumulation"
+        ],
+        "nationalities": [
+          "USA",
+          "Dominican Republic",
+          "Venezuela"
+        ],
+        "rosterPillars": {
+          "core_hitters": [
+            "CJ Abrams",
+            "James Wood",
+            "Dylan Crews"
+          ],
+          "rotation": [
+            "MacKenzie Gore",
+            "Jake Irvin"
+          ],
+          "bullpen": [
+            "Hunter Harvey (health/role)",
+            "Committee"
+          ]
+        },
+        "frontOffice": {
+          "owner": "Lerner family",
+          "president": "Paul Toboni (President of Baseball Operations, hired Oct 1, 2025)",
+          "pbo_gm": "Mike DeBartolo (interim GM)",
+          "manager": "Miguel Cairo (interim)"
+        },
+        "recentPerformance": {
+          "season": "2025",
+          "trend": "Finished 30 games under .500; worst run prevention in club era outside Expos-2000; reset underway"
+        },
+        "contractDynamics": {
+          "extensions": "Pre-arb core timelines (Abrams/Gore/Wood/Crews)",
+          "capShape": "Clean — space to buy prospects via salary intake",
+          "tradeWatch": "Veteran rentals for relief/bench; claim-and-fix arms"
+        },
+        "risksAndChallenges": {
+          "staffDepth": "Rotation innings and command variance",
+          "offense": "League-average OBP needed",
+          "ceiling": "Meaningful step toward .500 if kids pop",
+          "floor": "NL bottom tier if arms regress"
+        },
+        "narrativeAnglesToWatch": [
+          "Toboni’s hires (manager/GM structure) and player-dev revamp",
+          "Wood & Crews acclimation curve",
+          "Gore’s strike-throwing and swing-and-miss profile"
+        ]
+      }
+    }
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "weights": {
+    "city_link": 40,
+    "identity_match": 25,
+    "eu_star": 20,
+    "winning_now": 10,
+    "timezone_fit": 5,
+    "watchability": 5
+  },
+  "fallbacks": {
+    "minResults": 3,
+    "watchabilityThreshold": 75,
+    "statusBonus": {
+      "champion": 12,
+      "contender": 8,
+      "competing": 5,
+      "rising": 4
+    }
+  }
+}
+
+
