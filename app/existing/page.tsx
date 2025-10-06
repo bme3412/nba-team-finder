@@ -47,13 +47,15 @@ export default function TeamMatcherPage() {
 
   const mergedTeamsMap: FootballClubsMap | null = useMemo(() => {
     if (!footballClubMappings) return null;
-    const unwrap = (m: any): FootballClubsMap => (m && m.MLB && m.MLB.teams) ? (m.MLB.teams as FootballClubsMap) : (m as FootballClubsMap || {} as FootballClubsMap);
+    const unwrapMLB = (m: any): FootballClubsMap => (m && m.MLB && m.MLB.teams) ? (m.MLB.teams as FootballClubsMap) : (m as FootballClubsMap || {} as FootballClubsMap);
+    const unwrapNHL = (m: any): FootballClubsMap => (m && m.NHL && m.NHL.teams) ? (m.NHL.teams as FootballClubsMap) : (m as FootballClubsMap || {} as FootballClubsMap);
+    const unwrapF1 = (m: any): FootballClubsMap => (m && m.F1 && m.F1.teams) ? (m.F1.teams as FootballClubsMap) : (m as FootballClubsMap || {} as FootballClubsMap);
     return {
       ...footballClubMappings,
       ...(leagueMaps.nfl || {}),
-      ...unwrap(leagueMaps.mlb || {}),
-      ...(leagueMaps.nhl || {}),
-      ...(leagueMaps.f1 || {}),
+      ...unwrapMLB(leagueMaps.mlb || {}),
+      ...unwrapNHL(leagueMaps.nhl || {}),
+      ...unwrapF1(leagueMaps.f1 || {}),
     } as FootballClubsMap;
   }, [footballClubMappings, leagueMaps]);
 
@@ -84,13 +86,15 @@ export default function TeamMatcherPage() {
   }, [selectedExistingTeams]);
 
   const leagueDefs = useMemo(() => {
-    const unwrap = (m: any): FootballClubsMap => (m && m.MLB && m.MLB.teams) ? (m.MLB.teams as FootballClubsMap) : (m as FootballClubsMap || {} as FootballClubsMap);
+    const unwrapMLB = (m: any): FootballClubsMap => (m && m.MLB && m.MLB.teams) ? (m.MLB.teams as FootballClubsMap) : (m as FootballClubsMap || {} as FootballClubsMap);
+    const unwrapNHL = (m: any): FootballClubsMap => (m && m.NHL && m.NHL.teams) ? (m.NHL.teams as FootballClubsMap) : (m as FootballClubsMap || {} as FootballClubsMap);
+    const unwrapF1 = (m: any): FootballClubsMap => (m && m.F1 && m.F1.teams) ? (m.F1.teams as FootballClubsMap) : (m as FootballClubsMap || {} as FootballClubsMap);
     return [
       { key: "soccer", label: "Soccer / Football", map: footballClubMappings || {} as FootballClubsMap },
       { key: "NFL", label: "NFL", map: (leagueMaps.nfl || {}) as FootballClubsMap },
-      { key: "MLB", label: "MLB", map: unwrap(leagueMaps.mlb || {}) as FootballClubsMap },
-      { key: "NHL", label: "NHL", map: (leagueMaps.nhl || {}) as FootballClubsMap },
-      { key: "F1", label: "F1", map: (leagueMaps.f1 || {}) as FootballClubsMap },
+      { key: "MLB", label: "MLB", map: unwrapMLB(leagueMaps.mlb || {}) as FootballClubsMap },
+      { key: "NHL", label: "NHL", map: unwrapNHL(leagueMaps.nhl || {}) as FootballClubsMap },
+      { key: "F1", label: "F1", map: unwrapF1(leagueMaps.f1 || {}) as FootballClubsMap },
     ];
   }, [footballClubMappings, leagueMaps]);
 

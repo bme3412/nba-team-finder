@@ -2,6 +2,7 @@
 
 import React, { useEffect, useMemo, useState } from 'react';
 import { ChevronLeft, Target, MapPin, Heart, Zap } from 'lucide-react';
+import Container from './Container';
 import type { TeamsMap, FootballClubsMap, QuizAnswersV2 } from '../lib/types';
 import { calculateQuizMatchV2 } from '../lib/match';
 import { generateQuizNarrative } from '../lib/ai';
@@ -236,12 +237,12 @@ export default function QuizFlow({ teams, clubs, mergedTeamsMap, onBack, onResul
 
   return (
     <div className="min-h-screen bg-gray-50 p-4 md:p-8">
-      <div className="max-w-2xl mx-auto">
-        <div className="bg-white rounded-xl shadow-sm border border-gray-200 p-6 md:p-8">
+      <Container>
+        <div className="mx-auto max-w-3xl bg-white rounded-xl shadow-sm border border-slate-200 p-6 md:p-8">
           <div className="mb-6 flex items-center justify-between">
             <button
               onClick={() => (step === 0 ? onBack() : setStep(step - 1))}
-              className="flex items-center gap-2 text-gray-600 hover:text-gray-900 transition-colors"
+              className="flex items-center gap-2 text-slate-600 hover:text-slate-900 transition-colors focus:outline-none focus-visible:ring-2 focus-visible:ring-blue-500 focus-visible:ring-offset-2 focus-visible:ring-offset-gray-50 rounded"
             >
               <ChevronLeft className="w-5 h-5" />
               Back
@@ -249,7 +250,7 @@ export default function QuizFlow({ teams, clubs, mergedTeamsMap, onBack, onResul
             {step < (quizSteps as any).length - 1 && (
               <button
                 onClick={() => setStep(step + 1)}
-                className="ml-auto bg-blue-600 text-white py-2.5 px-4 rounded-lg font-semibold hover:bg-blue-700 transition-all"
+                className="ml-auto bg-blue-600 text-white py-2.5 px-4 rounded-lg font-semibold hover:bg-blue-700 transition-all focus:outline-none focus-visible:ring-2 focus-visible:ring-blue-500 focus-visible:ring-offset-2 focus-visible:ring-offset-white"
               >
                 Next
               </button>
@@ -257,14 +258,14 @@ export default function QuizFlow({ teams, clubs, mergedTeamsMap, onBack, onResul
           </div>
 
           {/* Progress */}
-          <div className="mb-8">
+          <div className="mb-8 will-change-transform">
             <div className="flex justify-between mb-2">
-              <span className="text-sm font-medium text-gray-700">Question {step + 1} of {quizSteps.length}</span>
-              <span className="text-sm font-medium text-gray-500">{Math.round(((step + 1) / quizSteps.length) * 100)}%</span>
+              <span className="text-sm font-medium text-slate-700">Question {step + 1} of {quizSteps.length}</span>
+              <span className="text-sm font-medium text-slate-500">{Math.round(((step + 1) / quizSteps.length) * 100)}%</span>
             </div>
-            <div className="w-full bg-gray-200 rounded-full h-2 overflow-hidden">
+            <div className="w-full bg-slate-200 rounded-full h-2 overflow-hidden">
               <div
-                className="bg-blue-600 h-2 rounded-full transition-all duration-300"
+                className="bg-blue-600 h-2 rounded-full transition-[width] duration-300 ease-out"
                 style={{ width: Math.round(((step + 1) / quizSteps.length) * 100) + '%' }}
               />
             </div>
@@ -273,15 +274,15 @@ export default function QuizFlow({ teams, clubs, mergedTeamsMap, onBack, onResul
           {/* Question */}
           <div className="mb-8">
             <div className="mb-6">
-              <h2 className="text-2xl font-bold text-gray-900 mb-2">{current.title}</h2>
-              <p className="text-gray-600">{current.subtitle}</p>
+              <h2 className="text-2xl font-extrabold text-slate-900 mb-2">{current.title}</h2>
+              <p className="text-slate-600">{current.subtitle}</p>
             </div>
 
             {/* Step content */}
             {current.id === 'location' && (
               <div className="space-y-4">
-                <div className="grid grid-cols-1 gap-3">
-                  <label className="text-sm font-medium text-gray-700">Country</label>
+                <div className="grid grid-cols-1 gap-3 max-w-md">
+                  <label className="text-sm font-medium text-slate-700">Country</label>
                   <select
                     value={selectedCountry}
                     onChange={(e) => {
@@ -289,7 +290,7 @@ export default function QuizFlow({ teams, clubs, mergedTeamsMap, onBack, onResul
                       const loc = e.target.value || '';
                       setAnswersV2({ ...answersV2, location: loc });
                     }}
-                    className="w-full p-3 border border-gray-200 rounded-lg focus:outline-none focus:ring-2 focus:ring-blue-500 bg-white"
+                    className="w-full max-w-md p-3 border border-slate-200 rounded-lg focus:outline-none focus:ring-2 focus:ring-blue-500 bg-white"
                   >
                     <option value="">Select a country…</option>
                     {Object.entries(REGIONAL_COUNTRIES).map(([region, countries]) => (
@@ -323,7 +324,7 @@ export default function QuizFlow({ teams, clubs, mergedTeamsMap, onBack, onResul
                       <button
                         key={region}
                         onClick={() => setOpenRegion(active ? null : region)}
-                        className={`px-3 py-2 rounded-lg border text-sm font-medium ${active ? 'border-blue-500 bg-blue-50 text-blue-700' : 'border-gray-200 text-gray-800 hover:border-blue-300 hover:bg-gray-50'}`}
+                        className={`px-3 py-2 rounded-lg border text-sm font-medium focus:outline-none focus-visible:ring-2 focus-visible:ring-blue-500 focus-visible:ring-offset-2 focus-visible:ring-offset-white ${active ? 'border-blue-500 bg-blue-50 text-blue-700' : 'border-slate-200 text-slate-800 hover:border-blue-300 hover:bg-slate-50'}`}
                       >
                         {region}
                       </button>
@@ -332,7 +333,7 @@ export default function QuizFlow({ teams, clubs, mergedTeamsMap, onBack, onResul
                   <button
                     key="No preference"
                     onClick={() => { setAnswersV2({ ...answersV2, nationality: 'No preference' as any }); setOpenRegion(null); }}
-                    className={`px-3 py-2 rounded-lg border text-sm font-medium ${answersV2.nationality === 'No preference' ? 'border-blue-500 bg-blue-50 text-blue-700' : 'border-gray-200 text-gray-800 hover:border-blue-300 hover:bg-gray-50'}`}
+                    className={`px-3 py-2 rounded-lg border text-sm font-medium focus:outline-none focus-visible:ring-2 focus-visible:ring-blue-500 focus-visible:ring-offset-2 focus-visible:ring-offset-white ${answersV2.nationality === 'No preference' ? 'border-blue-500 bg-blue-50 text-blue-700' : 'border-slate-200 text-slate-800 hover:border-blue-300 hover:bg-slate-50'}`}
                   >
                     No preference
                   </button>
@@ -340,7 +341,7 @@ export default function QuizFlow({ teams, clubs, mergedTeamsMap, onBack, onResul
 
                 {/* Selected nationality chip + importance */}
                 {answersV2.nationality && answersV2.nationality !== 'No preference' && (
-                  <div className="flex flex-wrap items-center gap-3 text-xs text-gray-700">
+                  <div className="flex flex-wrap items-center gap-3 text-xs text-slate-700">
                     <div>
                       <span className="mr-2">Selected:</span>
                       <span className="inline-flex items-center gap-2 rounded-full border border-blue-300 bg-blue-50 px-2.5 py-1 text-blue-800">
@@ -350,42 +351,49 @@ export default function QuizFlow({ teams, clubs, mergedTeamsMap, onBack, onResul
                         <span className="font-medium">{answersV2.nationality}</span>
                       </span>
                     </div>
-                    <div className="flex items-center gap-2">
-                      <span className="text-gray-600">Importance:</span>
-                      {(['low','medium','high'] as const).map((lvl) => (
-                        <button
-                          key={lvl}
-                          onClick={() => setAnswersV2({ ...answersV2, nationalityImportance: lvl })}
-                          className={`px-2.5 py-1 rounded-full border text-[11px] capitalize transition-colors ${
-                            answersV2.nationalityImportance === lvl
-                              ? lvl === 'low'
-                                ? 'border-green-400 bg-green-50 text-green-700'
-                                : lvl === 'medium'
-                                ? 'border-amber-400 bg-amber-50 text-amber-800'
-                                : 'border-rose-400 bg-rose-50 text-rose-700'
-                              : 'border-gray-200 text-gray-700 hover:border-gray-300 hover:bg-gray-50'
-                          }`}
-                          aria-pressed={answersV2.nationalityImportance === lvl}
-                        >
-                          {lvl}
-                        </button>
-                      ))}
+                    <div className="flex flex-col gap-1.5">
+                      <div className="flex items-center gap-3">
+                        <span className="text-slate-600">Importance:</span>
+                        <div className="inline-flex rounded-full border border-slate-200 bg-slate-50 p-1">
+                          {(['low','medium','high'] as const).map((lvl) => (
+                            <button
+                              key={lvl}
+                              onClick={() => setAnswersV2({ ...answersV2, nationalityImportance: lvl })}
+                              className={`px-3 py-1.5 rounded-full text-[11px] font-semibold capitalize transition-colors focus:outline-none focus-visible:ring-2 focus-visible:ring-blue-500 focus-visible:ring-offset-2 focus-visible:ring-offset-white ${
+                                answersV2.nationalityImportance === lvl
+                                  ? lvl === 'low'
+                                    ? 'bg-green-600 text-white shadow'
+                                    : lvl === 'medium'
+                                    ? 'bg-amber-500 text-white shadow'
+                                    : 'bg-rose-600 text-white shadow'
+                                  : 'text-slate-700 hover:bg-white'
+                              }`}
+                              aria-pressed={answersV2.nationalityImportance === lvl}
+                            >
+                              {lvl}
+                            </button>
+                          ))}
+                        </div>
+                      </div>
+                      <div className="text-[11px] text-slate-500">
+                        Higher importance increases how strongly nationality affects your top teams.
+                      </div>
                     </div>
                   </div>
                 )}
 
                 {/* Popular players under selected chip */}
                 {answersV2.nationality && answersV2.nationality !== 'No preference' && nationalityPlayers.length > 0 && (
-                  <div className="mt-3 rounded-lg border border-blue-200 bg-blue-50/60 p-3">
-                    <div className="text-xs font-semibold text-blue-800 mb-2">Popular players from {answersV2.nationality}:</div>
-                    <div className="grid grid-cols-1 md:grid-cols-2 gap-2">
+                  <div className="mt-3 overflow-hidden rounded-xl border border-blue-200 bg-blue-50/60">
+                    <div className="px-3 py-2 text-xs font-semibold text-blue-800 border-b border-blue-100">Popular players from {answersV2.nationality}:</div>
+                    <ul className="divide-y divide-blue-100 bg-white/90">
                       {nationalityPlayers.map((p, idx) => (
-                        <div key={`${p.player}-${idx}`} className="flex items-center justify-between rounded border border-blue-100 bg-white/80 px-2.5 py-1.5 text-xs">
+                        <li key={`${p.player}-${idx}`} className="px-3 py-2 grid grid-cols-1 md:grid-cols-2 items-center gap-2 text-xs">
                           <span className="font-semibold text-slate-900">{p.player}</span>
-                          <span className="rounded border border-blue-200 bg-blue-50 px-2 py-0.5 font-medium text-blue-700">{p.team}</span>
-                        </div>
+                          <span className="justify-self-start md:justify-self-end rounded-full border border-blue-200 bg-blue-50 px-2.5 py-0.5 font-medium text-blue-700">{p.team}</span>
+                        </li>
                       ))}
-                    </div>
+                    </ul>
                   </div>
                 )}
 
@@ -393,14 +401,14 @@ export default function QuizFlow({ teams, clubs, mergedTeamsMap, onBack, onResul
                 {openRegion && (
                   <div>
                     <div className="text-xs font-medium text-gray-600 mb-2">{openRegion}</div>
-                    <div className="grid grid-cols-2 md:grid-cols-3 gap-2">
+                    <div className="grid grid-cols-2 md:grid-cols-3 gap-2.5">
                       {(groupedNationalities[openRegion] || []).map((n) => {
                         const flag = countryToFlag(n);
                         return (
                           <button
                             key={n}
                             onClick={() => setAnswersV2({ ...answersV2, nationality: n as any })}
-                            className={`p-3 rounded-lg border text-sm flex items-center gap-2 ${answersV2.nationality === n ? 'border-blue-500 bg-blue-50' : 'border-gray-200 hover:border-blue-300 hover:bg-gray-50'}`}
+                        className={`p-3 rounded-lg border text-sm flex items-center gap-2 ${answersV2.nationality === n ? 'border-blue-500 bg-blue-50' : 'border-slate-200 hover:border-blue-300 hover:bg-slate-50'}`}
                           >
                             {flag ? <span aria-hidden className="text-base">{flag}</span> : null}
                             <span>{n}</span>
@@ -426,10 +434,10 @@ export default function QuizFlow({ teams, clubs, mergedTeamsMap, onBack, onResul
                   <button
                     key={label}
                     onClick={() => setAnswersV2({ ...answersV2, tierPref: label as any })}
-                    className={`w-full text-left p-4 border rounded-lg ${answersV2.tierPref === label ? 'border-blue-500 bg-blue-50' : 'border-gray-200 hover:border-blue-300 hover:bg-gray-50'}`}
+                    className={`w-full text-left p-4 border rounded-lg focus:outline-none focus-visible:ring-2 focus-visible:ring-blue-500 focus-visible:ring-offset-2 focus-visible:ring-offset-white ${answersV2.tierPref === label ? 'border-blue-500 bg-blue-50' : 'border-slate-200 hover:border-blue-300 hover:bg-slate-50'}`}
                   >
-                    <div className="font-semibold text-gray-900 mb-1">{label}</div>
-                    <div className="text-sm text-gray-600">
+                    <div className="font-semibold text-slate-900 mb-1">{label}</div>
+                    <div className="text-sm text-slate-600">
                       {label === 'Title contender' && 'Built to win now; elite watchability'}
                       {label === 'Playoff team' && 'Consistently competitive; fun regular-season slate'}
                       {label === 'Rebuilding with young stars' && 'Youth movement; rising talent and upside'}
@@ -449,6 +457,8 @@ export default function QuizFlow({ teams, clubs, mergedTeamsMap, onBack, onResul
                   setComputing(true);
                   try {
                     let computed = calculateQuizMatchV2(answersV2, teams, clubs) as any[];
+                    // Ensure each result has a placeholder narrativeSummary to avoid missing paragraphs
+                    computed = computed.map((r: any) => ({ ...r, narrativeSummary: r.narrativeSummary || '' }));
                     if (nationalityTeamsShort.size > 0) {
                       computed = computed
                         .map((r) => ({
@@ -459,26 +469,48 @@ export default function QuizFlow({ teams, clubs, mergedTeamsMap, onBack, onResul
                         .sort((a, b) => b.matchPercent - a.matchPercent);
                     }
                     onResults(computed);
-                    // Stream quiz narrative similar to /api/narrative route
+                    // Stream quiz narrative for ALL 6 (batched 3+3 to keep responses snappy)
                     try {
-                      let buffer = '';
-                      await generateQuizNarrative(
-                        computed.map((e: any) => ({ name: e.name, headline: e.headline, reasons: e.reasons, catch: e.catch })),
-                        answersV2,
-                        (chunk: string) => {
-                          buffer += chunk
-                          const parts = buffer.split(/\n\n+/).slice(0, 3)
-                          onResults(((prev: any[]) => {
-                            if (!Array.isArray(prev)) return prev
-                            const next = [...prev]
-                            parts.forEach((p, i) => {
-                              if (next[i]) next[i] = { ...next[i], narrativeSummary: p }
-                            })
-                            return next
-                          }) as any)
-                        }
-                      );
+                      const batches = [computed.slice(0, 3), computed.slice(3, 6)];
+                      for (let b = 0; b < batches.length; b++) {
+                        const batch = batches[b];
+                        if (batch.length === 0) continue;
+                        let buffer = '';
+                        await generateQuizNarrative(
+                          batch.map((e: any) => ({ name: e.name, headline: e.headline, reasons: e.reasons, catch: e.catch })),
+                          answersV2,
+                          (chunk: string) => {
+                            buffer += chunk
+                            const parts = buffer.split(/\n\n+/).slice(0, 3)
+                            onResults(((prev: any[]) => {
+                              if (!Array.isArray(prev)) return prev
+                              const next = [...prev]
+                              parts.forEach((p, i) => {
+                                const globalIndex = b * 3 + i
+                                if (next[globalIndex]) next[globalIndex] = { ...next[globalIndex], narrativeSummary: p }
+                              })
+                              return next
+                            }) as any)
+                          }
+                        );
+                      }
                     } catch {}
+                    // Fallback: synthesize minimal text if any narrative still missing
+                    onResults(((prev: any[]) => {
+                      if (!Array.isArray(prev)) return prev
+                      const next = prev.map((r: any) => {
+                        if (r && !r.narrativeSummary) {
+                          const stars = Array.isArray(r.stars) ? r.stars : String(r.stars || '').split(/,\s*/).filter(Boolean)
+                          const parts: string[] = []
+                          if (r.headline) parts.push(String(r.headline))
+                          if (Array.isArray(r.reasons) && r.reasons.length) parts.push(r.reasons.slice(0, 2).join('; '))
+                          if (stars.length) parts.push('Stars: ' + stars.slice(0, 3).join(', '))
+                          return { ...r, narrativeSummary: parts.filter(Boolean).join('\n') || 'Strong stylistic fit and watchable slate.' }
+                        }
+                        return r
+                      })
+                      return next
+                    }) as any)
                     try {
                       const payload = { answers: answersV2, results: computed, ts: Date.now() } as any;
                       localStorage.setItem('quizResults', JSON.stringify(payload));
@@ -487,7 +519,7 @@ export default function QuizFlow({ teams, clubs, mergedTeamsMap, onBack, onResul
                     setComputing(false);
                   }
                 }}
-                className={`ml-auto bg-blue-600 text-white py-3 px-5 rounded-lg font-semibold transition-all ${computing ? 'opacity-70 cursor-not-allowed' : 'hover:bg-blue-700'}`}
+                className={`ml-auto bg-blue-600 text-white py-3 px-5 rounded-lg font-semibold transition-all focus:outline-none focus-visible:ring-2 focus-visible:ring-blue-500 focus-visible:ring-offset-2 focus-visible:ring-offset-white ${computing ? 'opacity-70 cursor-not-allowed' : 'hover:bg-blue-700'}`}
                 disabled={computing}
               >
                 {computing ? 'Computing…' : 'Show My Results'}
@@ -495,7 +527,7 @@ export default function QuizFlow({ teams, clubs, mergedTeamsMap, onBack, onResul
             )}
           </div>
         </div>
-      </div>
+      </Container>
     </div>
   );
 }

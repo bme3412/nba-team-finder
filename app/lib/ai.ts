@@ -79,7 +79,7 @@ export async function generatePlayerNarrative(
   try {
     const res = await fetch('/api/player-narrative', {
       method: 'POST',
-      headers: { 'Content-Type': 'application/json' },
+      headers: { 'Content-Type': 'application/json', 'Accept': 'text/event-stream' },
       body: JSON.stringify({ players, traits })
     })
     if (!res.body) {
@@ -90,12 +90,27 @@ export async function generatePlayerNarrative(
     const reader = res.body.getReader()
     const decoder = new TextDecoder()
     let full = ''
+    let buffer = ''
     while (true) {
       const { done, value } = await reader.read()
       if (done) break
-      const chunk = decoder.decode(value)
-      full += chunk
-      if (onToken) onToken(chunk)
+      buffer += decoder.decode(value, { stream: true })
+      const frames = buffer.split('\n\n')
+      buffer = frames.pop() || ''
+      for (const frame of frames) {
+        if (!frame.startsWith('data:')) continue
+        // Remove only the literal "data: " prefix; preserve any leading space emitted by the model
+        const payload = frame.startsWith('data: ') ? frame.slice(6) : frame.replace(/^data:/, '')
+        if (!payload) continue
+        full += payload
+        if (onToken) onToken(payload)
+      }
+    }
+    // flush any trailing payload
+    if (buffer.trim().startsWith('data:')) {
+      const payload = buffer.trim().replace(/^data:\s*/, '')
+      full += payload
+      if (onToken) onToken(payload)
     }
     return full || null
   } catch {

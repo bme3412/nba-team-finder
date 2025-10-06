@@ -583,12 +583,24 @@ export function calculateQuizMatchV2(
     scores[key] = { raw, reasons };
   });
 
+  // Normalize scores to a stable 0..1 range for consistent matchPercent across datasets
+  const allRaw = Object.values(scores).map((v) => v.raw);
+  const minRaw = allRaw.length ? Math.min(...allRaw) : 0;
+  const maxRaw = allRaw.length ? Math.max(...allRaw) : 1;
+  const span = Math.max(1, maxRaw - minRaw);
+
+  const TOP_N = 6; // show more than 3 but less than 10
+
   const ranked = Object.entries(scores)
     .sort(([, a], [, b]) => b.raw - a.raw)
-    .slice(0, 3)
+    .slice(0, TOP_N)
     .map(([name, s], idx) => {
       const teamAny: any = (teams as any)[name] || {};
-      const percent = Math.max(55, Math.min(98, Math.round(s.raw)));
+      // Map raw -> 60..95 with small rank bonus to avoid ties among close scores
+      const normalized = (s.raw - minRaw) / span; // 0..1
+      let percent = 60 + normalized * 35; // 60..95 typical
+      percent += Math.max(0, (TOP_N - idx) * 0.5); // slight rank-based distinction
+      percent = Math.max(55, Math.min(98, Math.round(percent)));
       // Compute local tip-off hint for display: assume 7 PM in team's home timezone
       const teamTz: string = (teamAny.timezone || '').replace('EST','ET').replace('CST','CT').replace('MST','MT').replace('PST','PT');
       const teamIdx = tzIndex[teamTz as keyof typeof tzIndex] ?? 0;

@@ -2,19 +2,17 @@
 
 import React, { useEffect, useRef, useState } from 'react';
 import Link from 'next/link';
-import { calculateQuizMatch as quizMatch, calculateFootballMatch as footballMatch, calculatePlayerMatch as playerMatch, calculateQuizMatchV2 } from './lib/match';
-import type { Answers, TeamsMap, FootballClubsMap, QuizAnswersV2 } from './lib/types';
-import { ChevronRight, ChevronLeft, Trophy, Clock, TrendingUp, Users, MapPin, Heart, Star, Zap, Shield, Target, AlertCircle, Sparkles } from 'lucide-react';
-import teamsData from '../data/teams.json';
-import footballClubsData from '../data/footballClubs.json';
-import nflTeams from '../data/nflTeams.json';
-import mlbTeams from '../data/mlbTeams.json';
-import nhlTeams from '../data/nhlTeams.json';
-import f1Teams from '../data/f1Teams.json';
-import playersData from '../data/players.json';
-import { topNationalities } from './lib/nationalities';
-import { generateQuizNarrative, generatePlayerNarrative } from './lib/ai';
 import QuizFlow from './components/QuizFlow';
+import Container from './components/Container';
+import Chip from './components/Chip';
+import SkeletonLine from './components/SkeletonLine';
+import { calculateQuizMatchV2 } from './lib/match';
+import { PLAYERS_BY_TRAIT } from './lib/players';
+import type { Answers, TeamsMap, FootballClubsMap, QuizAnswersV2 } from './lib/types';
+import { ChevronRight, ChevronLeft, Trophy, Users, MapPin, Heart, Star, Zap, Target } from 'lucide-react';
+import { generatePlayerNarrative } from './lib/ai';
+
+// QuizFlow is imported statically to avoid loading fallback flashes
 
 // Short -> Full NBA team names for display
 const SHORT_TO_FULL: Record<string, string> = {
@@ -65,18 +63,76 @@ const NBATeamFinder = () => {
   const [playersLoading, setPlayersLoading] = useState(false);
   const [clubSearch, setClubSearch] = useState('');
   
+  // Lazy-loaded datasets for quiz flow
+  const [teams, setTeams] = useState<TeamsMap | null>(null);
+  const [footballClubMappings, setFootballClubMappings] = useState<FootballClubsMap | null>(null);
+  const [mergedTeamsMap, setMergedTeamsMap] = useState<FootballClubsMap | null>(null);
 
-  // Import data from JSON files
-  const teams: TeamsMap = teamsData as TeamsMap;
-  const footballClubMappings: FootballClubsMap = footballClubsData as FootballClubsMap;
-  const mergedTeamsMap: FootballClubsMap = {
-    ...footballClubMappings,
-    ...(nflTeams as unknown as FootballClubsMap),
-    ...(mlbTeams as unknown as FootballClubsMap),
-    ...(nhlTeams as unknown as FootballClubsMap),
-    ...(f1Teams as unknown as FootballClubsMap)
+  useEffect(() => {
+    if (path === 'quiz' && (!teams || !footballClubMappings || !mergedTeamsMap)) {
+      (async () => {
+        try {
+          const [
+            { default: teamsJson },
+            { default: footballClubsJson },
+            { default: nflJson },
+            { default: mlbJson },
+            { default: nhlJson },
+            { default: f1Json },
+          ] = await Promise.all([
+            import('../data/teams.json'),
+            import('../data/footballClubs.json'),
+            import('../data/nflTeams.json'),
+            import('../data/mlbTeams.json'),
+            import('../data/nhlTeams.json'),
+            import('../data/f1Teams.json'),
+          ]);
+          setTeams(teamsJson as TeamsMap);
+          const merged = {
+            ...(footballClubsJson as FootballClubsMap),
+            ...(nflJson as any),
+            ...(mlbJson as any),
+            ...(nhlJson as any),
+            ...(f1Json as any),
+          } as FootballClubsMap;
+          setFootballClubMappings(footballClubsJson as FootballClubsMap);
+          setMergedTeamsMap(merged);
+        } catch {}
+      })();
+    }
+  }, [path]);
+
+  // Preload datasets before switching to quiz to avoid any loading flash
+  const preloadQuizData = async () => {
+    if (teams && footballClubMappings && mergedTeamsMap) return;
+    try {
+      const [
+        { default: teamsJson },
+        { default: footballClubsJson },
+        { default: nflJson },
+        { default: mlbJson },
+        { default: nhlJson },
+        { default: f1Json },
+      ] = await Promise.all([
+        import('../data/teams.json'),
+        import('../data/footballClubs.json'),
+        import('../data/nflTeams.json'),
+        import('../data/mlbTeams.json'),
+        import('../data/nhlTeams.json'),
+        import('../data/f1Teams.json'),
+      ]);
+      setTeams(teamsJson as TeamsMap);
+      const merged = {
+        ...(footballClubsJson as FootballClubsMap),
+        ...(nflJson as any),
+        ...(mlbJson as any),
+        ...(nhlJson as any),
+        ...(f1Json as any),
+      } as FootballClubsMap;
+      setFootballClubMappings(footballClubsJson as FootballClubsMap);
+      setMergedTeamsMap(merged);
+    } catch {}
   };
-  const players = playersData as any[];
 
   // Existing team flow moved to /existing route
 
@@ -89,123 +145,10 @@ const NBATeamFinder = () => {
     { id: 'philosophy', title: 'Team philosophy', subtitle: 'What identity resonates most?', icon: Target },
   ] as const;
 
-  // Comprehensive Quiz Matching Logic
-  const calculateQuizMatch = () => {
-    const sorted = quizMatch(answers, teams);
-    setResults(sorted);
-  };
-
-  // Football club matching handled in /existing
-
-  // deprecated simple combiner (replaced by aggregate version above)
-
-  // Player-Based Matching
-  const calculatePlayerMatch = () => {
-    const resultsLocal = playerMatch(selectedPlayers, teams, players);
-    setResults(resultsLocal);
-  };
+  // (legacy quiz flow removed in favor of QuizFlow component)
 
   // ---------- Player style explorer (traits -> players) ----------
   type TraitPlayer = { player: string; team?: string };
-  const PLAYERS_BY_TRAIT: Record<string, TraitPlayer[]> = {
-    // Offensive skills
-    'off_three_point': [
-      { player: 'Stephen Curry', team: 'Golden State Warriors' },
-      { player: 'Klay Thompson', team: 'Golden State Warriors' },
-      { player: 'Damian Lillard', team: 'Milwaukee Bucks' },
-      { player: 'Luka Dončić', team: 'Dallas Mavericks' },
-      { player: 'Trae Young', team: 'Atlanta Hawks' }
-    ],
-    'off_dunking': [
-      { player: 'Anthony Edwards', team: 'Minnesota Timberwolves' },
-      { player: 'Zion Williamson', team: 'New Orleans Pelicans' },
-      { player: 'Ja Morant', team: 'Memphis Grizzlies' },
-      { player: 'Jalen Green', team: 'Houston Rockets' },
-      { player: 'Shai Gilgeous-Alexander', team: 'Oklahoma City Thunder' }
-    ],
-    'off_midrange': [
-      { player: 'Kevin Durant', team: 'Phoenix Suns' },
-      { player: 'DeMar DeRozan', team: 'Chicago Bulls' },
-      { player: 'Kawhi Leonard', team: 'LA Clippers' },
-      { player: 'Jayson Tatum', team: 'Boston Celtics' }
-    ],
-    'off_iso_handles': [
-      { player: 'Kyrie Irving', team: 'Dallas Mavericks' },
-      { player: 'James Harden', team: 'LA Clippers' },
-      { player: 'Luka Dončić', team: 'Dallas Mavericks' },
-      { player: 'Shai Gilgeous-Alexander', team: 'Oklahoma City Thunder' }
-    ],
-    'off_playmaking': [
-      { player: 'Nikola Jokić', team: 'Denver Nuggets' },
-      { player: 'LeBron James', team: 'Los Angeles Lakers' },
-      { player: 'Tyrese Haliburton', team: 'Indiana Pacers' },
-      { player: 'LaMelo Ball', team: 'Charlotte Hornets' }
-    ],
-    'off_offball': [
-      { player: 'Klay Thompson', team: 'Golden State Warriors' },
-      { player: 'Desmond Bane', team: 'Memphis Grizzlies' },
-      { player: 'Buddy Hield', team: 'Golden State Warriors' }
-    ],
-    // Defensive traits
-    'def_perimeter': [
-      { player: 'Jrue Holiday', team: 'Boston Celtics' },
-      { player: 'OG Anunoby', team: 'New York Knicks' },
-      { player: 'Mikal Bridges', team: 'New York Knicks' },
-      { player: 'Alex Caruso', team: 'Oklahoma City Thunder' }
-    ],
-    'def_rim': [
-      { player: 'Victor Wembanyama', team: 'San Antonio Spurs' },
-      { player: 'Rudy Gobert', team: 'Minnesota Timberwolves' },
-      { player: 'Jaren Jackson Jr.', team: 'Memphis Grizzlies' },
-      { player: 'Brook Lopez', team: 'Milwaukee Bucks' }
-    ],
-    'def_rebounding': [
-      { player: 'Domantas Sabonis', team: 'Sacramento Kings' },
-      { player: 'Nikola Jokić', team: 'Denver Nuggets' },
-      { player: 'Giannis Antetokounmpo', team: 'Milwaukee Bucks' },
-      { player: 'Steven Adams', team: 'Houston Rockets' }
-    ],
-    'def_versatility': [
-      { player: 'Bam Adebayo', team: 'Miami Heat' },
-      { player: 'Draymond Green', team: 'Golden State Warriors' },
-      { player: 'Jaden McDaniels', team: 'Minnesota Timberwolves' }
-    ],
-    // Physical style
-    'phys_athletic': [
-      { player: 'Anthony Edwards', team: 'Minnesota Timberwolves' },
-      { player: 'Ja Morant', team: 'Memphis Grizzlies' },
-      { player: 'Zion Williamson', team: 'New Orleans Pelicans' }
-    ],
-    'phys_physicality': [
-      { player: 'Giannis Antetokounmpo', team: 'Milwaukee Bucks' },
-      { player: 'Joel Embiid', team: 'Philadelphia 76ers' },
-      { player: 'Julius Randle', team: 'New York Knicks' }
-    ],
-    'phys_finesse': [
-      { player: 'Luka Dončić', team: 'Dallas Mavericks' },
-      { player: 'Nikola Jokić', team: 'Denver Nuggets' },
-      { player: 'Shai Gilgeous-Alexander', team: 'Oklahoma City Thunder' }
-    ],
-    // Tempo and energy
-    'tempo_fast': [
-      { player: 'De’Aaron Fox', team: 'Sacramento Kings' },
-      { player: 'Tyrese Maxey', team: 'Philadelphia 76ers' },
-      { player: 'Ja Morant', team: 'Memphis Grizzlies' }
-    ],
-    'tempo_halfcourt': [
-      { player: 'Jayson Tatum', team: 'Boston Celtics' },
-      { player: 'Kawhi Leonard', team: 'LA Clippers' }
-    ],
-    'energy_high': [
-      { player: 'Josh Hart', team: 'New York Knicks' },
-      { player: 'Alex Caruso', team: 'Oklahoma City Thunder' },
-      { player: 'Herb Jones', team: 'New Orleans Pelicans' }
-    ],
-    'energy_efficient': [
-      { player: 'Kawhi Leonard', team: 'LA Clippers' },
-      { player: 'Kevin Durant', team: 'Phoenix Suns' }
-    ],
-  };
 
   function rankTraitPlayers(traits: string[]): TraitPlayer[] {
     if (traits.length === 0) return [];
@@ -217,10 +160,26 @@ const NBATeamFinder = () => {
         score[key].s += 10 - Math.min(idx, 5);
       });
     });
-    return Object.values(score)
+    const ranked = Object.values(score)
       .sort((a, b) => b.s - a.s)
-      .slice(0, 7)
       .map((e) => e.p);
+    // Ensure at least 8 suggestions; backfill from selected traits if dedupe reduced count
+    const needMin = 8;
+    const maxOut = 10;
+    if (ranked.length < needMin) {
+      const seen = new Set(ranked.map((r) => r.player));
+      for (const t of traits) {
+        for (const tp of (PLAYERS_BY_TRAIT[t] || [])) {
+          if (!seen.has(tp.player)) {
+            ranked.push(tp);
+            seen.add(tp.player);
+            if (ranked.length >= needMin) break;
+          }
+        }
+        if (ranked.length >= needMin) break;
+      }
+    }
+    return ranked.slice(0, maxOut);
   }
 
   function parsePlayerNarrative(text: string | null): Array<{ name: string; team?: string; blurb: string }> {
@@ -258,8 +217,10 @@ const NBATeamFinder = () => {
       if (step < (quizSteps as any).length - 1) {
         setStep(step + 1);
       } else {
-        const computed = calculateQuizMatchV2(answersV2, teams, footballClubMappings);
-        setResults(computed);
+        if (teams && footballClubMappings) {
+          const computed = calculateQuizMatchV2(answersV2, teams as any, footballClubMappings as any);
+          setResults(computed);
+        }
       }
     }
   };
@@ -286,20 +247,20 @@ const NBATeamFinder = () => {
   if (results) {
     return (
       <div className="min-h-screen bg-gray-50 p-4 md:p-8">
-        <div className="max-w-3xl mx-auto">
+        <Container>
           <button
             onClick={resetQuiz}
-            className="flex items-center gap-2 text-gray-600 hover:text-gray-900 transition-colors mb-4"
+            className="flex items-center gap-2 text-slate-600 hover:text-slate-900 transition-colors mb-4 focus:outline-none focus-visible:ring-2 focus-visible:ring-blue-500 focus-visible:ring-offset-2 focus-visible:ring-offset-gray-50 rounded"
           >
             <ChevronLeft className="w-5 h-5" />
             Back
           </button>
           <div className="text-center mb-8">
-            <h1 className="text-3xl font-bold text-gray-900 mb-2">Your Top Matches</h1>
+            <h1 className="text-3xl font-extrabold tracking-tight text-slate-900 mb-2">Your Top Matches</h1>
             {/* User selections summary (quiz) */}
             {Array.isArray(results) && results.length > 0 && (
-              <div className="text-sm text-gray-700">
-                <span className="mr-1 text-gray-600">Based on your selections —</span>
+              <div className="text-sm text-slate-700">
+                <span className="mr-1 text-slate-600">Based on your selections —</span>
                 {(() => {
                   const r0 = results[0] || {};
                   const fragments: Array<JSX.Element> = [];
@@ -340,14 +301,14 @@ const NBATeamFinder = () => {
           </div>
 
           <div className="space-y-5 mb-8">
-            {results.map((team: any, index: number) => {
+            {results.slice(0, 6).map((team: any, index: number) => {
               const accents = [
                 { ring: 'bg-blue-600', chip: 'bg-blue-50 text-blue-700 border-blue-200', leftBar: 'border-blue-400', grad: 'from-blue-50' },
-                { ring: 'bg-violet-600', chip: 'bg-violet-50 text-violet-700 border-violet-200', leftBar: 'border-violet-400', grad: 'from-violet-50' },
-                { ring: 'bg-amber-500', chip: 'bg-amber-50 text-amber-800 border-amber-200', leftBar: 'border-amber-400', grad: 'from-amber-50' },
+                { ring: 'bg-blue-600', chip: 'bg-blue-50 text-blue-700 border-blue-200', leftBar: 'border-blue-400', grad: 'from-blue-50' },
+                { ring: 'bg-slate-900', chip: 'bg-slate-100 text-slate-800 border-slate-300', leftBar: 'border-slate-400', grad: 'from-slate-50' },
               ];
               const tone = accents[index % accents.length];
-              const titleLabel = index === 0 ? 'Top recommendation' : index === 1 ? 'Second choice' : 'Dark horse';
+              const titleLabel = index === 0 ? 'Top recommendation' : index === 1 ? 'Second choice' : index === 2 ? 'Dark horse' : 'Also consider';
               const starNames: string[] = Array.isArray(team.stars)
                 ? team.stars
                 : team.stars
@@ -381,10 +342,10 @@ const NBATeamFinder = () => {
                       </p>
                     ) : (
                       <div className="space-y-2">
-                        <div className="h-3.5 w-11/12 animate-pulse rounded bg-slate-200" />
-                        <div className="h-3.5 w-10/12 animate-pulse rounded bg-slate-200" />
-                        <div className="h-3.5 w-9/12 animate-pulse rounded bg-slate-200" />
-                        <div className="h-3.5 w-1/2 animate-pulse rounded bg-slate-200" />
+                        <SkeletonLine width="w-11/12" />
+                        <SkeletonLine width="w-10/12" />
+                        <SkeletonLine width="w-9/12" />
+                        <SkeletonLine width="w-1/2" />
                       </div>
                     )}
                   </div>
@@ -423,11 +384,11 @@ const NBATeamFinder = () => {
 
           <button
             onClick={resetQuiz}
-            className="w-full bg-white border border-gray-300 text-gray-700 py-3 rounded-lg font-medium hover:bg-gray-50 transition-all"
+            className="w-full bg-white border border-slate-300 text-slate-700 py-3 rounded-lg font-semibold hover:bg-slate-50 transition-all focus:outline-none focus-visible:ring-2 focus-visible:ring-blue-500 focus-visible:ring-offset-2 focus-visible:ring-offset-gray-50"
           >
             Start Over
           </button>
-        </div>
+        </Container>
       </div>
     );
   }
@@ -436,62 +397,78 @@ const NBATeamFinder = () => {
   if (!path) {
     return (
       <div className="min-h-screen bg-gray-50 p-4 md:p-8 flex items-center">
-        <div className="max-w-3xl mx-auto w-full">
-          <div className="text-center mb-12">
-            <h1 className="text-4xl md:text-5xl font-bold text-gray-900 mb-3">
+        <Container>
+          <div className="mb-10 text-center">
+            <h1 className="text-4xl md:text-5xl font-extrabold tracking-tight text-slate-900 mb-3">
               Find Your NBA Team
             </h1>
-            <p className="text-lg text-gray-600">Answer a few quick questions to find your team!</p>
+            <p className="text-base md:text-lg text-slate-600 max-w-2xl mx-auto">
+              A fast, modern selector that matches your vibe to the right franchise.
+            </p>
           </div>
 
-          <div className="space-y-4 mb-8">
+          <div className="grid grid-cols-1 gap-4 md:gap-5">
             {/* Existing Team Path -> new page */}
-            <Link href="/existing" className="w-full block">
-              <div className="w-full bg-white border-2 border-gray-200 rounded-xl p-6 hover:border-blue-500 hover:shadow-md transition-all text-left group">
+            <Link href="/existing" className="group w-full block focus:outline-none focus-visible:ring-2 focus-visible:ring-blue-500 focus-visible:ring-offset-2 focus-visible:ring-offset-gray-50 rounded-xl">
+              <div className="w-full bg-white border border-slate-200 rounded-xl p-6 md:p-7 shadow-sm hover:shadow-md hover:border-blue-400 transition-all text-left">
                 <div className="flex items-center gap-4">
-                  <Trophy className="w-8 h-8 text-blue-600 flex-shrink-0" />
-                  <div className="flex-1">
-                    <h3 className="text-xl font-bold text-gray-900 mb-1">I support an existing team in a different sport</h3>
-                    <p className="text-gray-600 text-sm">Match based on favorite teams in other sports • 1 minute</p>
+                  <div className="grid h-12 w-12 place-items-center rounded-full bg-blue-50 text-blue-600">
+                    <Trophy className="w-6 h-6" />
                   </div>
-                  <ChevronRight className="w-6 h-6 text-gray-400 group-hover:text-blue-600" />
+                  <div className="flex-1">
+                    <h3 className="text-lg md:text-xl font-bold text-slate-900 mb-1">I support an existing team in a different sport</h3>
+                    <p className="text-slate-600 text-sm">Match based on favorite clubs in other sports • 1 minute</p>
+                  </div>
+                  <ChevronRight className="w-6 h-6 text-slate-400 group-hover:text-blue-600 transition-colors" />
                 </div>
               </div>
             </Link>
 
             {/* Quiz Path */}
             <button
-              onClick={() => setPath('quiz')}
-              className="w-full bg-white border-2 border-gray-200 rounded-xl p-6 hover:border-blue-500 hover:shadow-md transition-all text-left group"
+              type="button"
+              onClick={async () => { await preloadQuizData(); setPath('quiz'); }}
+              className="w-full focus:outline-none focus-visible:ring-2 focus-visible:ring-blue-500 focus-visible:ring-offset-2 focus-visible:ring-offset-gray-50 rounded-xl"
             >
-              <div className="flex items-center gap-4">
-                <Target className="w-8 h-8 text-blue-600 flex-shrink-0" />
-                <div className="flex-1">
-                  <h3 className="text-xl font-bold text-gray-900 mb-1">Support your national team</h3>
-                  <p className="text-gray-600 text-sm">Identify optimal teams to follow based on time zone and nationalities • 1 minute</p>
+              <div className="w-full bg-white border border-slate-200 rounded-xl p-6 md:p-7 shadow-sm hover:shadow-md hover:border-blue-400 transition-all text-left">
+                <div className="flex items-center gap-4">
+                  <div className="grid h-12 w-12 place-items-center rounded-full bg-blue-50 text-blue-600">
+                    <Target className="w-6 h-6" />
+                  </div>
+                  <div className="flex-1">
+                    <h3 className="text-lg md:text-xl font-bold text-slate-900 mb-1">Support your national team</h3>
+                    <p className="text-slate-600 text-sm">Time zone and nationality-based picks • 1 minute</p>
+                  </div>
+                  <ChevronRight className="w-6 h-6 text-slate-400 group-hover:text-blue-600 transition-colors" />
                 </div>
-                <ChevronRight className="w-6 h-6 text-gray-400 group-hover:text-blue-600" />
               </div>
             </button>
 
             {/* Player Path */}
             <button
+              type="button"
               onClick={() => setPath('player')}
-              className="w-full bg-white border-2 border-gray-200 rounded-xl p-6 hover:border-blue-500 hover:shadow-md transition-all text-left group"
+              className="w-full focus:outline-none focus-visible:ring-2 focus-visible:ring-blue-500 focus-visible:ring-offset-2 focus-visible:ring-offset-gray-50 rounded-xl"
             >
-              <div className="flex items-center gap-4">
-                <Star className="w-8 h-8 text-blue-600 flex-shrink-0" />
-                <div className="flex-1">
-                  <h3 className="text-xl font-bold text-gray-900 mb-1">Find exciting players to follow</h3>
-                  <p className="text-gray-600 text-sm">Ferocious dunkers, the best shooters, fancy passing, and more • 1 minute</p>
+              <div className="w-full bg-white border border-slate-200 rounded-xl p-6 md:p-7 shadow-sm hover:shadow-md hover:border-blue-400 transition-all text-left">
+                <div className="flex items-center gap-4">
+                  <div className="grid h-12 w-12 place-items-center rounded-full bg-blue-50 text-blue-600">
+                    <Star className="w-6 h-6" />
+                  </div>
+                  <div className="flex-1">
+                    <h3 className="text-lg md:text-xl font-bold text-slate-900 mb-1">Find exciting players to follow</h3>
+                    <p className="text-slate-600 text-sm">Best shooters, dunkers, playmakers, and more • 1 minute</p>
+                  </div>
+                  <ChevronRight className="w-6 h-6 text-slate-400 group-hover:text-blue-600 transition-colors" />
                 </div>
-                <ChevronRight className="w-6 h-6 text-gray-400 group-hover:text-blue-600" />
               </div>
             </button>
           </div>
 
-          
-        </div>
+          <div className="mt-6 text-center text-xs text-slate-500">
+            Built for fans worldwide — modern, fast, and ad‑free.
+          </div>
+        </Container>
       </div>
     );
   }
@@ -612,9 +589,22 @@ const NBATeamFinder = () => {
                     setTraitsComputed(true);
                     setPlayersLoading(true);
                     let buffer = '';
-                    await generatePlayerNarrative(ranked, selectedTraits, (chunk: string) => { buffer += chunk; });
-                    setPlayerNarrativeItems(parsePlayerNarrative(buffer));
-                    setPlayersLoading(false);
+                    await generatePlayerNarrative(ranked, selectedTraits, (chunk: string) => {
+                      buffer += chunk;
+                      // Incrementally parse incoming text and update list so UI streams
+                      try {
+                        // Normalize SSE newlines to ensure parser sees boundaries
+                        const normalized = buffer.replace(/__NL__/g, '\n').replace(/\n\n+/g, '\n')
+                        const items = parsePlayerNarrative(normalized);
+                        if (items.length > 0) {
+                          setPlayerNarrativeItems(items);
+                          setPlayersLoading(false);
+                        }
+                      } catch {}
+                    });
+                    // Ensure final parse in case last chunk lacked trailing newline
+                    const finalNormalized = buffer.replace(/__NL__/g, '\n').replace(/\n\n+/g, '\n')
+                    setPlayerNarrativeItems(parsePlayerNarrative(finalNormalized));
                   }}
                   className="bg-blue-600 text-white py-2 px-4 rounded-lg font-semibold hover:bg-blue-700 disabled:opacity-60"
                   disabled={selectedTraits.length === 0}
@@ -661,6 +651,7 @@ const NBATeamFinder = () => {
 
   // QUIZ PATH
   if (path === 'quiz') {
+    if (!teams || !footballClubMappings || !mergedTeamsMap) return null;
     return (
       <QuizFlow
         teams={teams}
