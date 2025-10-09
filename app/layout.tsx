@@ -1,7 +1,7 @@
 import type { Metadata, Viewport } from 'next'
 import { Inter } from 'next/font/google'
 import './globals.css'
-// Analytics disabled (remove import) to avoid dependency when not installed
+import { Analytics } from '@vercel/analytics/react'
 
 const inter = Inter({
   subsets: ['latin'],
@@ -50,7 +50,7 @@ export default function RootLayout({
     <html lang="en">
       <body className={`${inter.variable} antialiased font-sans`}>
         {children}
-        {/* Analytics disabled */}
+        <Analytics />
       </body>
     </html>
   )
